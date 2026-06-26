@@ -1,0 +1,31 @@
+{
+	"mcpServers": {
+		"ast_grep": {
+			"command": "node",
+			"args": [
+				"/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs/omo/4.8.1/mcp/ast_grep/dist/cli.js",
+				"mcp"
+			]
+		},
+		"grep_app": {
+			"url": "https://mcp.grep.app"
+		},
+		"context7": {
+			"url": "https://mcp.context7.com/mcp"
+		},
+		"git_bash": {
+			"command": "node",
+			"args": [
+				"/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs/omo/4.8.1/mcp/git_bash/dist/cli.js",
+				"mcp"
+			]
+		},
+		"lsp": {
+			"command": "node",
+			"args": [
+				"/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs/omo/4.8.1/mcp/lsp/dist/cli.js",
+				"mcp"
+			]
+		}
+	}
+}

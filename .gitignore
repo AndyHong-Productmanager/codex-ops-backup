@@ -1,0 +1,12 @@
+.env
+*.env
+logs/*.log
+logs/*.out
+tmp/
+*.tmp
+*.pyc
+__pycache__/
+snapshot/telegram-bot/.env
+snapshot/telegram-bot/logs/
+snapshot/telegram-bot/var/
+snapshot/telegram-bot/__pycache__/

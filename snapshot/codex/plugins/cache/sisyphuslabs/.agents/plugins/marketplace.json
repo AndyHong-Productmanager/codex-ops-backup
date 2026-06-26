@@ -1,0 +1,12 @@
+{
+	"name": "sisyphuslabs",
+	"plugins": [
+		{
+			"name": "omo",
+			"source": {
+				"source": "local",
+				"path": "./omo/4.13.0"
+			}
+		}
+	]
+}
