@@ -76,14 +76,14 @@ trust_level = "trusted"
 [features.multi_agent_v2]
 hide_spawn_agent_metadata = false
 enabled = false
-max_concurrent_threads_per_session = 10000
+max_concurrent_threads_per_session = 1000
 
 [notice]
 hide_world_writable_warning = true
 hide_full_access_warning = true
 
 [marketplaces.sisyphuslabs]
-last_updated = "2026-06-23T12:04:55Z"
+last_updated = "2026-07-04T07:51:56Z"
 source_type = "local"
 source = "/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs"
 [plugins."omo@sisyphuslabs"]
@@ -247,3 +247,6 @@ trusted_hash = "sha256:afa4ca216e809dee87b0f408ca99dc8ece2ec6a79be319b8ff7dbb27b
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-thread-title-hygiene.json:post_tool_use:0:0"]
 trusted_hash = "sha256:b7b21b7775c030fe5a84747cdb9918b6a375df5bba0718e7895b8c03f3d24791"
+
+[agents]
+max_threads = 1000

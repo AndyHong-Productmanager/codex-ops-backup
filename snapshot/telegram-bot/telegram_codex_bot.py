@@ -48,6 +48,17 @@ SESSION_RE: Final = re.compile(
     r"rollout-[0-9T\-]+-([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-"
     r"[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})\.jsonl$"
 )
+# codex exec가 응답 섹션 없이 죽었을 때 stdout 청소용
+USER_ECHO_RE: Final = re.compile(
+    r"(?:^|\n)user\n.*?(?=\n(?:codex\n|hook:|warning:|tokens used|--------\n|$))",
+    re.DOTALL,
+)
+NOISE_PREFIXES: Final = (
+    "hook:", "tokens used", "model:", "directory:", "workdir:",
+    "provider:", "approval:", "sandbox:", "reasoning", "session id:",
+    "OpenAI Codex", "--------", "user", "warning:",
+    "Reading additional input",
+)
 
 OPERATING_RULES: Final = """\
 [운영 규칙 — 매 턴 반드시 준수, 답에는 포함하지 말 것]
@@ -149,12 +160,15 @@ def extract_codex_response(stdout: str) -> str:
     matches = list(SECTION_RE.finditer(stdout))
     if matches:
         return matches[-1].group("body").strip()
+    # `codex\n<body>` 섹션이 없으면 codex CLI가 응답 전에 죽었을 확률이 큼.
+    # 배너/유저 프롬프트 에코/warning을 모두 걷어내고 남은 것만 반환.
+    scrubbed = USER_ECHO_RE.sub("\n", stdout)
     cleaned: list[str] = []
-    for line in stdout.splitlines():
+    for line in scrubbed.splitlines():
         stripped = line.strip()
         if not stripped:
             continue
-        if stripped.startswith(("hook:", "tokens used", "model:", "directory:")):
+        if any(stripped.startswith(prefix) for prefix in NOISE_PREFIXES):
             continue
         cleaned.append(line)
     return "\n".join(cleaned).strip() or "(empty response)"
@@ -200,6 +214,13 @@ def run_codex(text: str) -> str:
     if new_session:
         write_text(SESSION_FILE, new_session)
     response = extract_codex_response(output)
+    # rc != 0 이고 `codex\n<body>` 섹션이 없으면 CLI 자체가 죽은 것 — 명확한 에러로 감쌈
+    if proc.returncode != 0 and not SECTION_RE.search(output):
+        response = (
+            f"Codex 실행 실패 (rc={proc.returncode}). 세션이 손상됐거나 CLI 오류. "
+            f"`/new` 로 세션을 초기화한 뒤 다시 시도해 주세요.\n\n"
+            f"[stdout 마지막 조각]\n{response[-600:]}"
+        )
     log(
         f"codex exec done rc={proc.returncode} reply_chars={len(response)} "
         f"next_session={new_session[:8] if new_session else 'none'}"
