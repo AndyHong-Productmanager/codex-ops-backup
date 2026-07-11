@@ -34,7 +34,7 @@ LOG_FILE: Final = LOG_DIR / "router.log"
 CODEX_BIN: Final = os.environ.get(
     "CODEX_BIN", "/home/ubuntuhong/.npm-global/bin/codex"
 )
-WORK_DIR: Final = os.environ.get("CODEX_WORK_DIR", "/home/ubuntuhong/dev")
+WORK_DIR: Final = os.environ.get("CODEX_WORK_DIR", str(ROOT))
 EXEC_TIMEOUT: Final = int(os.environ.get("CODEX_EXEC_TIMEOUT", "600"))
 CODEX_SESSIONS_DIR: Final = pathlib.Path(
     os.environ.get("CODEX_SESSIONS_DIR", "/home/ubuntuhong/.codex/sessions")
