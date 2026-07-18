@@ -21,6 +21,13 @@ import urllib.request
 from dataclasses import dataclass
 from typing import Final, TypedDict, assert_never
 
+from telegram_media import (
+    MediaSettings,
+    PreparedUpdate,
+    TelegramMediaClient,
+    prepare_telegram_update,
+)
+
 
 ROOT: Final = pathlib.Path(__file__).resolve().parent
 ENV_FILE: Final = ROOT / ".env"
@@ -41,7 +48,7 @@ CODEX_SESSIONS_DIR: Final = pathlib.Path(
 )
 
 SECTION_RE: Final = re.compile(
-    r"(?:^|\n)codex\n(?P<body>.*?)(?=\n(?:hook:|tokens used|user\n|codex\n|$))",
+    r"(?:^|\n)codex\n(?P<body>.*?)(?=\n(?:developer\n|system\n|hook:|tokens used|user\n|codex\n|$))",
     re.DOTALL,
 )
 SESSION_RE: Final = re.compile(
@@ -213,7 +220,7 @@ def run_codex(text: str) -> str:
     new_session = latest_session_uuid(started_at)
     if new_session:
         write_text(SESSION_FILE, new_session)
-    response = extract_codex_response(output)
+    response = extract_codex_response(proc.stdout or "")
     # rc != 0 이고 `codex\n<body>` 섹션이 없으면 CLI 자체가 죽은 것 — 명확한 에러로 감쌈
     if proc.returncode != 0 and not SECTION_RE.search(output):
         response = (

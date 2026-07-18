@@ -1,6 +1,6 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-07-11T18:23:36Z`
+- Generated: `2026-07-18T18:23:30Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
@@ -23,17 +23,17 @@
 - openai-curated-remote/canva/9.0.0/skills/canva-branded-presentation
 - openai-curated-remote/canva/9.0.0/skills/canva-resize-for-all-social-media
 - openai-curated-remote/canva/9.0.0/skills/canva-translate-design
-- openai-curated-remote/figma/2.0.14/skills/figma-code-connect
-- openai-curated-remote/figma/2.0.14/skills/figma-create-new-file
-- openai-curated-remote/figma/2.0.14/skills/figma-generate-design
-- openai-curated-remote/figma/2.0.14/skills/figma-generate-diagram
-- openai-curated-remote/figma/2.0.14/skills/figma-generate-library
-- openai-curated-remote/figma/2.0.14/skills/figma-implement-motion
-- openai-curated-remote/figma/2.0.14/skills/figma-swiftui
-- openai-curated-remote/figma/2.0.14/skills/figma-use
-- openai-curated-remote/figma/2.0.14/skills/figma-use-figjam
-- openai-curated-remote/figma/2.0.14/skills/figma-use-motion
-- openai-curated-remote/figma/2.0.14/skills/figma-use-slides
+- openai-curated-remote/figma/2.0.15/skills/figma-code-connect
+- openai-curated-remote/figma/2.0.15/skills/figma-create-new-file
+- openai-curated-remote/figma/2.0.15/skills/figma-generate-design
+- openai-curated-remote/figma/2.0.15/skills/figma-generate-diagram
+- openai-curated-remote/figma/2.0.15/skills/figma-generate-library
+- openai-curated-remote/figma/2.0.15/skills/figma-implement-motion
+- openai-curated-remote/figma/2.0.15/skills/figma-swiftui
+- openai-curated-remote/figma/2.0.15/skills/figma-use
+- openai-curated-remote/figma/2.0.15/skills/figma-use-figjam
+- openai-curated-remote/figma/2.0.15/skills/figma-use-motion
+- openai-curated-remote/figma/2.0.15/skills/figma-use-slides
 - openai-curated-remote/github/0.1.8-2841cf9749ae/skills/gh-address-comments
 - openai-curated-remote/github/0.1.8-2841cf9749ae/skills/gh-fix-ci
 - openai-curated-remote/github/0.1.8-2841cf9749ae/skills/github
@@ -409,6 +409,70 @@
 - sisyphuslabs/omo/4.16.3/skills/ulw-plan
 - sisyphuslabs/omo/4.16.3/skills/ulw-research
 - sisyphuslabs/omo/4.16.3/skills/visual-qa
+- sisyphuslabs/omo/4.17.0/components/comment-checker/skills/comment-checker
+- sisyphuslabs/omo/4.17.0/components/lsp/skills/lsp
+- sisyphuslabs/omo/4.17.0/components/rules/skills/rules
+- sisyphuslabs/omo/4.17.0/components/teammode/skills/teammode
+- sisyphuslabs/omo/4.17.0/components/ultrawork/skills/ultrawork
+- sisyphuslabs/omo/4.17.0/components/ultrawork/skills/ulw-plan
+- sisyphuslabs/omo/4.17.0/components/ulw-loop/skills/ulw-loop
+- sisyphuslabs/omo/4.17.0/skills/ast-grep
+- sisyphuslabs/omo/4.17.0/skills/coding-agent-sessions
+- sisyphuslabs/omo/4.17.0/skills/comment-checker
+- sisyphuslabs/omo/4.17.0/skills/debugging
+- sisyphuslabs/omo/4.17.0/skills/frontend
+- sisyphuslabs/omo/4.17.0/skills/git-master
+- sisyphuslabs/omo/4.17.0/skills/init-deep
+- sisyphuslabs/omo/4.17.0/skills/lcx-contribute-bug-fix
+- sisyphuslabs/omo/4.17.0/skills/lcx-doctor
+- sisyphuslabs/omo/4.17.0/skills/lcx-report-bug
+- sisyphuslabs/omo/4.17.0/skills/lsp
+- sisyphuslabs/omo/4.17.0/skills/lsp-setup
+- sisyphuslabs/omo/4.17.0/skills/programming
+- sisyphuslabs/omo/4.17.0/skills/refactor
+- sisyphuslabs/omo/4.17.0/skills/remove-ai-slops
+- sisyphuslabs/omo/4.17.0/skills/review-work
+- sisyphuslabs/omo/4.17.0/skills/rules
+- sisyphuslabs/omo/4.17.0/skills/start-work
+- sisyphuslabs/omo/4.17.0/skills/teammode
+- sisyphuslabs/omo/4.17.0/skills/ultimate-browsing
+- sisyphuslabs/omo/4.17.0/skills/ultrawork
+- sisyphuslabs/omo/4.17.0/skills/ulw-loop
+- sisyphuslabs/omo/4.17.0/skills/ulw-plan
+- sisyphuslabs/omo/4.17.0/skills/ulw-research
+- sisyphuslabs/omo/4.17.0/skills/visual-qa
+- sisyphuslabs/omo/4.18.1/components/comment-checker/skills/comment-checker
+- sisyphuslabs/omo/4.18.1/components/lsp/skills/lsp
+- sisyphuslabs/omo/4.18.1/components/rules/skills/rules
+- sisyphuslabs/omo/4.18.1/components/teammode/skills/teammode
+- sisyphuslabs/omo/4.18.1/components/ultrawork/skills/ultrawork
+- sisyphuslabs/omo/4.18.1/components/ultrawork/skills/ulw-plan
+- sisyphuslabs/omo/4.18.1/components/ulw-loop/skills/ulw-loop
+- sisyphuslabs/omo/4.18.1/skills/ast-grep
+- sisyphuslabs/omo/4.18.1/skills/coding-agent-sessions
+- sisyphuslabs/omo/4.18.1/skills/comment-checker
+- sisyphuslabs/omo/4.18.1/skills/debugging
+- sisyphuslabs/omo/4.18.1/skills/frontend
+- sisyphuslabs/omo/4.18.1/skills/git-master
+- sisyphuslabs/omo/4.18.1/skills/init-deep
+- sisyphuslabs/omo/4.18.1/skills/lcx-contribute-bug-fix
+- sisyphuslabs/omo/4.18.1/skills/lcx-doctor
+- sisyphuslabs/omo/4.18.1/skills/lcx-report-bug
+- sisyphuslabs/omo/4.18.1/skills/lsp
+- sisyphuslabs/omo/4.18.1/skills/lsp-setup
+- sisyphuslabs/omo/4.18.1/skills/programming
+- sisyphuslabs/omo/4.18.1/skills/refactor
+- sisyphuslabs/omo/4.18.1/skills/remove-ai-slops
+- sisyphuslabs/omo/4.18.1/skills/review-work
+- sisyphuslabs/omo/4.18.1/skills/rules
+- sisyphuslabs/omo/4.18.1/skills/start-work
+- sisyphuslabs/omo/4.18.1/skills/teammode
+- sisyphuslabs/omo/4.18.1/skills/ultimate-browsing
+- sisyphuslabs/omo/4.18.1/skills/ultrawork
+- sisyphuslabs/omo/4.18.1/skills/ulw-loop
+- sisyphuslabs/omo/4.18.1/skills/ulw-plan
+- sisyphuslabs/omo/4.18.1/skills/ulw-research
+- sisyphuslabs/omo/4.18.1/skills/visual-qa
 - sisyphuslabs/omo/4.8.1/components/comment-checker/skills/comment-checker
 - sisyphuslabs/omo/4.8.1/components/lsp/skills/lsp
 - sisyphuslabs/omo/4.8.1/components/rules/skills/rules
@@ -461,6 +525,11 @@
 ## Telegram Router Files
 
 - .env.example
+- .pytest_cache/.gitignore
+- .pytest_cache/CACHEDIR.TAG
+- .pytest_cache/README.md
 - README.md
 - notify-codex.sh
 - telegram_codex_bot.py
+- telegram_media.py
+- test_telegram_media.py

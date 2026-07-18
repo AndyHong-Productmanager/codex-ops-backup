@@ -1,0 +1,10 @@
+{
+  "handle": "unclejobs.ai",
+  "profile_url": "https://www.threads.com/@unclejobs.ai",
+  "recovered_at": "2026-07-17T15:48:23.139Z",
+  "recovered_count": 30,
+  "api_full_count": 22,
+  "dom_partial_count": 8,
+  "source_api_edges": 11,
+  "limitation": "The earlier 1,499-page crawl remained only in process memory and was lost on the 401 crash. This export contains every unique post still recoverable from persisted probe artifacts."
+}

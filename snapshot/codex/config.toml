@@ -39,9 +39,6 @@ plugin_hooks = true
 plugins = true
 goals = true
 
-[tui.model_availability_nux]
-"gpt-5.5" = 4
-
 # Orchestra: ~/dev 전체를 trusted로 — 모든 에이전트가 ~/dev 내 어디든 접근 가능
 [projects."/home/ubuntuhong/dev"]
 trust_level = "trusted"
@@ -73,15 +70,25 @@ trust_level = "trusted"
 [projects."/home/ubuntuhong/dev/orchestra/agents/leader"]
 trust_level = "trusted"
 
+[projects."/home/ubuntuhong/dev/codex-telegram-bot"]
+trust_level = "trusted"
+
+[projects."/tmp"]
+trust_level = "trusted"
+
 [features.multi_agent_v2]
 max_concurrent_threads_per_session = 1000
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-5.6-sol" = 2
 
 [notice]
 hide_world_writable_warning = true
 hide_full_access_warning = true
 
 [marketplaces.sisyphuslabs]
-last_updated = "2026-07-11T04:40:40Z"
+last_updated = "2026-07-15T02:48:39Z"
 source_type = "local"
 source = "/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs"
 [plugins."omo@sisyphuslabs"]
@@ -184,64 +191,79 @@ config_file = "./agents/lazycodex-gate-reviewer.toml"
 config_file = "./agents/lazycodex-qa-executor.toml"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-loading-project-rules.json:session_start:0:0"]
-trusted_hash = "sha256:52d33d2d9958fec77a977bbc48ab93c3d840d2f1a027d0ed076e69738e663dca"
+trusted_hash = "sha256:bbd2a8502f9c998a032b2e3aca5f4801f877e0135d6dacf91d25e75bb3151918"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-recording-session-telemetry.json:session_start:0:0"]
-trusted_hash = "sha256:73d7f359eaaf1002bb784470c3eb02dbdd7c6400931daa794c03f1de52b42242"
+trusted_hash = "sha256:42c7f9bc56c83691091f8ee3c3befc2a2458a2b50d21e80d2d5a88fd81add55b"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-checking-auto-update.json:session_start:0:0"]
-trusted_hash = "sha256:d0f7c12cf731d73791300b9f6d2ff5f9e8fa4d6144dbc0f418eb40ca70a4d8fc"
+trusted_hash = "sha256:e986aecfe33d4cfde88efcd3ee4c2e2bf1880d9e08b1e5b06c49ee66d01434c4"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-checking-bootstrap-provisioning.json:session_start:0:0"]
-trusted_hash = "sha256:cf0f7ca10e1f4d49f300fe05259a6bf7b9077c8b25ee3f103ae322a57a9c151f"
+trusted_hash = "sha256:b3e4d5700512c47fd647c0205043aebf32f9a3331b3a7b9d9d38d4845b2d5d89"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-checking-codegraph-bootstrap.json:session_start:0:0"]
-trusted_hash = "sha256:5d60b1ba6905428ee6ddfb53aa8c865d1536d88e72201bb077f72318ef2607e9"
+trusted_hash = "sha256:190b841f38d1e0344c3c719bf430015f3bd6a49f8bd202c21c181f274c419330"
 
 [hooks.state."omo@sisyphuslabs:hooks/user-prompt-submit-loading-project-rules.json:user_prompt_submit:0:0"]
-trusted_hash = "sha256:269be2e3fb3b9ed9a44a9e5478f7e9ca53c45ad607b90ba6fcabb2d88284c9ad"
+trusted_hash = "sha256:493e6b6e0d081492886a801e26fb9f1c375865bb2bd289b35f0176323907d087"
 
 [hooks.state."omo@sisyphuslabs:hooks/user-prompt-submit-checking-ultrawork-trigger.json:user_prompt_submit:0:0"]
-trusted_hash = "sha256:dba9bd39d80755c4288e892fe5a47e3c21fbf4981cba8c6687b0fa7f38a2525e"
+trusted_hash = "sha256:02fdd0420919a7e12fc11da17f8f70ff95aa6ae9c01693b7107d77ae285d97d4"
 
 [hooks.state."omo@sisyphuslabs:hooks/user-prompt-submit-checking-ulw-loop-steering.json:user_prompt_submit:0:0"]
-trusted_hash = "sha256:e15935a5aa81e71ada0e3a5ee13399381b60452d3566ed60217b12325ca62398"
+trusted_hash = "sha256:ea1a564f4d64139102d275320c9d8efef78b912a84ee384f6aefffdd02d8054a"
 
 [hooks.state."omo@sisyphuslabs:hooks/pre-tool-use-recommending-git-bash-mcp.json:pre_tool_use:0:0"]
 trusted_hash = "sha256:f492779c719d7b494e8ddb14a27e010c3797a405b104e99b5b3eba63ebf274eb"
 
 [hooks.state."omo@sisyphuslabs:hooks/pre-tool-use-enforcing-unlimited-goal-budget.json:pre_tool_use:0:0"]
-trusted_hash = "sha256:0d4b93291101890ff88e5243b2fb6bc042e5a94bdbe8e0f555901f5266d55527"
+trusted_hash = "sha256:8c9907dc15916cab53cbd7993302ea2b7218f5e3da9586ed267e17d1998913e3"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-comments.json:post_tool_use:0:0"]
-trusted_hash = "sha256:896fd74f988e43e74cceea84dbaec0a7f5c8668dda7d3a4e16d2c60e673ee2bd"
+trusted_hash = "sha256:4668919efcabb6966ae45bb926a622605732b2753043c4b864226d55961289db"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-lsp-diagnostics.json:post_tool_use:0:0"]
-trusted_hash = "sha256:66f4f9feb8a95cc63297d966810a5894b8ba23a8be7272e6d1f8f292caff7223"
+trusted_hash = "sha256:359dc07ccc91a2a74357b3aad924791745c775e8cef22c86f3ef9d5f36764aeb"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-matching-project-rules.json:post_tool_use:0:0"]
-trusted_hash = "sha256:7eca49fcd44283214667b0b32222ef4b3b0de3943e8261135b3cbd5ad8b1216c"
+trusted_hash = "sha256:bbb55d43e085d37a95038ad8ed88b36a35d67a2a8098090cadf6a2a2b8308f64"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-compact-resetting-git-bash-mcp-reminder.json:post_compact:0:0"]
 trusted_hash = "sha256:2327bf921895fd4265178e917d8a6dc84384bbae6d567ba62431a271c849e6c9"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-compact-resetting-project-rule-cache.json:post_compact:0:0"]
-trusted_hash = "sha256:fbe057de3deb89843711788813ce82411f56619b22b393d8fc7665f7b7f5a5ca"
+trusted_hash = "sha256:31cd0d1f71e26fb023cba72ada4b9edee88122c00eacee385bee6db9ad73d8c2"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-compact-resetting-lsp-diagnostics-cache.json:post_compact:0:0"]
-trusted_hash = "sha256:2b979bd594d73039d09dd81f52ee01f2f5c2252486f5b92d2b64861eb345c53c"
+trusted_hash = "sha256:ef8f8e7ecde3ea138d34c9bddea06c8e5f37bfc80e924dbe2067c05beac2ecfd"
 
 [hooks.state."omo@sisyphuslabs:hooks/stop-checking-start-work-continuation.json:stop:0:0"]
-trusted_hash = "sha256:d754b6acb431db38bb6e9d104fee0725c4f30a08e30a1cd8d22ebfb3621dd914"
+trusted_hash = "sha256:3f6675c1e6fe49dfed25b34dd4a784f18889ffcdbef0b09e020caeb748f16b0a"
 
 [hooks.state."omo@sisyphuslabs:hooks/subagent-stop-checking-start-work-continuation.json:subagent_stop:0:0"]
-trusted_hash = "sha256:993bf17d6672f1890590653d57cb5f6918e0a793e5ecab9235aade7916ff8c8a"
+trusted_hash = "sha256:311edc1912d5ec9b1a72849b4d12a50f9a71262d24039c20f5e41eac5c39294f"
 
 [hooks.state."omo@sisyphuslabs:hooks/subagent-stop-verifying-lazycodex-executor-evidence.json:subagent_stop:0:0"]
-trusted_hash = "sha256:05551ca3e8403a88c1ec85fa7b9c0554b185e506bd8c7088badc640d7a0eeb84"
+trusted_hash = "sha256:43edacc9635f6b0e2341d5c128ab73da77b692c0d4ed2a6d74aba7519ca01795"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-codegraph-init-guidance.json:post_tool_use:0:0"]
-trusted_hash = "sha256:5a6a31dfca43d0afce888de3643fec553d1d39f4d0668beef2637f367dde1e8f"
+trusted_hash = "sha256:842df4b48cf1b3f517489f7314fa0824f32093209f949fc455171c212106ce52"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-thread-title-hygiene.json:post_tool_use:0:0"]
-trusted_hash = "sha256:dbe2574af7e13c389bcf1afe9969d39808871d1f59c4ddc4902d2ef4f155d74f"
+trusted_hash = "sha256:d84d843ee1d8b2529944b03ba1959b291f0d747afe4db2fda71ac70d2335683d"
+
+[hooks.state."omo@sisyphuslabs:hooks/pre-tool-use-guarding-ulw-loop-spawns.json:pre_tool_use:0:0"]
+trusted_hash = "sha256:5d66c36013f843464e9c48594e3e51bbaa97d3c0cfa53d15bf21187a5c475561"
+
+[hooks.state."omo@sisyphuslabs:hooks/stop-checking-ulw-loop-resume.json:stop:0:0"]
+trusted_hash = "sha256:c8a5dc534399c75bbfd30a8da69dc3b9cf61fccb8926929040e70834562cc4d9"
+
+[agents.lazycodex-worker-high]
+config_file = "./agents/lazycodex-worker-high.toml"
+
+[agents.lazycodex-worker-low]
+config_file = "./agents/lazycodex-worker-low.toml"
+
+[agents.lazycodex-worker-medium]
+config_file = "./agents/lazycodex-worker-medium.toml"
