@@ -1,0 +1,9 @@
+interface:
+  display_name: "Publish Changes"
+  short_description: "Safely commit, push, and open one draft PR"
+  icon_small: "./assets/yeet-small.svg"
+  icon_large: "./assets/yeet.png"
+  default_prompt: "Use $yeet only for explicitly authorized publication; scope local changes, push only when authorized, and open or reuse one draft PR."
+
+policy:
+  allow_implicit_invocation: false

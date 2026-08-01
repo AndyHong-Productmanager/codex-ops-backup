@@ -1,0 +1,43 @@
+Task 2 — durable generation job lanes
+Date: 2026-07-26
+
+Scope completed
+- `migrations/0003_generation_job_lanes.sql` provides the provider lane table and partial unique active-lease index.
+- The worker rejects an executor result whose `resultId` differs from the leased payload result ID.
+- A cancellation requested while execution is in progress is acknowledged by the worker and leaves no persisted result.
+- The existing Node instrumentation hook continues to be the sole worker-start path; no placeholder generation executor was started because provider execution belongs to Task 3.
+
+Focused database suite
+Command:
+  npm exec --yes --package=tsx -- tsx --test src/infrastructure/generation/generation-jobs.test.ts src/infrastructure/generation/generation-worker.test.ts
+
+Result:
+  1..8
+  # tests 8
+  # pass 8
+  # fail 0
+
+Type check
+Command:
+  npx tsc --noEmit --pretty false
+
+Result:
+  exit 0
+
+Manual clean SQLite lane driver
+The driver created a fresh `/tmp/creative-hub-task2-driver-*` database, applied all three migrations, opened two SQLite connections, and asserted the database boundary directly.
+
+Result:
+  {"migrations":3,"firstCodexLease":1,"uniqueLeaseRejected":true,"grokLease":1,"promotionChanges":0,"acknowledgeChanges":1,"cancelled":{"status":"cancelled","result":null,"lease_owner":null}}
+  cleanup: removed fresh task2 SQLite driver directory
+
+Interpretation
+- Codex first lease was accepted.
+- A second forced Codex lease was rejected by `idx_generation_job_active_provider_lease`.
+- Grok leased independently.
+- A cancellation request prevented promotion (`promotionChanges: 0`) and acknowledgement moved the job to `cancelled` with a null result and no owner.
+
+Cleanup receipt
+- Removed all stale `/tmp/creative-hub-generation-jobs-*` test directories found before Task 2 verification.
+- The manual driver used an in-memory script and removed its sole fresh SQLite directory in a `finally` block.
+- The live `var/hub.db`, WAL, and SHM were not touched because they belong to the running development server.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "GitHub"
+  short_description: "Inspect GitHub and safely publish authorized changes"
+  icon_small: "./assets/github-small.svg"
+  icon_large: "./assets/github.png"
+  default_prompt: "Use $github to inspect PRs, reviews, and CI, follow its guarded publication workflow, and route review changes to the dedicated specialist."

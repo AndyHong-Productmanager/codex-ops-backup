@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>서울 인터넷신문사 등록 실무 가이드</title>
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #5c6975;
+      --line: #d7e0e7;
+      --paper: #ffffff;
+      --wash: #f3f7f8;
+      --navy: #12324a;
+      --blue: #1876a8;
+      --teal: #168276;
+      --gold: #b8741a;
+      --danger: #a3483d;
+      --space-1: 6px;
+      --space-2: 12px;
+      --space-3: 18px;
+      --space-4: 28px;
+      --space-5: 42px;
+      --radius: 10px;
+    }
+
+    @page { size: A4; margin: 17mm 16mm 16mm; background: #fff; }
+    * { box-sizing: border-box; }
+    html { background: var(--wash); }
+    body {
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Noto Sans CJK KR", "Noto Sans KR", sans-serif;
+      font-size: 10.2pt;
+      line-height: 1.65;
+      letter-spacing: -0.012em;
+      margin: 0 auto;
+      max-width: 210mm;
+      padding: 15mm 16mm;
+      word-break: normal;
+      overflow-wrap: break-word;
+    }
+    h1, h2, h3, p, ul, ol, table, figure { margin-top: 0; }
+    h1 { font-size: 29pt; line-height: 1.19; letter-spacing: -0.055em; margin-bottom: var(--space-2); }
+    h2 { color: var(--navy); font-size: 18pt; line-height: 1.25; letter-spacing: -0.035em; border-bottom: 2px solid var(--navy); padding-bottom: var(--space-1); margin: var(--space-5) 0 var(--space-3); break-after: avoid; }
+    h3 { color: var(--navy); font-size: 12.5pt; line-height: 1.35; margin: var(--space-4) 0 var(--space-2); break-after: avoid; }
+    p { margin-bottom: var(--space-2); }
+    a { color: #095d92; text-decoration: none; border-bottom: 1px solid #8fc1dc; }
+    strong { font-weight: 700; }
+    .cover { min-height: 240mm; display: flex; flex-direction: column; justify-content: space-between; padding: 10mm 0 4mm; page-break-after: always; }
+    .eyebrow { color: var(--teal); font-size: 10pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .subtitle { color: var(--muted); font-size: 14pt; line-height: 1.55; max-width: 31em; }
+    .cover-bottom { border-top: 1px solid var(--line); color: var(--muted); padding-top: var(--space-3); font-size: 9pt; }
+    .notice { background: #fff8e9; border-left: 4px solid var(--gold); border-radius: 0 var(--radius) var(--radius) 0; padding: var(--space-2) var(--space-3); margin: var(--space-3) 0; }
+    .legal { background: #edf7f5; border-left: 4px solid var(--teal); border-radius: 0 var(--radius) var(--radius) 0; padding: var(--space-2) var(--space-3); margin: var(--space-3) 0; }
+    .risk { background: #fff1f0; border-left: 4px solid var(--danger); border-radius: 0 var(--radius) var(--radius) 0; padding: var(--space-2) var(--space-3); margin: var(--space-3) 0; }
+    .flow { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-2); margin: var(--space-3) 0; }
+    .flow > div { border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-2); background: #fbfcfd; }
+    .step { color: var(--teal); font-size: 8.5pt; font-weight: 800; letter-spacing: .08em; }
+    .flow b { display: block; margin-top: 3px; color: var(--navy); }
+    table { width: 100%; border-collapse: collapse; margin: var(--space-2) 0 var(--space-3); font-size: 9.25pt; }
+    th { background: var(--navy); color: #fff; text-align: left; font-weight: 700; }
+    th, td { border: 1px solid var(--line); padding: 8px 9px; vertical-align: top; }
+    tr:nth-child(even) td { background: #f8fafb; }
+    ul, ol { padding-left: 1.4em; margin-bottom: var(--space-2); }
+    li { margin-bottom: 4px; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { border-bottom: 1px solid var(--line); padding: 7px 0 7px 27px; position: relative; }
+    .checklist li::before { content: "□"; position: absolute; left: 0; top: 7px; color: var(--teal); font-size: 13pt; }
+    .tag { display: inline-block; border-radius: 999px; font-size: 8.5pt; font-weight: 700; line-height: 1; padding: 5px 8px; margin-right: 4px; white-space: nowrap; }
+    .tag-law { background: #dff1ee; color: #12685f; }
+    .tag-seoul { background: #e6f0f8; color: #135a84; }
+    .tag-rec { background: #f2edf8; color: #694891; }
+    .source { font-size: 8.5pt; color: var(--muted); line-height: 1.5; }
+    .page-break { break-before: page; }
+    @media print { html { background: #fff; } }
+    .sources li { margin-bottom: 8px; }
+    .small { font-size: 9pt; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div>
+      <div class="eyebrow">Seoul · Internet Newspaper Registration</div>
+      <h1>인터넷신문사 등록<br>실무 가이드</h1>
+      <p class="subtitle">서울에 주사무소를 둔 신규 인터넷신문을 대상으로, 등록 전 준비부터 서울시 접수, 비용, 등록 후 상시 준수사항까지 정리한 실행용 문서입니다.</p>
+      <div class="notice"><strong>기준일 2026년 7월 30일.</strong> 법정 요건과 서울시의 현장 접수 안내를 분리해 적었습니다. 실제 접수 전에는 담당 부서에 최신 서식·원본 요건·전자 제출 수리 여부를 한 번 더 확인하세요.</div>
+    </div>
+    <div class="cover-bottom">
+      <div>조사 범위: 서울시 응답소 민원편람 및 첨부파일 · 서울시 조직도 · 국가법령정보센터 · 정부24 · 서울 ETAX</div>
+      <div>문서 성격: 실무 참고용 정리이며, 개별 사안의 법률·세무 자문을 대체하지 않습니다.</div>
+    </div>
+  </section>
+
+  <h2>1. 먼저 결론</h2>
+  <div class="legal"><strong>인터넷신문 등록은 허가가 아니라 등록입니다.</strong> 서울에 주사무소가 있으면 서울특별시장에게 등록하며, 현재 서울시 공식 민원편람에서 확인되는 접수 경로는 <strong>방문 또는 우편</strong>입니다. 법령은 전자문서를 허용하지만, 서울시가 실제로 전자 접수 채널을 운영한다는 근거는 이번 조사에서 확인되지 않았습니다.</div>
+  <ul>
+    <li><strong>현행 핵심 요건</strong>: 주간 새 기사 게재 + 주간 게재 기사 중 자체 생산 기사 30% 이상.</li>
+    <li><strong>현재 요건이 아닌 것</strong>: 기자 3명 또는 취재·편집 5명 상시고용, 4대보험 가입증명 제출. 이는 과거 제도이며 현행 요건으로 쓰면 부정확합니다.</li>
+    <li><strong>신청 수수료</strong>: 없음. 다만 서울 소재 발행소·사무소에는 별도 <strong>면허분 등록면허세 제4종 27,000원</strong>이 발생합니다.</li>
+    <li><strong>법정 처리기간</strong>: 20일. 서울 편람은 근무일 기준 20일로 안내합니다.</li>
+  </ul>
+
+  <div class="flow">
+    <div><span class="step">01 · 설계</span><b>운영주체·제호·발행소·도메인 확정</b></div>
+    <div><span class="step">02 · 준비</span><b>신청서와 주체별 증빙 서류 정리</b></div>
+    <div><span class="step">03 · 접수</span><b>서울시청 방문 또는 우편 제출</b></div>
+    <div><span class="step">04 · 납부</span><b>등록증 교부 전 등록면허세 신고·납부</b></div>
+    <div><span class="step">05 · 공개</span><b>등록번호·판권·청소년보호책임자 반영</b></div>
+    <div><span class="step">06 · 운영</span><b>매주 발행·자체기사 30%·변경관리</b></div>
+  </div>
+
+  <h2>2. 등록 대상과 현재 요건</h2>
+  <p>신문법상 인터넷신문은 정보통신망으로 보도·논평·여론·정보를 전파하는 전자간행물 중 시행령 기준을 충족하는 매체입니다. 단순히 웹사이트를 열었다는 사실만으로 요건이 충족되는 것은 아닙니다.</p>
+  <table>
+    <thead><tr><th>구분</th><th>현재 기준</th><th>실무적으로 남길 증빙</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag tag-law">법정</span> 자체 생산</td><td>주간 게재 기사 수의 30% 이상을 자체 생산 기사로 게재</td><td>취재 메모, 원고 초안·원본 사진, 작성자·승인자, 게시시각, 외부 공급기사 계약</td></tr>
+      <tr><td><span class="tag tag-law">법정</span> 지속 발행</td><td>주 단위로 새 기사 게재</td><td>주간 발행 대장과 기사 URL 목록</td></tr>
+      <tr><td><span class="tag tag-law">법정</span> 등록정보</td><td>제호, 발행인·편집인, 발행소, 목적·내용, 유·무가, 홈페이지 주소 등</td><td>신청서·등기·도메인·사이트 임프린트의 표기를 한 글자까지 일치</td></tr>
+    </tbody>
+  </table>
+  <div class="risk"><strong>과거 자료 주의.</strong> 2015년 도입된 5명 상시고용·보험가입 확인 요건은 2016년 헌법재판소 위헌 결정 뒤 삭제됐습니다. 현재 등록 체크리스트에 인력 수·4대보험을 법정 필수로 넣지 마세요.</div>
+
+  <h2>3. 등록 전 의사결정</h2>
+  <h3>3-1. 운영주체와 발행인</h3>
+  <table>
+    <thead><tr><th>선택지</th><th>등록 가능 여부</th><th>핵심 준비</th></tr></thead>
+    <tbody>
+      <tr><td>개인</td><td>가능</td><td>발행인 명의 발행소 증빙을 정리하고, 임차면 임대차계약서 사본 준비</td></tr>
+      <tr><td>법인</td><td>가능</td><td>정관 첨부. 법인·단체는 원칙적으로 대표자/대표이사가 발행인</td></tr>
+      <tr><td>단체</td><td>가능</td><td>규약 및 설립 증명, 발행소 증빙 준비</td></tr>
+    </tbody>
+  </table>
+  <p><span class="tag tag-law">법정</span> 발행인·편집인의 결격사유도 사전 확인합니다. 국적, 특정 범죄·형 집행 상태, 미복권 파산 등 법 제13조의 결격사유가 있으면 선임할 수 없습니다.</p>
+  <h3>3-2. 제호와 도메인</h3>
+  <ul>
+    <li>동일 제호의 기존 등록 신문·인터넷신문·정기간행물·뉴스통신이 있으면 원칙적으로 등록할 수 없습니다. 문체부 <a href="https://pds.mcst.go.kr/pds/">정기간행물 등록관리시스템</a>과 <a href="https://www.kipris.or.kr/">KIPRIS</a>에서 제호·상표를 함께 확인하세요.</li>
+    <li>홈페이지 주소는 법정 등록사항입니다. 도메인 소유확인서가 중앙 법정 첨부서류로 열거되지는 않지만, 서울시 편람은 도메인 기재와 등록 전 홈페이지 운영 여부 확인을 안내합니다.</li>
+    <li><span class="tag tag-rec">권고</span> 도메인·DNS·호스팅 계정은 대표 개인이 아닌 운영주체가 통제하도록 하며, 갱신·이전 권한과 접속기록을 보관합니다.</li>
+  </ul>
+
+  <h2>4. 제출 서류: 법정 필수와 서울 접수 실무</h2>
+  <div class="legal"><strong>법정 첨부서류</strong>와 <strong>서울시 편람상 현장 안내</strong>는 구분합니다. 아래의 서울 추가 안내는 실제 접수 전 담당 부서에 재확인할 항목입니다.</div>
+  <table>
+    <thead><tr><th>구분</th><th>법정 기준</th><th>서울시 편람상 추가 안내</th></tr></thead>
+    <tbody>
+      <tr><td>공통</td><td>발행인·편집인 기본증명서</td><td>주민등록번호 모두 공개된 기본증명서 안내</td></tr>
+      <tr><td>법인</td><td>정관. 법인등기사항증명서는 공동이용으로 확인 가능</td><td>말소사항 포함 법인등기부등본, 법인인감증명서, 법인인감 날인, 정관 목적에 인터넷신문사업 또는 신문발행업 명시 안내</td></tr>
+      <tr><td>단체</td><td>규약 및 설립을 증명하는 서류. 임차 발행소면 임대차계약서 사본</td><td>단체등록증, 발행인 인감증명서, 발행소 자기소유 시 건물등기부 안내</td></tr>
+      <tr><td>개인</td><td>임차 발행소면 임대차계약서 사본</td><td>발행인 명의 임대차계약서, 인감증명서 또는 신분증 사본 안내</td></tr>
+      <tr><td>대리 접수</td><td>중앙 법정서식의 별도 열거 없음</td><td>인감 날인 위임장, 대리인 신분증; 개인사업자 대리는 대표 신분증 사본 안내</td></tr>
+    </tbody>
+  </table>
+  <p class="small">중앙 법정 첨부목록에 사업자등록증, 도메인 소유확인서, 홈페이지 캡처, 기자 명부, 근로계약서, 4대보험 가입증명은 열거되지 않습니다. 다만 서울 접수 실무는 법정 목록 외 서류를 안내할 수 있으므로, 서류를 줄이기보다 담당자 확인을 우선하세요.</p>
+
+  <h3>신청서에 맞춰 확정할 값</h3>
+  <ul class="checklist">
+    <li>제호와 인터넷 홈페이지 주소</li>
+    <li>법인·단체명, 주사무소 소재지·전화번호</li>
+    <li>발행인·편집인 인적사항과 발행소 소재지·전화번호</li>
+    <li>발행목적·발행내용, 유가·무가 여부</li>
+    <li>신청서·정관·등기·임대차계약서·사이트 표기의 상호 일치</li>
+  </ul>
+
+  <h2>5. 서울시 접수 절차</h2>
+  <table>
+    <tbody>
+      <tr><th>관할</th><td>주사무소 소재지 관할 시·도지사. 서울 주사무소면 서울특별시장</td></tr>
+      <tr><th>현재 확인된 접수 방식</th><td>방문 또는 우편. 법령은 전자문서를 포함하지만 서울시가 전자 접수 채널을 운영한다는 확인은 없음</td></tr>
+      <tr><th>접수처</th><td>우 04524 서울특별시 중구 세종대로 110, 서울시청 1층 열린민원실 10번 인터넷신문담당</td></tr>
+      <tr><th>신규 담당</th><td>서울특별시 홍보기획관 민원담당관 민원처리2팀 · 02-2133-7922</td></tr>
+      <tr><th>처리기간</th><td>20일. 서울 편람은 근무일 기준 20일로 안내</td></tr>
+      <tr><th>등록수수료</th><td>없음</td></tr>
+    </tbody>
+  </table>
+  <div class="notice"><strong>접수 직전 전화 확인 질문.</strong> ① 최신 별지 제1호 서식의 제출본 ② 기본증명서 발급 상세 ③ 우편 제출 시 인감증명서 원본 여부 ④ 공용 서식의 인쇄인·보급지역·유가 필드 기재 방식 ⑤ 전자문서·이메일 수리 가능 여부를 확인하세요.</div>
+
+  <h3>서울시 페이지에 있던 첨부 파일의 확인 결과</h3>
+  <p>제공된 민원편람에는 법정서식 HWP와 작성예시 HWP가 연결돼 있습니다. 2026년 7월 30일 새 세션과 정상 Referer 조건에서 실제 다운로드를 시도했으나 두 링크 모두 HTTP 500 오류를 반환했습니다. 따라서 이 가이드는 국가법령정보센터에서 정상 다운로드되는 <a href="https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162433263&bylClsCd=110202">현행 PDF</a>와 <a href="https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162433261&bylClsCd=110202">현행 HWP</a>를 기준으로 작성했습니다. 서울시 작성예시만의 기입 해설은 미검증 상태입니다.</p>
+  <p>현행 법정서식에는 <strong>“개정 2019. 7. 2.”</strong>라고 표시되지만, 구양식이 아니라 2026년 현행 시행령에서 배포되는 동일한 서식입니다.</p>
+
+  <h2>6. 비용과 납부 시점</h2>
+  <table>
+    <thead><tr><th>항목</th><th>금액·시점</th><th>주의</th></tr></thead>
+    <tbody>
+      <tr><td>등록 신청 수수료</td><td><strong>0원</strong></td><td>정부24와 현행 법정서식이 모두 ‘수수료 없음’으로 안내</td></tr>
+      <tr><td>면허분 등록면허세</td><td><strong>서울 제4종 27,000원</strong><br>등록증 교부·송달 전 납부</td><td>신청 수수료가 아니라 지방세. 납세지는 서울시 본청이 아니라 발행소·사무소 소재 자치구</td></tr>
+      <tr><td>정기분 등록면허세</td><td>통상 다음 해부터 매년 1월</td><td>등록 갱신 신청 수수료가 아니라 세법상 정기분. 감면·변경등록은 주소와 시점에 따라 별도 확인</td></tr>
+    </tbody>
+  </table>
+  <div class="risk"><strong>27,000원에 지방교육세 20%를 더해 32,400원으로 계산하지 마세요.</strong> 현행 지방교육세의 해당 과표는 ‘등록에 대한 등록면허세’이며, 이번 건은 면허분입니다. 서울 ETAX의 제4종 안내액도 27,000원입니다.</div>
+
+  <h2>7. 등록증을 받은 뒤 바로 할 일</h2>
+  <h3>7-1. 사이트 공개 정보</h3>
+  <p><span class="tag tag-law">법정</span> 독자가 쉽게 알 수 있도록 다음을 게재·공표합니다. 인터넷신문은 간별·인쇄인 표기는 제외됩니다.</p>
+  <ul class="checklist">
+    <li>명칭, 제호, 등록번호, 등록연월일</li>
+    <li>발행인, 편집인, 발행소, 발행연월일</li>
+    <li>주사무소 또는 발행소 전화번호</li>
+    <li>편집인이 여러 명이면 각 책임 분야와 성명</li>
+    <li>청소년보호책임자 지정 및 성명 공개</li>
+  </ul>
+  <h3>7-2. 조건부로 함께 챙길 의무</h3>
+  <table>
+    <thead><tr><th>상황</th><th>필요 조치</th></tr></thead>
+    <tbody>
+      <tr><td>회원·댓글·제보·뉴스레터·분석도구로 개인정보 처리</td><td>개인정보 처리방침, 보호책임자, 보유기간·위탁·안전조치 정비</td></tr>
+      <tr><td>광고·협찬·제휴 콘텐츠 운영</td><td>기사와 광고의 구분, 계약·검토 기록 유지. 의료·금융·선거 등은 개별 규제 추가 검토</td></tr>
+      <tr><td>유료 구독·굿즈·자체 판매</td><td>통신판매업 신고 대상·예외, 거래조건 표시, 결제·환불 체계 점검</td></tr>
+      <tr><td>기자·편집자 채용 또는 원고료 지급</td><td>근로·위촉 계약, 4대보험·원천징수·지급명세 등 일반 고용·세무 의무 검토</td></tr>
+    </tbody>
+  </table>
+
+  <h2>8. 변경·폐업·제재 리스크</h2>
+  <table>
+    <thead><tr><th>사건</th><th>조치</th><th>기한</th></tr></thead>
+    <tbody>
+      <tr><td>제호, 발행인, 편집인, 발행소, 도메인·홈페이지 주소 등 등록사항 변경</td><td>변경등록</td><td>원칙적으로 변경일부터 30일 이내</td></tr>
+      <tr><td>발행인·편집인의 결격사유 발생</td><td>변경등록</td><td>발생일부터 1개월 이내</td></tr>
+      <tr><td>양도·상속·합병 등 지위 승계</td><td>지위승계 신고</td><td>승계일부터 30일 이내</td></tr>
+      <tr><td>영업 폐쇄</td><td>폐업신고 및 등록증 첨부</td><td>폐쇄일부터 1개월 이내</td></tr>
+    </tbody>
+  </table>
+  <div class="risk"><strong>무등록·무변경등록 발행 또는 거짓·부정 등록으로 발행하면 2,000만원 이하 과태료 대상</strong>입니다. 필요적 게재사항 미공표, 청소년보호책임자 미지정 등도 과태료 위험이 있습니다. 등록정보와 실제 사이트·등기·세무 정보가 달라지는 순간을 변경관리 사건으로 취급하세요.</div>
+
+  <h2>9. 제출 직전 15분 체크리스트</h2>
+  <ul class="checklist">
+    <li>제호를 PDS와 KIPRIS에서 검색했고, 동일 명칭·상표 문제를 검토했다.</li>
+    <li>홈페이지 URL이 실제로 열리고, 주간 새 기사·자체생산 30% 운영 계획을 갖췄다.</li>
+    <li>발행인·편집인의 기본증명서와 결격사유를 확인했다.</li>
+    <li>법인·단체·개인 유형별 법정 첨부와 서울시 추가 안내 서류를 나눠 챙겼다.</li>
+    <li>신청서의 제호·주소·대표자·도메인·목적이 정관·임대차·사이트 표기와 일치한다.</li>
+    <li>서울시 민원담당관에 우편 원본·인감·공용 서식 기재법·전자제출 수리 여부를 확인했다.</li>
+    <li>등록증 발급 전 등록면허세 27,000원 납부 관할 자치구와 납부 절차를 확인했다.</li>
+    <li>등록증 수령 뒤 반영할 임프린트·청소년보호책임자·개인정보 처리방침 담당자를 정했다.</li>
+  </ul>
+
+  <section class="page-break">
+    <h2>10. 근거 및 조사 메모</h2>
+    <p>아래 출처는 2026년 7월 30일에 확인했습니다. 법정 요건은 국가법령정보센터 현행본을 우선했고, 서울 접수 실무는 서울시 응답소 민원편람·조직도를 우선했습니다.</p>
+    <ol class="sources">
+      <li><a href="https://eungdapso.seoul.go.kr/gud/manual_civil/manual_civil_affairs_vie.do?mwAfrManualNo=170&searchType1=&searchType2=&searchWord1=%EC%8B%A0%EB%AC%B8&cp=1">서울특별시 응답소 민원편람: 인터넷신문사업 등록신청</a> — 서울 접수처, 방문·우편, 처리기간, 수수료, 실무 안내.</li>
+      <li><a href="https://org.seoul.go.kr/orgSearchList.do?menuGubun=org&keyField=JOB_DC&keyValue=%EC%9D%B8%ED%84%B0%EB%84%B7%EC%8B%A0%EB%AC%B8">서울시 조직도 검색</a> — 신규·변경 담당 연락처.</li>
+      <li><a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277349">신문 등의 진흥에 관한 법률</a> — 등록, 필요적 게재사항, 제재, 결격·변경 관련 근거.</li>
+      <li><a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284795">신문 등의 진흥에 관한 법률 시행령</a> — 인터넷신문 기준, 등록·첨부서류, 전자문서, 폐업·직권말소.</li>
+      <li><a href="https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13700000050">정부24: 신문, 인터넷신문 사업 등록</a> — 처리기간·수수료·제출 안내.</li>
+      <li><a href="https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162433263&bylClsCd=110202">현행 별지 제1호 서식 PDF</a> · <a href="https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162433261&bylClsCd=110202">HWP</a> — 신청서 필드 및 법정 첨부 확인.</li>
+      <li><a href="https://pds.mcst.go.kr/pds/">문체부 정기간행물 등록관리시스템</a> — 제호·등록 현황 확인.</li>
+      <li><a href="https://www.kipris.or.kr/">KIPRIS</a> — 상표 검색.</li>
+      <li><a href="https://www.law.go.kr/LSW/flDownload.do?bylClsCd=110201&flSeq=154867981&gubun=">지방세법 시행령 별표 1</a> — 인터넷신문 발행 등록의 제4종 등록면허세 근거.</li>
+      <li><a href="https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029489473">지방세법 제34조</a> · <a href="https://etax.seoul.go.kr/jsp/LcnsTaxMnAction.tran?gl_gubun=g&gnb_id=020202&lnb_id=020202">서울 ETAX 등록면허세 안내</a> — 서울 제4종 세율·납부 구조.</li>
+      <li><a href="https://www.law.go.kr/detcInfoP.do?detcSeq=52660&mode=0">헌법재판소 결정례</a> — 과거 5명 상시고용 요건의 위헌 결정과 현행 기준 정비의 배경.</li>
+    </ol>
+    <div class="notice"><strong>남은 확인 항목.</strong> 서울시 민원편람의 HWP 서식·작성예시 링크는 조사일에 HTTP 500으로 내려받지 못했습니다. 서울시 작성예시에만 있는 기입 지침, 전자 접수 수리, 우편 시 원본 요건, 개별 자치구의 변경등록 과세는 담당 부서 또는 관할 세무부서에서 확인하세요.</div>
+  </section>
+</body>
+</html>

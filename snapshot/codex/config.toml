@@ -82,6 +82,675 @@ trust_level = "trusted"
 [projects."/home/ubuntuhong/dev/creative-hub"]
 trust_level = "trusted"
 
+[projects."/home/ubuntuhong/dev/ux-studio"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-GOXonF"]
+trust_level = "trusted"
+
+[projects."/tmp/test-codex-tools"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-5K2LIF"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-o4oipB"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-FN4RCb"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/dev/relixir/docs"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-3c6Avk"]
+trust_level = "trusted"
+
+[projects."/tmp/tmp.kPc1S5RzTi"]
+trust_level = "trusted"
+
+[projects."/tmp/tmp.9NoshMPLK3"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V3-END-m5avw33p"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V2-END-1dtzmi6j"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V3-ixwozkco"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V2-ikeq_ifj"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4-3t6mr4zu"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4-END-d3r04fb_"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V1M-9jgx3afz"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V3M-knsat912"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V2M-aocdzxg9"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4M-ueppuzwk"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4M-END-bdwq6qk1"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-junNLr"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-JxgOUQ"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-7aPYzp"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V1-iefp2yhj"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-s2-researcher-nrjc8btj"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-s3-brewery-ha79tz2w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-s4-samples-3ksk3qf9"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-s5-nuruk-analysis-8tyzleqo"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-s6-monitoring-0py5z_08"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V3-z2z3i90w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4-hsishogb"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4-ey2le0u0"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V2M-olhl50yk"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V3M-_exmuv0z"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-V4M-3200jfp9"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-BN5ggQ"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-QVi3wn"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-QMuzRJ"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-JzUdyE"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-NAB5ex"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-aQn2GB"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-cgpcMs"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-wwouWV"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-0VfB8U"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-OgRUpm"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-IkawsD"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-S9laUE"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-Dnf0Px"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-nxfAOA"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-s0c7oO"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-2kSfMw"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-IVrPfc"]
+trust_level = "trusted"
+
+[projects."/tmp/creative-hub-codex-D3WqwV"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-001-9tzrrpol"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-003-f8bp0b83"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-004-p90ukefi"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-005-ecotca26"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-006-k3gnhoa0"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-007-xz1emhcn"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-008-ljp04_8q"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-009-hwpg5em5"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-010-shg7lmnd"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-011-tik09ru2"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-012-ejfumulw"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-013-dxt3ujlc"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-014-0qo_zahx"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-015-wqsiyxj4"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-016-m8xuutsk"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-017-a949xh3f"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-018-1s84qjjk"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-019-2p232viw"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-020-9wbknz8g"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-021-af7bduea"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-022-dvol12g8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-023-5__6w0hl"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-024-st5idiyv"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-025-vrjh31_l"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-026-fve66m36"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-027-_ti3nqp9"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-028-ff6uqk7v"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-029-yhdqd8bt"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-030-es5xv3wc"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-031-6mgu4b9d"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-032-ekl899nd"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-033-w522v4b2"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-034-rt0gblub"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-035-cykt1x2o"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-036-qfwr6vzs"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-037-mgxz911q"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-038-o729gapy"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-039-e04kbo9x"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-040-0guu0kjs"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-041-iq3vwpk1"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-042-tiedxrf6"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-043-stf0hw3j"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-044-l0k8w3o1"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-045-0y4cz44q"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-046-anha8uts"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-047-5gn04hp4"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-048-19kyu804"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-049-3vrzpz_7"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-050-w8ugy56z"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-051-mrzl83qh"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-052-2gbnv_g0"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-053-m4q8jn6a"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-054-ory885bn"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-055-1zwke9ll"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-02-f73d_l6l"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-03-q7wu8dpi"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-04-xelogi5t"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-05-kvjk0wn6"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-06-_iqh2s6m"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-01-gybvpvkm"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-02-h7fw5aax"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-03-mjgck03w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-04-xv7v29on"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-05-yckg_3wm"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-06-ezn6dfab"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-07-y_btjnp5"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-08-cndxg4g1"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-09-s2skbrge"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-10-dh3zy87s"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-11-jzl500io"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-12-wa3oc79u"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-13-yjcw5cng"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-14-82vr4usj"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-15-mnz9je2g"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-16-pakydo9y"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-17-e_wvzpko"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-18-m77cf6ma"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-19-izkg6xgb"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-20-01nwxwkx"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-01-672dj1x6"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-02-j23nc1jv"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-03-1m7gyi2s"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-04-mvostnsg"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-05-y6mcn7t8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-06-pzwn0qez"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-07-1548yxxt"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-08-h1hezygi"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-09-_o7hkr_j"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-10-lyoirm_3"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-11-5dalicpv"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-12-ogb8iqtd"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-13-zizykw9w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-14-wqsq8vua"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-15-xxct1aa0"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-16-iqcnqf90"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-09-eu7xeae9"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-10-t7qtc4y1"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-12-9y924xj0"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-02-ponwkvy3"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-01-m342b5qm"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-03-jd_qga9w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-01-w1pymnen"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-02-6m3h2bij"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-03-6f_hx40_"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-04-24taijet"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-05-i7vnyfac"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-TAB-06-6cg_weoo"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-01-x42aazhz"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-02-obtdopfv"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-03-e8x0kl2n"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-04-nswih1qn"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-05-dltff8ul"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-06-aj5ot54n"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-07-ao9sp9bt"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-08-oazkcm30"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-07-4b8jg7br"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-08-uwws13oh"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-09-e16v6ipf"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-10-47ap15jj"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-11-00_2we9z"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-12-l3nqniuh"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-13-5s1nocp2"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-14-nitfme3n"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-15-qpkojyrl"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-16-qx_ohdvc"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-17-2v6rt81e"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-18-aqtawc7_"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-19-hncuxnnk"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-20-ber8z66_"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-01-oev_kfif"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-02-i79_fuqm"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-03-3vak_u8r"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-04-ay2fvlef"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-05-7kgzv4c3"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-06-y65f97hx"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-07-z4fbrmsu"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-08-qaqt7dal"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-09-63136jyx"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-10-ir_rp3aq"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-11-4gb6rcpp"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-12-kussr3b8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-13-icdsvqw5"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-14-pjwmja16"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-15-t03_zfjc"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-16-ladqgjah"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-16-4bgekyg6"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-02-52cdd042"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-03-ek99h0l5"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-047-lx3rtb_r"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-048-wwocngnm"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-049-e4svgg33"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-050-e974ivvb"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-051-zktfrgb8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-052-mtdbf_ug"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-053-si0ndgce"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-054-khai_qcd"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-055-939dtyka"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-01-3i9p0g79"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-TP-03-ms3g33f8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-11-hw4_n1c6"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-15-as58da3v"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-FIX-EQUIP-m3c60x03"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-FIX-IV-07-tib1116w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-02-6bmqe0od"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-03-47_fbw8a"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-06-us7zs3k2"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-16-llqirwef"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-STEP-02-6bgek62x"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-NS-BEN-04-hpm86g1c"]
+trust_level = "trusted"
+
 [features.multi_agent_v2]
 max_concurrent_threads_per_session = 1000
 
@@ -94,7 +763,7 @@ hide_world_writable_warning = true
 hide_full_access_warning = true
 
 [marketplaces.sisyphuslabs]
-last_updated = "2026-07-23T00:06:21Z"
+last_updated = "2026-08-01T12:46:16Z"
 source_type = "local"
 source = "/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs"
 [plugins."omo@sisyphuslabs"]
@@ -197,73 +866,73 @@ config_file = "./agents/lazycodex-gate-reviewer.toml"
 config_file = "./agents/lazycodex-qa-executor.toml"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-loading-project-rules.json:session_start:0:0"]
-trusted_hash = "sha256:50d93095c3681e6955af868e136c00caa4fce6364fa7a7685abcf9c5ad097021"
+trusted_hash = "sha256:36fb8d9f8087f594c173a1ead28a3e1183863e4a01643149aade5d3dc0c8dd25"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-recording-session-telemetry.json:session_start:0:0"]
-trusted_hash = "sha256:7bf8bcf84c2703d738c780e7cb0ef37be20981bc8ccc6f28dd1c649e7464bfd4"
+trusted_hash = "sha256:02a5c12a44e58708a2d9ff05f8a7783975f0346f45d28249d3c0a81e4240f55f"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-checking-auto-update.json:session_start:0:0"]
-trusted_hash = "sha256:2e9d3ad67c04b87e167664a7a09f5bd89208a760e6dc07e47b9bc098fd4cda75"
+trusted_hash = "sha256:b2862f38575792407216d7508a4942d5d66fbc48b129b1c6c4d0c1f1985a2b3b"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-checking-bootstrap-provisioning.json:session_start:0:0"]
-trusted_hash = "sha256:254a7d9a3e111c776e71801048bfe04385b0b3e14bda38b689b69014afa5d2d7"
+trusted_hash = "sha256:81014eddcc21efff45a7f450a67a960c39d8d4be4714ff042c315a160b8c4d7c"
 
 [hooks.state."omo@sisyphuslabs:hooks/session-start-checking-codegraph-bootstrap.json:session_start:0:0"]
-trusted_hash = "sha256:5918d5c423c082250053e3e7c3e031e49ac758f81089481e57efaebdf3d4bc9f"
+trusted_hash = "sha256:8f6127878cd1fafd309892e72343ab1b953ab49a9f89ee9cf0e7b433738a93d7"
 
 [hooks.state."omo@sisyphuslabs:hooks/user-prompt-submit-loading-project-rules.json:user_prompt_submit:0:0"]
-trusted_hash = "sha256:f4d50a5c61e0302e1bdd8b3f43e392109c14fa7712649e6c1148c99fb8cfebcb"
+trusted_hash = "sha256:41459ff8d76e7ab865da3d4b8f15768c961b1432f8d2e95edf7971084d765ffe"
 
 [hooks.state."omo@sisyphuslabs:hooks/user-prompt-submit-checking-ultrawork-trigger.json:user_prompt_submit:0:0"]
-trusted_hash = "sha256:906af106197d1faf1ab5a287f4a1913544f5846598f635478197417e5a205dca"
+trusted_hash = "sha256:1c80b46d9f5ab38271c41c1b1d11154a355a091a467320c481556178c0cb2cfc"
 
 [hooks.state."omo@sisyphuslabs:hooks/user-prompt-submit-checking-ulw-loop-steering.json:user_prompt_submit:0:0"]
-trusted_hash = "sha256:215a0c30743b427299006a90fcf35b28f7f2f8f99f16c68e4346ef3b7431e22c"
+trusted_hash = "sha256:cfab3fe500361f7363dade63ad449cefdfe9bbd33d614d3ab8fb7a032b82d325"
 
 [hooks.state."omo@sisyphuslabs:hooks/pre-tool-use-recommending-git-bash-mcp.json:pre_tool_use:0:0"]
 trusted_hash = "sha256:f492779c719d7b494e8ddb14a27e010c3797a405b104e99b5b3eba63ebf274eb"
 
 [hooks.state."omo@sisyphuslabs:hooks/pre-tool-use-enforcing-unlimited-goal-budget.json:pre_tool_use:0:0"]
-trusted_hash = "sha256:c8889f6b627e94feeee8c678775fb3ce2c34538be61068ebf368e70210bfcf2f"
+trusted_hash = "sha256:43cba07e4c190d16d14f749cae70e2d767f09a8c84d5d446f780ed1f8026e94f"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-comments.json:post_tool_use:0:0"]
-trusted_hash = "sha256:2ecc122ced106723c62b6e4151bc5f66e069a4a7840c27e7371f176df3d8d062"
+trusted_hash = "sha256:a9a785e7e5d541a26c440778ceb8f5945ea7bda700b1bf5ac46c06cbadbd6376"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-lsp-diagnostics.json:post_tool_use:0:0"]
-trusted_hash = "sha256:f3462c9dec652de05de885ae43ae3192a5de621a8b8ec12877afdbba088d4ddd"
+trusted_hash = "sha256:3a84bdc60b5697a779e6af5e4761f0ed5d06199a1ebcd069018b6938fb47b0a8"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-matching-project-rules.json:post_tool_use:0:0"]
-trusted_hash = "sha256:9ad5202ad220446a5c1dadc320bc9f918f7e681fd011d4235f242532464d8305"
+trusted_hash = "sha256:b9896e3fa4e0b061500c68457314b64f2038e741a165393db1fc59d2b707880c"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-compact-resetting-git-bash-mcp-reminder.json:post_compact:0:0"]
 trusted_hash = "sha256:2327bf921895fd4265178e917d8a6dc84384bbae6d567ba62431a271c849e6c9"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-compact-resetting-project-rule-cache.json:post_compact:0:0"]
-trusted_hash = "sha256:15aa208e44fbadb24ea2643c454fa68a0ff2804794c24745c98a99e31dd495b8"
+trusted_hash = "sha256:0155eb9815b9162965338c94fd9eecee1ea6dedabcecee817405bffaa2c9d933"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-compact-resetting-lsp-diagnostics-cache.json:post_compact:0:0"]
-trusted_hash = "sha256:87026b62af64329f4aebacd9636f5fa35ce027c231865f92f72f1b692f691ec6"
+trusted_hash = "sha256:0dbf51b86cf2b8f9c426b2f52bfef7818963e0d66caf8d8be81f3536ff783494"
 
 [hooks.state."omo@sisyphuslabs:hooks/stop-checking-start-work-continuation.json:stop:0:0"]
-trusted_hash = "sha256:c2ddf1c498f48c46f88c2efa4615743dc196891962660e19e671d744748591fa"
+trusted_hash = "sha256:60b3f544d95fd10f5387e04b5c9a5a0c663f9146b7c2fb4a1d16c23baf6cfb09"
 
 [hooks.state."omo@sisyphuslabs:hooks/subagent-stop-checking-start-work-continuation.json:subagent_stop:0:0"]
-trusted_hash = "sha256:6bf936e4fa6a2bd0c075a595ee83098c722dadcbfa80609e9e410880d8b0eab5"
+trusted_hash = "sha256:9c4d33c011f01346bf513ffe9eae05d28e732b78e62b936a6dcf1753e00801fb"
 
 [hooks.state."omo@sisyphuslabs:hooks/subagent-stop-verifying-lazycodex-executor-evidence.json:subagent_stop:0:0"]
-trusted_hash = "sha256:a58a9181c4994814d01ca3a925aa0a04826effb7ee4ca12298a93671e208565e"
+trusted_hash = "sha256:7d322a3b421ef7e9db0bfee72e051cd32df642e0b3c946bfd5c576afea2bc17b"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-codegraph-init-guidance.json:post_tool_use:0:0"]
-trusted_hash = "sha256:532ad411098f832f1d399bbc6373c0de4b3a5d5d1f4b347d31c18df71f71ea41"
+trusted_hash = "sha256:8110fba2553bc8745f51388fc4dc1cf102d5cef551a19fde5a3328f6cf79864b"
 
 [hooks.state."omo@sisyphuslabs:hooks/post-tool-use-checking-thread-title-hygiene.json:post_tool_use:0:0"]
-trusted_hash = "sha256:7d943c0852045c4ae3f046c48afd4d23618f719bb7dadf8a72d66d6eb9e33b82"
+trusted_hash = "sha256:8b83f3b238850c5b44719bc075e122087ef9abd3eb8ad7a3affb9ae89b58e623"
 
 [hooks.state."omo@sisyphuslabs:hooks/pre-tool-use-guarding-ulw-loop-spawns.json:pre_tool_use:0:0"]
-trusted_hash = "sha256:c85e85d489ae17b04afea32384ed22e7fc8b5a763c4e5dcdf5513e3baa52171f"
+trusted_hash = "sha256:afba108f47f93ccb25d28c36f18f5d8b7c4ec1f5370aa88aeb0703e524b3eb95"
 
 [hooks.state."omo@sisyphuslabs:hooks/stop-checking-ulw-loop-resume.json:stop:0:0"]
-trusted_hash = "sha256:41943069bd15ed89613ffe83b116bfae8ff5d69003f6c11210d264b18db47af7"
+trusted_hash = "sha256:964c8e2a5e8a28683a718eb358febc1cb628c11c071d009268c751c96826f7f5"
 
 [agents.lazycodex-worker-high]
 config_file = "./agents/lazycodex-worker-high.toml"

@@ -1,0 +1,9 @@
+interface:
+  display_name: "CI Debug"
+  short_description: "Debug failing GitHub Actions checks"
+  icon_small: "./assets/github-small.svg"
+  icon_large: "./assets/github.png"
+  default_prompt: "Use $gh-fix-ci for explicitly requested GitHub Actions diagnostics; follow the canonical $github CI inspection workflow."
+
+policy:
+  allow_implicit_invocation: false

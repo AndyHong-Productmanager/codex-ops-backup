@@ -7,11 +7,14 @@
 # nohup python3 telegram_codex_bot.py > logs/router.stdout.log 2>&1 &
 from __future__ import annotations
 
+import atexit
+import fcntl
 import glob
 import json
 import os
 import pathlib
 import re
+import signal
 import subprocess
 import sys
 import threading
@@ -19,7 +22,7 @@ import time
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
-from typing import Final, TypedDict, assert_never
+from typing import Final, TextIO, TypedDict, assert_never
 
 from telegram_media import (
     MediaSettings,
@@ -36,13 +39,36 @@ LOG_DIR: Final = ROOT / "logs"
 OFFSET_FILE: Final = VAR_DIR / "telegram.offset"
 SESSION_FILE: Final = VAR_DIR / "codex.session"
 PID_FILE: Final = VAR_DIR / "router.pid"
+POLL_LOCK_FILE: Final = pathlib.Path(
+    os.environ.get(
+        "TG_CODEX_POLL_LOCK_FILE",
+        f"/run/user/{os.getuid()}/codex-telegram-bot.poller.lock",
+    )
+)
 LOG_FILE: Final = LOG_DIR / "router.log"
+
+
+def load_env() -> None:
+    if not ENV_FILE.exists():
+        return
+    for raw in ENV_FILE.read_text(encoding="utf-8", errors="ignore").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ[key.strip()] = value.strip().strip('"').strip("'")
+
+
+load_env()
+
 
 CODEX_BIN: Final = os.environ.get(
     "CODEX_BIN", "/home/ubuntuhong/.npm-global/bin/codex"
 )
+CODEX_MODEL: Final = os.environ.get("CODEX_MODEL", "gpt-5.6-terra")
+CODEX_REASONING: Final = os.environ.get("CODEX_REASONING", "high")
 WORK_DIR: Final = os.environ.get("CODEX_WORK_DIR", str(ROOT))
-EXEC_TIMEOUT: Final = int(os.environ.get("CODEX_EXEC_TIMEOUT", "600"))
+EXEC_TIMEOUT: Final = int(os.environ.get("CODEX_EXEC_TIMEOUT", "1800"))
 CODEX_SESSIONS_DIR: Final = pathlib.Path(
     os.environ.get("CODEX_SESSIONS_DIR", "/home/ubuntuhong/.codex/sessions")
 )
@@ -65,6 +91,16 @@ NOISE_PREFIXES: Final = (
     "provider:", "approval:", "sandbox:", "reasoning", "session id:",
     "OpenAI Codex", "--------", "user", "warning:",
     "Reading additional input",
+)
+
+_codex_lock = threading.Lock()
+_pid_lock_handle: TextIO | None = None
+
+CONTEXT_FULL_MARKERS: Final = (
+    "ran out of room in the model's context window",
+    "context window",
+    "context length exceeded",
+    "maximum context length",
 )
 
 OPERATING_RULES: Final = """\
@@ -92,23 +128,19 @@ class Config:
     chat_id: str
 
 
+@dataclass(frozen=True, slots=True)
+class CommandResult:
+    returncode: int
+    stdout: str
+    stderr: str
+
+
 def log(message: str) -> None:
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     line = time.strftime("[%Y-%m-%dT%H:%M:%S%z] ") + message
     with LOG_FILE.open("a", encoding="utf-8") as handle:
         handle.write(line + "\n")
     print(line, flush=True)
-
-
-def load_env() -> None:
-    if not ENV_FILE.exists():
-        return
-    for raw in ENV_FILE.read_text(encoding="utf-8", errors="ignore").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
 def load_config() -> Config:
@@ -185,10 +217,63 @@ def notify(config: Config, text: str) -> None:
     api(config, "sendMessage", {"chat_id": config.chat_id, "text": text[:3900]})
 
 
-def run_codex(text: str) -> str:
-    session_id = read_session_id()
+def _terminate_process_group(process: subprocess.Popen[str]) -> None:
+    try:
+        os.killpg(process.pid, signal.SIGTERM)
+    except ProcessLookupError:
+        return
+    try:
+        process.communicate(timeout=5)
+    except subprocess.TimeoutExpired:
+        try:
+            os.killpg(process.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+        process.communicate()
+
+
+def run_command(
+    command: list[str], *, timeout: int | float, cwd: str
+) -> CommandResult | None:
+    process = subprocess.Popen(
+        command,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        cwd=cwd,
+        start_new_session=True,
+    )
+    try:
+        stdout, stderr = process.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        _terminate_process_group(process)
+        return None
+    return CommandResult(
+        returncode=process.returncode,
+        stdout=stdout,
+        stderr=stderr,
+    )
+
+
+def _context_full(output: str) -> bool:
+    lowered = output.lower()
+    return any(marker.lower() in lowered for marker in CONTEXT_FULL_MARKERS)
+
+
+def _run_codex_once(text: str, *, allow_resume: bool) -> tuple[int, str, str | None, str]:
+    """Run one codex exec. Returns (rc, combined_output, new_session_id, mode)."""
+    session_id = read_session_id() if allow_resume else None
     wrapped = OPERATING_RULES + text
-    base = [CODEX_BIN, "exec", "--skip-git-repo-check", "--cd", WORK_DIR]
+    base = [
+        CODEX_BIN,
+        "exec",
+        "--skip-git-repo-check",
+        "--cd",
+        WORK_DIR,
+        "--model",
+        CODEX_MODEL,
+        "-c", f'model_reasoning_effort="{CODEX_REASONING}"',
+    ]
     if session_id:
         cmd = [*base, "resume", session_id, wrapped]
         mode = f"resume({session_id[:8]}...)"
@@ -199,37 +284,63 @@ def run_codex(text: str) -> str:
     started_at = time.time()
     log(f"codex exec start {mode} chars={len(text)}")
     try:
-        proc = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            timeout=EXEC_TIMEOUT,
-            cwd=WORK_DIR,
-            check=False,
-        )
-    except subprocess.TimeoutExpired:
+        result = run_command(cmd, timeout=EXEC_TIMEOUT, cwd=WORK_DIR)
+    except FileNotFoundError:
+        log(f"codex binary missing: {CODEX_BIN}")
+        return (127, "codex binary missing", None, mode)
+    if result is None:
         log("codex exec timeout")
+        return (124, "timeout", None, mode)
+
+    output = result.stdout + ("\n" + result.stderr if result.stderr else "")
+    new_session = latest_session_uuid(started_at)
+    if new_session:
+        write_text(SESSION_FILE, new_session)
+    return (result.returncode, output, new_session, mode)
+
+
+def run_codex(text: str) -> str:
+    rc, output, new_session, mode = _run_codex_once(text, allow_resume=True)
+    if rc == 124:
         return "Codex 응답이 제한 시간을 넘겼습니다. 다시 시도해 주세요."
 
-    output = (proc.stdout or "") + ("\n" + proc.stderr if proc.stderr else "")
-    if session_id and proc.returncode != 0 and "No session" in output:
+    if read_session_id() and rc != 0 and "No session" in output:
         SESSION_FILE.unlink(missing_ok=True)
         log("resume failed; session cleared")
         return "이전 Codex 세션을 찾지 못해 초기화했습니다. 같은 메시지를 다시 보내주세요."
 
-    new_session = latest_session_uuid(started_at)
-    if new_session:
-        write_text(SESSION_FILE, new_session)
-    response = extract_codex_response(proc.stdout or "")
+    # Context window exhausted on resume → wipe session and retry once as new.
+    if _context_full(output):
+        SESSION_FILE.unlink(missing_ok=True)
+        log(f"context full on {mode}; session cleared, retrying as new")
+        rc, output, new_session, mode = _run_codex_once(text, allow_resume=False)
+        if rc == 124:
+            return "Codex 응답이 제한 시간을 넘겼습니다. 다시 시도해 주세요."
+        if _context_full(output):
+            SESSION_FILE.unlink(missing_ok=True)
+            log("context full even on fresh session")
+            return (
+                "Codex 컨텍스트가 가득 찼습니다. 세션을 초기화했지만 재시도도 실패했습니다. "
+                "메시지를 짧게 나눠 다시 보내주세요."
+            )
+
+    response = extract_codex_response(output)
     # rc != 0 이고 `codex\n<body>` 섹션이 없으면 CLI 자체가 죽은 것 — 명확한 에러로 감쌈
-    if proc.returncode != 0 and not SECTION_RE.search(output):
+    if rc != 0 and not SECTION_RE.search(output) and not _context_full(output):
         response = (
-            f"Codex 실행 실패 (rc={proc.returncode}). 세션이 손상됐거나 CLI 오류. "
+            f"Codex 실행 실패 (rc={rc}). 세션이 손상됐거나 CLI 오류. "
             f"`/new` 로 세션을 초기화한 뒤 다시 시도해 주세요.\n\n"
             f"[stdout 마지막 조각]\n{response[-600:]}"
         )
+    # Context-full messages sometimes exit 0 with empty codex body — still surface cleanly.
+    if (response == "(empty response)" or not response) and _context_full(output):
+        SESSION_FILE.unlink(missing_ok=True)
+        response = (
+            "Codex 세션 컨텍스트가 가득 차 응답이 비었습니다. 세션을 초기화했습니다. "
+            "같은 메시지를 다시 보내주세요."
+        )
     log(
-        f"codex exec done rc={proc.returncode} reply_chars={len(response)} "
+        f"codex exec done rc={rc} reply_chars={len(response)} "
         f"next_session={new_session[:8] if new_session else 'none'}"
     )
     return response
@@ -251,8 +362,9 @@ def handle_control(config: Config, text: str) -> bool:
 def handle_message(config: Config, text: str) -> None:
     if handle_control(config, text):
         return
-    reply = run_codex(text)
-    notify(config, reply)
+    with _codex_lock:
+        reply = run_codex(text)
+        notify(config, reply)
 
 
 def route_update(config: Config, update: dict[str, object]) -> None:
@@ -271,13 +383,49 @@ def route_update(config: Config, update: dict[str, object]) -> None:
     threading.Thread(target=handle_message, args=(config, text), daemon=True).start()
 
 
+def acquire_singleton_lock() -> None:
+    """Ensure only one getUpdates poller runs for this bot (prevents HTTP 409)."""
+    global _pid_lock_handle
+    VAR_DIR.mkdir(parents=True, exist_ok=True)
+    handle = POLL_LOCK_FILE.open("a+", encoding="utf-8")
+    try:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        handle.seek(0)
+        other = handle.read().strip() or "?"
+        handle.close()
+        raise RuntimeError(
+            f"another codex-telegram-bot instance holds {POLL_LOCK_FILE} (pid={other}). "
+            "Stop the duplicate before starting."
+        ) from None
+    handle.seek(0)
+    handle.truncate()
+    handle.write(str(os.getpid()))
+    handle.flush()
+    write_text(PID_FILE, str(os.getpid()))
+    _pid_lock_handle = handle
+
+    def _release() -> None:
+        global _pid_lock_handle
+        if _pid_lock_handle is None:
+            return
+        try:
+            fcntl.flock(_pid_lock_handle.fileno(), fcntl.LOCK_UN)
+            _pid_lock_handle.close()
+        except OSError:
+            pass
+        _pid_lock_handle = None
+
+    atexit.register(_release)
+
+
 def main() -> int:
     config = load_config()
     if not pathlib.Path(CODEX_BIN).exists():
         raise RuntimeError(f"codex binary missing: {CODEX_BIN}")
-    write_text(PID_FILE, str(os.getpid()))
+    acquire_singleton_lock()
     offset = read_int(OFFSET_FILE)
-    log(f"standalone router started cwd={WORK_DIR}")
+    log(f"standalone router started cwd={WORK_DIR} pid={os.getpid()}")
     while True:
         try:
             params: dict[str, int | str] = {"timeout": 55, "limit": 20}
@@ -304,7 +452,15 @@ def main() -> int:
         except KeyboardInterrupt:
             log("router stopped")
             return 0
-        except (OSError, RuntimeError, json.JSONDecodeError) as error:
+        except urllib.error.HTTPError as error:
+            # 409 = another getUpdates client; back off harder so the winner can settle.
+            if error.code == 409:
+                log("error: HTTPError: HTTP Error 409: Conflict (duplicate getUpdates)")
+                time.sleep(15)
+            else:
+                log(f"error: HTTPError: HTTP Error {error.code}: {error.reason}")
+                time.sleep(5)
+        except (OSError, RuntimeError, json.JSONDecodeError, TimeoutError) as error:
             log(f"error: {type(error).__name__}: {error}")
             time.sleep(5)
 

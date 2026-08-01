@@ -5,7 +5,7 @@
 			"name": "omo",
 			"source": {
 				"source": "local",
-				"path": "./omo/4.19.1"
+				"path": "./omo/4.19.4"
 			}
 		}
 	]
