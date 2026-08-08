@@ -39,7 +39,6 @@ LOG_DIR: Final = ROOT / "logs"
 OFFSET_FILE: Final = VAR_DIR / "telegram.offset"
 SESSION_FILE: Final = VAR_DIR / "codex.session"
 PID_FILE: Final = VAR_DIR / "router.pid"
-HEARTBEAT_FILE: Final = VAR_DIR / "router.heartbeat"
 POLL_LOCK_FILE: Final = pathlib.Path(
     os.environ.get(
         "TG_CODEX_POLL_LOCK_FILE",
@@ -78,21 +77,10 @@ SECTION_RE: Final = re.compile(
     r"(?:^|\n)codex\n(?P<body>.*?)(?=\n(?:developer\n|system\n|hook:|tokens used|user\n|codex\n|$))",
     re.DOTALL,
 )
-SESSION_ID_RE: Final = re.compile(
-    r"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-"
-    r"[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+SESSION_RE: Final = re.compile(
+    r"rollout-[0-9T\-]+-([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-"
+    r"[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})\.jsonl$"
 )
-RETURNED_SESSION_ID_RE: Final = re.compile(
-    rf"(?im)^session id:\s*({SESSION_ID_RE.pattern})\s*$"
-)
-LOG_BEARER_TOKEN_RE: Final = re.compile(
-    r"(?i)(\bauthorization\s*:\s*bearer\s+)([^\s]+)"
-)
-LOG_SECRET_ASSIGNMENT_RE: Final = re.compile(
-    r"(?i)(\b(?:api[_-]?key|token|secret|password)\s*[=:]\s*)([^\s\"']+)"
-)
-LOG_OPENAI_KEY_RE: Final = re.compile(r"\bsk-[A-Za-z0-9_-]+")
-LOG_TELEGRAM_TOKEN_RE: Final = re.compile(r"\b\d{6,}:[A-Za-z0-9_-]{20,}\b")
 # codex exec가 응답 섹션 없이 죽었을 때 stdout 청소용
 USER_ECHO_RE: Final = re.compile(
     r"(?:^|\n)user\n.*?(?=\n(?:codex\n|hook:|warning:|tokens used|--------\n|$))",
@@ -187,10 +175,6 @@ def write_text(path: pathlib.Path, value: str) -> None:
     path.write_text(value, encoding="utf-8")
 
 
-def write_heartbeat() -> None:
-    write_text(HEARTBEAT_FILE, str(time.time_ns()))
-
-
 def read_session_id() -> str | None:
     try:
         value = SESSION_FILE.read_text(encoding="utf-8").strip()
@@ -199,57 +183,16 @@ def read_session_id() -> str | None:
     return value or None
 
 
-def returned_session_id(output: str) -> str | None:
-    match = RETURNED_SESSION_ID_RE.search(output)
-    return match.group(1) if match else None
-
-
-def session_files_snapshot() -> set[pathlib.Path]:
+def latest_session_uuid(started_at: float) -> str | None:
     pattern = str(CODEX_SESSIONS_DIR / "**" / "rollout-*.jsonl")
-    return {pathlib.Path(path) for path in glob.glob(pattern, recursive=True)}
-
-
-def session_file_metadata(path: pathlib.Path) -> tuple[str, pathlib.Path] | None:
-    try:
-        with path.open(encoding="utf-8") as handle:
-            record = json.loads(handle.readline())
-    except (OSError, json.JSONDecodeError):
-        return None
-    if not isinstance(record, dict) or record.get("type") != "session_meta":
-        return None
-    payload = record.get("payload")
-    if not isinstance(payload, dict):
-        return None
-    session_id = payload.get("session_id")
-    cwd = payload.get("cwd")
-    if not isinstance(session_id, str) or not SESSION_ID_RE.fullmatch(session_id):
-        return None
-    if not isinstance(cwd, str):
-        return None
-    return session_id, pathlib.Path(cwd).resolve()
-
-
-def select_new_session(before: set[pathlib.Path]) -> tuple[str | None, int]:
-    expected_cwd = pathlib.Path(WORK_DIR).resolve()
-    candidates: list[tuple[pathlib.Path, str]] = []
-    for path in session_files_snapshot() - before:
-        metadata = session_file_metadata(path)
-        if metadata is None:
-            continue
-        session_id, cwd = metadata
-        if cwd == expected_cwd:
-            candidates.append((path, session_id))
-    candidates.sort(key=lambda candidate: candidate[0].stat().st_mtime_ns, reverse=True)
-    if not candidates:
-        return None, 0
-    return candidates[0][1], len(candidates)
-
-
-def redact_log_text(text: str) -> str:
-    redacted = LOG_BEARER_TOKEN_RE.sub(r"\1[REDACTED]", text)
-    redacted = LOG_SECRET_ASSIGNMENT_RE.sub(r"\1[REDACTED]", redacted)
-    redacted = LOG_OPENAI_KEY_RE.sub("[REDACTED]", redacted)
-    return LOG_TELEGRAM_TOKEN_RE.sub("[REDACTED]", redacted)
+    files = [pathlib.Path(path) for path in glob.glob(pattern, recursive=True)]
+    recent = [path for path in files if path.stat().st_mtime >= started_at]
+    recent.sort(key=lambda path: path.stat().st_mtime, reverse=True)
+    for path in recent:
+        match = SESSION_RE.search(str(path))
+        if match:
+            return match.group(1)
+    return None
 
 
 def extract_codex_response(stdout: str) -> str:
@@ -338,7 +281,7 @@ def _run_codex_once(text: str, *, allow_resume: bool) -> tuple[int, str, str | N
         cmd = [*base, wrapped]
         mode = "new"
 
-    before = session_files_snapshot()
+    started_at = time.time()
     log(f"codex exec start {mode} chars={len(text)}")
     try:
         result = run_command(cmd, timeout=EXEC_TIMEOUT, cwd=WORK_DIR)
@@ -350,21 +293,9 @@ def _run_codex_once(text: str, *, allow_resume: bool) -> tuple[int, str, str | N
         return (124, "timeout", None, mode)
 
     output = result.stdout + ("\n" + result.stderr if result.stderr else "")
-    new_session = returned_session_id(result.stdout)
-    candidate_count = 0
-    if new_session is None:
-        new_session, candidate_count = select_new_session(before)
-        if candidate_count > 1:
-            log(f"codex session candidates count={candidate_count}; selecting newest")
+    new_session = latest_session_uuid(started_at)
     if new_session:
         write_text(SESSION_FILE, new_session)
-    if result.returncode != 0:
-        stderr_tail = redact_log_text(result.stderr[-2000:])
-        stdout_tail = redact_log_text(result.stdout[-500:])
-        log(
-            f"codex exec failed rc={result.returncode} stderr_tail={stderr_tail!r} "
-            f"stdout_tail={stdout_tail!r}"
-        )
     return (result.returncode, output, new_session, mode)
 
 
@@ -399,7 +330,7 @@ def run_codex(text: str) -> str:
         response = (
             f"Codex 실행 실패 (rc={rc}). 세션이 손상됐거나 CLI 오류. "
             f"`/new` 로 세션을 초기화한 뒤 다시 시도해 주세요.\n\n"
-            f"[표준출력·표준오류 합본 마지막 조각]\n{response[-600:]}"
+            f"[stdout 마지막 조각]\n{response[-600:]}"
         )
     # Context-full messages sometimes exit 0 with empty codex body — still surface cleanly.
     if (response == "(empty response)" or not response) and _context_full(output):
@@ -429,9 +360,9 @@ def handle_control(config: Config, text: str) -> bool:
 
 
 def handle_message(config: Config, text: str) -> None:
+    if handle_control(config, text):
+        return
     with _codex_lock:
-        if handle_control(config, text):
-            return
         reply = run_codex(text)
         notify(config, reply)
 
@@ -493,7 +424,6 @@ def main() -> int:
     if not pathlib.Path(CODEX_BIN).exists():
         raise RuntimeError(f"codex binary missing: {CODEX_BIN}")
     acquire_singleton_lock()
-    write_heartbeat()
     offset = read_int(OFFSET_FILE)
     log(f"standalone router started cwd={WORK_DIR} pid={os.getpid()}")
     while True:
@@ -533,8 +463,6 @@ def main() -> int:
         except (OSError, RuntimeError, json.JSONDecodeError, TimeoutError) as error:
             log(f"error: {type(error).__name__}: {error}")
             time.sleep(5)
-        finally:
-            write_heartbeat()
 
 
 if __name__ == "__main__":

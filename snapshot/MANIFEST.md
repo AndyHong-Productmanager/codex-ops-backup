@@ -1,6 +1,6 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-08-01T18:24:01Z`
+- Generated: `2026-08-08T18:23:45Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
@@ -20,18 +20,18 @@
 
 ## Plugin Skills
 
-- openai-curated-remote/figma/2.0.16/skills/figma-code-connect
-- openai-curated-remote/figma/2.0.16/skills/figma-create-new-file
-- openai-curated-remote/figma/2.0.16/skills/figma-design-to-code
-- openai-curated-remote/figma/2.0.16/skills/figma-generate-design
-- openai-curated-remote/figma/2.0.16/skills/figma-generate-diagram
-- openai-curated-remote/figma/2.0.16/skills/figma-generate-library
-- openai-curated-remote/figma/2.0.16/skills/figma-implement-motion
-- openai-curated-remote/figma/2.0.16/skills/figma-swiftui
-- openai-curated-remote/figma/2.0.16/skills/figma-use
-- openai-curated-remote/figma/2.0.16/skills/figma-use-figjam
-- openai-curated-remote/figma/2.0.16/skills/figma-use-motion
-- openai-curated-remote/figma/2.0.16/skills/figma-use-slides
+- openai-curated-remote/figma/2.0.17/skills/figma-code-connect
+- openai-curated-remote/figma/2.0.17/skills/figma-create-new-file
+- openai-curated-remote/figma/2.0.17/skills/figma-design-to-code
+- openai-curated-remote/figma/2.0.17/skills/figma-generate-design
+- openai-curated-remote/figma/2.0.17/skills/figma-generate-diagram
+- openai-curated-remote/figma/2.0.17/skills/figma-generate-library
+- openai-curated-remote/figma/2.0.17/skills/figma-implement-motion
+- openai-curated-remote/figma/2.0.17/skills/figma-swiftui
+- openai-curated-remote/figma/2.0.17/skills/figma-use
+- openai-curated-remote/figma/2.0.17/skills/figma-use-figjam
+- openai-curated-remote/figma/2.0.17/skills/figma-use-motion
+- openai-curated-remote/figma/2.0.17/skills/figma-use-slides
 - openai-curated-remote/github/0.1.9-alpha.0-5f2a107-2841cf9749ae/skills/gh-address-comments
 - openai-curated-remote/github/0.1.9-alpha.0-5f2a107-2841cf9749ae/skills/gh-fix-ci
 - openai-curated-remote/github/0.1.9-alpha.0-5f2a107-2841cf9749ae/skills/github
@@ -56,12 +56,7 @@
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast
-- openai-curated-remote/slack/0.1.4/skills/slack
-- openai-curated-remote/slack/0.1.4/skills/slack-channel-summarization
-- openai-curated-remote/slack/0.1.4/skills/slack-daily-digest
-- openai-curated-remote/slack/0.1.4/skills/slack-notification-triage
-- openai-curated-remote/slack/0.1.4/skills/slack-outgoing-message
-- openai-curated-remote/slack/0.1.4/skills/slack-reply-drafting
+- openai-curated-remote/slack/0.1.6/skills/slack
 - openai-curated/canva/bd2122cb/skills/canva-branded-presentation
 - openai-curated/canva/bd2122cb/skills/canva-resize-for-all-social-media
 - openai-curated/canva/bd2122cb/skills/canva-translate-design
@@ -698,15 +693,19 @@
 
 ## Telegram Router Files
 
+- .debug-journal.md
 - .env.example
 - .pytest_cache/.gitignore
 - .pytest_cache/CACHEDIR.TAG
 - .pytest_cache/README.md
 - DEBUGGING_HISTORY.md
 - README.md
+- healthcheck.sh
 - notify-codex.sh
 - telegram_codex_bot.py
+- telegram_codex_bot.py.bak-20260803
 - telegram_media.py
+- test_healthcheck.sh
 - test_telegram_codex_reliability.py
 - test_telegram_media.py
 - 인터넷신문사_등록_실무가이드_서울.html

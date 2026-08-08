@@ -1,4 +1,4 @@
-model = "gpt-5.6-terra"
+model = "gpt-5.6-sol"
 model_context_window = 400000
 model_reasoning_effort = "high"
 plan_mode_reasoning_effort = "xhigh"
@@ -751,6 +751,156 @@ trust_level = "trusted"
 [projects."/tmp/codex-img-NS-BEN-04-hpm86g1c"]
 trust_level = "trusted"
 
+[projects."/tmp/codex-img-T5-kawgr4aw"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T1-mv0o007n"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T6-596b6ugh"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T1-6sn1ap0w"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T3-9lk4zco1"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T4-mdbd90us"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T6-jwj74xyl"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T1-anxcvusw"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-T6-7ccg9vzv"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-101-q555b97e"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-102-wdpnnj0r"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-103-seb9t_d1"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-104-k5xzple_"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-105-vx_bjzpa"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-106-felhx4ks"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-107-d8z00uk4"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-106-alr_t0df"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-008-onw5u4so"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-P-008-xkq01n1d"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-001-mfxyl6pi"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-002-zy24o_1f"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-003-84cso178"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-004-k_o17wce"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-005-hkw5el3b"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-005-d2csekc8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-004-k35xdnt4"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-001-77wo9xi2"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-002-gz5i2av2"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-003-2dx_5syg"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-004-r2m9k4ov"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-005-ymqk6z2o"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-006-xatj5wc8"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-006-onn008l5"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-007-186v8tfq"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-008-qrdx3tlc"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-009-z6yg9hob"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-C-010-9h4_gjsf"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K1-e4gs9mf4"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K1-7u9weklo"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2-_f0va_lf"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K3-v4ojuh3_"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K4-4wllnzny"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2-lh5vwmyb"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2-ivj7h7t6"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2-chnlee3h"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2-w1cyx7fn"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2-5_371ozx"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2ORIG-i7otgule"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-K2NOREF-zbn3_9_o"]
+trust_level = "trusted"
+
+[projects."/tmp/codex-img-BENIGN-zn6rrpyu"]
+trust_level = "trusted"
+
 [features.multi_agent_v2]
 max_concurrent_threads_per_session = 1000
 
@@ -942,3 +1092,6 @@ config_file = "./agents/lazycodex-worker-low.toml"
 
 [agents.lazycodex-worker-medium]
 config_file = "./agents/lazycodex-worker-medium.toml"
+
+[agents]
+max_threads = 1000
