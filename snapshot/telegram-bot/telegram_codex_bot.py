@@ -108,9 +108,11 @@ NOISE_PREFIXES: Final = (
 _codex_lock = threading.Lock()
 _pid_lock_handle: TextIO | None = None
 
+# 실제 codex 컨텍스트 초과 에러 문구만 넣는다.
+# "context window" 같은 일반 문구는 금지 — 스킬 지침/문서 인용에 그 단어가
+# 등장하기만 하면 오탐으로 세션을 날린다. (2026-08-07, 2026-08-13 실발생)
 CONTEXT_FULL_MARKERS: Final = (
     "ran out of room in the model's context window",
-    "context window",
     "context length exceeded",
     "maximum context length",
 )
@@ -124,6 +126,13 @@ OPERATING_RULES: Final = """\
 - 최종 답은 한국어, 핵심만. 코드/파일 경로는 `backtick`으로 감싸라.
 - `orchestra/`, `docs/rag/`, `docs/obsidian/` 파일을 만들거나 수정하지 말 것.
 - 절대 placeholder 텍스트를 그대로 출력하지 말 것.
+
+[컨텍스트 절약 — 한 턴에 세션이 가득 차는 사고 방지]
+- 스크린샷·이미지를 대화에 직접 넣지 말 것. 이미지 1장이 컨텍스트를 통째로 삼켜 세션이 한 턴 만에 터진다.
+- 이미지가 필요하면 `/tmp` 또는 작업 디렉터리에 파일로 저장하고, 답에는 `저장 위치: <경로>`만 적어라.
+- base64로 이미지를 출력하는 스크립트를 만들지 말 것.
+- 명령 출력이 길어질 것 같으면 파일로 리다이렉트한 뒤 `head`/`tail`/`grep`으로 필요한 부분만 봐라. 긴 로그를 통째로 출력하지 말 것.
+- 한 조사에서 도구를 여러 번 쓰게 되면 중간에 알아낸 것을 짧게 정리하고, 이미 확인한 내용을 다시 확인하지 말 것.
 
 [Andy 메시지]
 """

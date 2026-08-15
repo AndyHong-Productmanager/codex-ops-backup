@@ -1,6 +1,6 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-08-08T18:23:45Z`
+- Generated: `2026-08-15T18:23:41Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
@@ -20,6 +20,14 @@
 
 ## Plugin Skills
 
+- openai-curated-remote/canva/13.0.1/skills/canva-brand-check
+- openai-curated-remote/canva/13.0.1/skills/canva-branded-presentation
+- openai-curated-remote/canva/13.0.1/skills/canva-bulk-create
+- openai-curated-remote/canva/13.0.1/skills/canva-design-feedback
+- openai-curated-remote/canva/13.0.1/skills/canva-edit-design
+- openai-curated-remote/canva/13.0.1/skills/canva-implement-feedback
+- openai-curated-remote/canva/13.0.1/skills/canva-resize-for-social-media
+- openai-curated-remote/canva/13.0.1/skills/canva-translate-design
 - openai-curated-remote/figma/2.0.17/skills/figma-code-connect
 - openai-curated-remote/figma/2.0.17/skills/figma-create-new-file
 - openai-curated-remote/figma/2.0.17/skills/figma-design-to-code
@@ -56,6 +64,7 @@
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast
+- openai-curated-remote/plugin-management/0.1.0/skills/plugin-management
 - openai-curated-remote/slack/0.1.6/skills/slack
 - openai-curated/canva/bd2122cb/skills/canva-branded-presentation
 - openai-curated/canva/bd2122cb/skills/canva-resize-for-all-social-media
@@ -693,7 +702,6 @@
 
 ## Telegram Router Files
 
-- .debug-journal.md
 - .env.example
 - .pytest_cache/.gitignore
 - .pytest_cache/CACHEDIR.TAG
