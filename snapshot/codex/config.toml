@@ -910,6 +910,12 @@ trust_level = "trusted"
 [projects."/home/ubuntuhong/hermes-news/assets/whiteboard/judgment-premium"]
 trust_level = "trusted"
 
+[projects."/home/ubuntuhong/hermes-news/assets/whiteboard/judgment-premium-v2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/dev/orchestra"]
+trust_level = "trusted"
+
 [features.multi_agent_v2]
 max_concurrent_threads_per_session = 1000
 
@@ -922,7 +928,7 @@ hide_world_writable_warning = true
 hide_full_access_warning = true
 
 [marketplaces.sisyphuslabs]
-last_updated = "2026-08-01T12:46:16Z"
+last_updated = "2026-08-16T00:09:47Z"
 source_type = "local"
 source = "/home/ubuntuhong/.codex/plugins/cache/sisyphuslabs"
 [plugins."omo@sisyphuslabs"]

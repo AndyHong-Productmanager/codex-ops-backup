@@ -1,0 +1,213 @@
+Tahan Capital Management
+
+회사·운용역량·신뢰도 공개자료 조사 | 기준일 2026-08-18 | 대상: Tahan Capital Management Pte. Ltd. (Singapore)
+
+
+
+   핵심 결론
+
+   Tahan Capital Management 는 2009 년 설립된 싱가포르 소재 아시아 크레딧 전문 대체운용사다. MAS 의 현행
+
+   펀드운용 CMS 라이선스, 완전 검증(fully corroborated) LEI, 상장사 공시로 확인되는 사모대출 펀드·거래 이력은
+
+   신뢰의 긍정 요소다. 다만 회사 전체 AUM, 펀드별 NAV·감사 수익률, 운용손실·연체율은 공개 확인되지 않았다. 따라서
+
+   공개증거만으로 대규모 자금운용능력이나 성과 우수성을 확정하기는 어렵고, 투자 전 자료제출 기반의 실사(DD)가
+
+   필요하다.
+
+
+
+
+  1. 회사 개요 및 업력
+
+항목     확인 내용
+
+
+법인명    Tahan Capital Management Pte. Ltd. / UEN 200904399M / LEI 254900ET36FAR5EFYY20
+
+
+설립·
+       2009-03-12 설립. 기준일 현재 약 17 년 5 개월.
+업력
+
+
+소재지    9 Temasek Boulevard, Suntec Tower Two #08-02A, Singapore 038989
+
+
+       아시아 공모·사모 크레딧(고수익채, 특수상황, 사모대출 등) 중심의 대체운용. 회사 설명상 5 명의 설립 원칙이 소유하는
+사업
+       구조.
+
+
+       MAS Financial Institutions Directory 에서 Capital Markets Services Licensee / Fund Management 로
+규제
+       현행 표시. CEO: Ng Yong Ngee.
+
+
+법인 존속과 식별정보는 Bloomberg LEI 페이지에서 ACRA 원천으로 “ACTIVE”, LEI “ISSUED”, 검증상태
+
+“FULLY_CORROBORATED”로 확인된다. 이는 법인 실재·등록의 강한 근거이나, 펀드 성과 또는 재무건전성을 보증하지는
+
+않는다.
+
+
+
+
+  2. 운용 전문성
+
+영역 공개된 근거와 해석
+       회사 자료는 아시아·APAC 의 공모/사모 크레딧에 투자한다고 밝히며, 선순위·메자닌 OpCo 금융 및 지주회사 금융을
+전략
+       전략으로 제시한다. 하방위험 완화, 바텀업 종목선정과 거시 관점을 표방한다.
+
+
+       CEO Ng Yong Ngee, CIO Chia Tse Ern, Private Markets CIO Bryan Choo, Fixed Income CIO Charles Ooi,
+핵심
+       COO/GC Lim Sing-Cher 등 5 명의 설립 원칙. 각자의 UBS·Merrill Lynch·GLG·Jabre·Schroders·Deutsche Bank
+인력
+       등 경력은 회사 웹사이트의 자기공시다.
+
+
+실무
+       공개 이력상 신용리서치, 고수익·부실채, 사모금융, 구조화·법무/컴플라이언스가 결합되어 있어 아시아 크레딧·
+적합
+       사모대출의 팀 전문성은 합리적으로 뒷받침된다. 단, 개인 경력의 독립 검증과 현직 인력 유지 여부는 별도 확인이 필요하다.
+성
+
+
+
+
+    3. 자금운용능력: 최근 공개 증거와 한계
+
+     중요: 아래 금액은 Tahan 단독 AUM 이나 Tahan 의 단독 투자액이 아니다. 공개자료에서 Tahan 의 회사 전체 AUM·
+
+     운용자산 규모·펀드별 성과표는 확인되지 않았다.
+
+
+시점          확인된 사실                                                         평가
+
+
+            TCM Asia Private Credit Fund VCC – Tahan Asia Private Credit
+                                                                           사모대출용 VCC/서브펀드 구조의 실재와
+2022-05     Fund I 가 설립되었고, LEI 관계정보상 Tahan Capital Management 가
+                                                                           운용관계를 공적 식별체계에서 확인.
+            managing fund parent 로 기재되어 있다.
+
+
+            SGX 상장사 Yangzijiang Financial 은 Tahan 과 아시아 사모대출 자산            상장 금융회사와의 외부 협업·지속성의
+2023-03 /
+            투자를 위한 협업을 공시했고, 2024 연차보고서에도 해당 파트너십을 주요 정황. 자금 약정액·Tahan 배분액은
+2024
+            이정표로 재기재했다.                                                    공개되지 않음.
+
+
+            인도 상장사 Kiri Industries 관련 공시에서 TCM Asia Private Credit         가장 구체적인 최근 집행 증거. 다만
+
+2024-08     Fund VCC(동 펀드 I 를 위해 acting)와 Meritz Securities 가 원대주로         공동대주 시설 총액이므로 Tahan 펀드의
+
+            명시된 미화 1.30 억 달러 시설이 확인된다.                                     실제 출자·보유 비중은 알 수 없음.
+
+
+                                                                           펀드가 2026 년에도 거래 문서에 나타나는
+            NSE 공시에서 위 시설의 대주로 TCM Asia Private Credit Fund VCC 가
+2026-02                                                                    운영 지속 증거. 상환·손익·잔액 전부를
+            다시 명시되고, 일부 담보주식의 담보해지가 공시되었다.
+                                                                           뜻하지는 않음.
+
+
+판정: “사모대출 펀드를 통해 실거래를 집행할 운용·구조화 역량”은 중간 이상 신뢰도로 확인된다. 반면 “AUM 이 얼마인지”,
+
+“단독으로 얼마를 투입했는지”, “동종 대비 성과·손실률이 어떤지”는 최근 공개자료로 입증 불가다. 이는 비공개 대체운용사에
+
+흔한 정보비대칭이지만, 투자 판단에서는 핵심 미확인 항목이다.
+  4. 신뢰도 평가
+
+항목         평가        근거·주의점
+
+
+법인·규제                MAS CMSL 펀드운용 라이선스와 ACRA 기반 LEI 검증을 직접 확인. 다만 라이선스는 수익률·
+
+신뢰도
+           긍정        원금보장을 의미하지 않음.
+
+
+                     창업 파트너의 크레딧·사모금융·리스크·법무 전문성이 전략과 일치. 주된 근거는 회사 자기공시라
+운용 전문성     긍정        DD 에서 이력과 핵심인력 이탈 여부를 확인할 것.
+
+
+
+           제한적       VCC 펀드와 2024 년 미화 1.30 억 달러 공동대주 시설, 2026 년 관련 공시가 확인됨. 총액은
+운용 실행력
+                     공동대주 기준이므로 Tahan 단독 역량으로 환산 불가.
+           긍정
+
+투명성·성과               공개 AUM, 펀드별 NAV, 감사 수익률, 손실/연체·회수율, 운용보수·유동성 조건을 찾지 못함. 이
+
+검증
+           미흡        영역은 “판단 보류”가 적절.
+
+
+
+     종합 리스크 결론: 규제된 크레딧 전문 부티크 운용사라는 정체성과 최근 거래 수행 정황은 확인된다. 그러나 성과·
+
+     규모의 독립 검증이 부족하므로, 공개정보만으로 “높은 신뢰도” 또는 “대형 운용사 수준의 자금력”을 부여하는
+
+     것은 근거가 약하다.
+
+
+
+
+5. 투자·협업 전 필수 실사 요청자료
+
+     1. 기준일이 명시된 회사 전체 AUM 및 전략·펀드별 AUM, 약정액·투자잔액, 공동투자·레버리지 내역.
+
+     2. 각 펀드의 최근 3~5 년 월별/분기별 순수익률, 벤치마크, 최대낙폭, 변동성, 손실률·연체율·회수율. 외부감사 또는 관리자
+
+       검증자료 포함.
+
+     3. 가장 최근의 감사 재무제표, 감사인, 규제자본 충족 여부 및 보험(PI/EO) 범위.
+
+     4. 펀드 LPA/PPM: 수수료·성과보수, 유동성·락업, 게이트·사이드포켓, 가치평가·이해상충·키맨 조항.
+
+     5. 2024 년 Kiri 관련 미화 1.30 억 달러 시설의 Tahan 펀드 실제 투자분, 현 잔액, 담보가치·LTV, 상환/회수 상태 및
+
+       손실충당금.
+
+     6. MAS 라이선스 현황, 최근 검사·제재·민원 관련 확인서 및 독립 레퍼런스(투자자·관리회사·수탁기관) 2~3 곳.
+
+
+
+
+  6. 조사 방법과 출처
+
+공식 규제기관·거래소 공시를 우선하고, 회사 웹사이트의 서술은 자기공시로 구분했다. 차단·접근성 우회용 `insane-search`
+
+엔진도 실행을 시도했으나 설치본에 CLI 진입점(`engine.__main__`)이 없어 작동하지 않았다. 따라서 일반 웹 검색과 원문 공시
+열람으로 교차확인했다. 공개검색은 2026-08-18 기준이며, 비공개 펀드 정보는 누락될 수 있다.
+
+
+   1. Monetary Authority of Singapore, Financial Institutions Directory: Tahan Capital Management Pte. Ltd. (현행 라이선스·CEO·
+      주소). https://eservices.mas.gov.sg/fid/institution/detail/2165-TAHAN-CAPITAL-MANAGEMENT-PTE-LTD
+
+   2. Bloomberg LEI, Tahan Capital Management Pte. Ltd. (ACRA 기반 법인·LEI·검증상태, 2026-02-26 갱신).
+      https://lei.bloomberg.com/leis/view/254900ET36FAR5EFYY20
+
+   3. Tahan Capital Management, 회사·팀·전략·PRI 관련 자기공시. https://www.tahancapital.com/
+
+   4. Bloomberg LEI, Tahan Asia Private Credit Fund I (펀드 설립·Tahan 의 managing fund parent 관계).
+      https://lei.bloomberg.com/leis/view/254900FO43G5VCSAI120
+
+   5. Singapore Exchange, Yangzijiang Financial 의 Tahan 협업 공시 (2023-03-06). SGX announcement
+
+   6. Yangzijiang Financial Holding, Annual Report 2024 (2024 년에도 파트너십을 주요 이정표로 기재). Annual report PDF
+
+   7. Kiri Industries / BSE 공시 (2024-08-24, 원대주·미화 1.30 억 달러 공동 시설). BSE filing PDF
+
+   8. Kiri Industries / NSE 공시 (2026-02-20, 담보해지·대주 재확인). NSE filing PDF
+
+
+면책: 본 문서는 공개정보 요약이며 투자권유·신용평가·법률 또는 투자자문이 아니다. 사모신용 투자에는 신용·유동성·가치평가·집중·국가·환율
+
+위험이 있으며, 실제 의사결정 전 전문 자문 및 문서 실사가 필요하다.
+
