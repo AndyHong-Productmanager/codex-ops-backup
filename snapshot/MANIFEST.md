@@ -1,6 +1,6 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-08-22T18:23:39Z`
+- Generated: `2026-08-29T18:23:40Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
@@ -28,18 +28,18 @@
 - openai-curated-remote/canva/14.0.0/skills/canva-implement-feedback
 - openai-curated-remote/canva/14.0.0/skills/canva-resize-for-social-media
 - openai-curated-remote/canva/14.0.0/skills/canva-translate-design
-- openai-curated-remote/figma/2.0.20/skills/figma-code-connect
-- openai-curated-remote/figma/2.0.20/skills/figma-create-new-file
-- openai-curated-remote/figma/2.0.20/skills/figma-design-to-code
-- openai-curated-remote/figma/2.0.20/skills/figma-generate-design
-- openai-curated-remote/figma/2.0.20/skills/figma-generate-diagram
-- openai-curated-remote/figma/2.0.20/skills/figma-generate-library
-- openai-curated-remote/figma/2.0.20/skills/figma-implement-motion
-- openai-curated-remote/figma/2.0.20/skills/figma-swiftui
-- openai-curated-remote/figma/2.0.20/skills/figma-use
-- openai-curated-remote/figma/2.0.20/skills/figma-use-figjam
-- openai-curated-remote/figma/2.0.20/skills/figma-use-motion
-- openai-curated-remote/figma/2.0.20/skills/figma-use-slides
+- openai-curated-remote/figma/2.0.21/skills/figma-code-connect
+- openai-curated-remote/figma/2.0.21/skills/figma-create-new-file
+- openai-curated-remote/figma/2.0.21/skills/figma-design-to-code
+- openai-curated-remote/figma/2.0.21/skills/figma-generate-design
+- openai-curated-remote/figma/2.0.21/skills/figma-generate-diagram
+- openai-curated-remote/figma/2.0.21/skills/figma-generate-library
+- openai-curated-remote/figma/2.0.21/skills/figma-implement-motion
+- openai-curated-remote/figma/2.0.21/skills/figma-swiftui
+- openai-curated-remote/figma/2.0.21/skills/figma-use
+- openai-curated-remote/figma/2.0.21/skills/figma-use-figjam
+- openai-curated-remote/figma/2.0.21/skills/figma-use-motion
+- openai-curated-remote/figma/2.0.21/skills/figma-use-slides
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report
@@ -705,12 +705,14 @@
 - README.md
 - healthcheck.sh
 - notify-codex.sh
+- operating_rules.txt
 - output/pdf_conversion.log
 - output/tahan_capital_management_due_diligence_ko.html
 - output/tahan_capital_management_due_diligence_ko.pdf
 - output/tahan_pdf_check.txt
 - telegram_codex_bot.py
 - telegram_codex_bot.py.bak-20260803
+- telegram_codex_bot.py.bak-20260826-194408
 - telegram_media.py
 - test_healthcheck.sh
 - test_telegram_codex_reliability.py

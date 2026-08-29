@@ -1107,3 +1107,6 @@ config_file = "./agents/lazycodex-worker-low.toml"
 
 [agents.lazycodex-worker-medium]
 config_file = "./agents/lazycodex-worker-medium.toml"
+
+[agents]
+max_threads = 1000

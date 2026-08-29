@@ -1,0 +1,12 @@
+{
+  "name": "internet-newspaper-investor-deck",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.14 present .",
+    "studio": "npx --yes hyperframes@0.8.14 preview",
+    "check": "npx --yes hyperframes@0.8.14 check",
+    "render": "npx --yes hyperframes@0.8.14 render",
+    "publish": "npx --yes hyperframes@0.8.14 publish"
+  }
+}
