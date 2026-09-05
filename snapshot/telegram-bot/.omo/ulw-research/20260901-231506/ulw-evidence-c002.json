@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "plan": {
+    "version": 1,
+    "evidenceLayoutVersion": 2,
+    "createdAt": "2026-09-01T14:15:06.471Z",
+    "updatedAt": "2026-09-01T14:41:11.482Z",
+    "briefPath": ".omo/ulw-loop/20260901-231506/brief.md",
+    "goalsPath": ".omo/ulw-loop/20260901-231506/goals.json",
+    "ledgerPath": ".omo/ulw-loop/20260901-231506/ledger.jsonl",
+    "codexGoalMode": "aggregate",
+    "goals": [
+      {
+        "id": "G001-ai-ai-ai",
+        "title": "고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신...",
+        "objective": "고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고, 가정의학과 의사·AI 실무자·폰티스 후마니타스 연구원이라는 화자의 전문성과 영성적 통찰을 결합한 한국어 PDF 강연 전략 보고서를 만든다. 보고서는 시대적 화두, 권장 강연 주제, 45~60분 구성, 연구·기업 기회, 기술의 한계와 영성의 실천 규율을 제시하고 최신 근거를 인용한다.",
+        "status": "pending",
+        "successCriteria": [
+          {
+            "id": "C001",
+            "scenario": "happy path for: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고...",
+            "userModel": "happy",
+            "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+            "essential": true,
+            "capturedEvidence": "reports/aging-ai-deeptech-lecture-report.pdf: cited Korean 11-page A4 lecture strategy report with current global medical-AI, aging and business evidence.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T14:41:11.421Z",
+            "notes": "Rendered successfully from live HTML."
+          },
+          {
+            "id": "C002",
+            "scenario": "edge case (boundary/empty/malformed)",
+            "userModel": "edge",
+            "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고....",
+            "essential": true,
+            "capturedEvidence": ".omo/ulw-research/20260901-231506/claim-graph.md and SYNTHESIS.md: high-risk clinical, business, humanistic and hype claims were counter-searched and narrowed.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T14:41:11.482Z",
+            "notes": "Evidence ladder and concrete fall-workflow stress test recorded."
+          },
+          {
+            "id": "C003",
+            "scenario": "regression: adjacent surface still works",
+            "userModel": "regression",
+            "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고....",
+            "essential": false,
+            "capturedEvidence": null,
+            "status": "pending"
+          }
+        ],
+        "attempt": 0,
+        "createdAt": "2026-09-01T14:15:06.471Z",
+        "updatedAt": "2026-09-01T14:41:11.482Z"
+      }
+    ],
+    "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-231506/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-231506/ledger.jsonl as the audit trail."
+  },
+  "goal": {
+    "id": "G001-ai-ai-ai",
+    "title": "고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신...",
+    "objective": "고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고, 가정의학과 의사·AI 실무자·폰티스 후마니타스 연구원이라는 화자의 전문성과 영성적 통찰을 결합한 한국어 PDF 강연 전략 보고서를 만든다. 보고서는 시대적 화두, 권장 강연 주제, 45~60분 구성, 연구·기업 기회, 기술의 한계와 영성의 실천 규율을 제시하고 최신 근거를 인용한다.",
+    "status": "pending",
+    "successCriteria": [
+      {
+        "id": "C001",
+        "scenario": "happy path for: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고...",
+        "userModel": "happy",
+        "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+        "essential": true,
+        "capturedEvidence": "reports/aging-ai-deeptech-lecture-report.pdf: cited Korean 11-page A4 lecture strategy report with current global medical-AI, aging and business evidence.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T14:41:11.421Z",
+        "notes": "Rendered successfully from live HTML."
+      },
+      {
+        "id": "C002",
+        "scenario": "edge case (boundary/empty/malformed)",
+        "userModel": "edge",
+        "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고....",
+        "essential": true,
+        "capturedEvidence": ".omo/ulw-research/20260901-231506/claim-graph.md and SYNTHESIS.md: high-risk clinical, business, humanistic and hype claims were counter-searched and narrowed.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T14:41:11.482Z",
+        "notes": "Evidence ladder and concrete fall-workflow stress test recorded."
+      },
+      {
+        "id": "C003",
+        "scenario": "regression: adjacent surface still works",
+        "userModel": "regression",
+        "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고....",
+        "essential": false,
+        "capturedEvidence": null,
+        "status": "pending"
+      }
+    ],
+    "attempt": 0,
+    "createdAt": "2026-09-01T14:15:06.471Z",
+    "updatedAt": "2026-09-01T14:41:11.482Z"
+  },
+  "criterion": {
+    "id": "C002",
+    "scenario": "edge case (boundary/empty/malformed)",
+    "userModel": "edge",
+    "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 고령화 사회와 AI 딥테크 강연을 위해 세계 의료 AI, 근감소증, 돌봄 AI/로봇, 병원 실증, 규제·사업화 현황을 최신 근거로 조사하고....",
+    "essential": true,
+    "capturedEvidence": ".omo/ulw-research/20260901-231506/claim-graph.md and SYNTHESIS.md: high-risk clinical, business, humanistic and hype claims were counter-searched and narrowed.",
+    "status": "pass",
+    "capturedAt": "2026-09-01T14:41:11.482Z",
+    "notes": "Evidence ladder and concrete fall-workflow stress test recorded."
+  },
+  "ledgerEntry": {
+    "at": "2026-09-01T14:41:11.482Z",
+    "kind": "evidence_captured",
+    "goalId": "G001-ai-ai-ai",
+    "criterionId": "C002",
+    "criterionStatus": "pass",
+    "evidence": ".omo/ulw-research/20260901-231506/claim-graph.md and SYNTHESIS.md: high-risk clinical, business, humanistic and hype claims were counter-searched and narrowed.",
+    "capturedEvidence": ".omo/ulw-research/20260901-231506/claim-graph.md and SYNTHESIS.md: high-risk clinical, business, humanistic and hype claims were counter-searched and narrowed.",
+    "before": {
+      "status": "pending"
+    },
+    "after": {
+      "goalId": "G001-ai-ai-ai",
+      "criterionId": "C002",
+      "status": "pass",
+      "evidence": ".omo/ulw-research/20260901-231506/claim-graph.md and SYNTHESIS.md: high-risk clinical, business, humanistic and hype claims were counter-searched and narrowed.",
+      "capturedAt": "2026-09-01T14:41:11.482Z",
+      "prevStatus": "pending"
+    }
+  },
+  "summary": {
+    "total": 1,
+    "pending": 1,
+    "in_progress": 0,
+    "complete": 0,
+    "failed": 0,
+    "blocked": 0,
+    "review_blocked": 0,
+    "needs_user_decision": 0,
+    "superseded": 0,
+    "criteria": {
+      "total": 3,
+      "pass": 2,
+      "pending": 1,
+      "fail": 0,
+      "blocked": 0
+    }
+  }
+}

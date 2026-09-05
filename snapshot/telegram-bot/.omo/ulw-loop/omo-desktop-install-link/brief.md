@@ -1,0 +1,1 @@
+Research-shape goal: identify the verified current installation link for OMO Desktop (omo-ai@beta), attributed to Kim Yeongyu, and deliver a concise Korean answer with source URLs. Stop right away when the official installation link and version/channel are corroborated by independent sources.

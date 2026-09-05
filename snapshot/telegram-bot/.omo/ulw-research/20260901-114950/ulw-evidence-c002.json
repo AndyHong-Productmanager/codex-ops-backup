@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "plan": {
+    "version": 1,
+    "evidenceLayoutVersion": 2,
+    "createdAt": "2026-09-01T02:50:11.916Z",
+    "updatedAt": "2026-09-01T03:15:08.224Z",
+    "briefPath": ".omo/ulw-loop/20260901-114950/brief.md",
+    "goalsPath": ".omo/ulw-loop/20260901-114950/goals.json",
+    "ledgerPath": ".omo/ulw-loop/20260901-114950/ledger.jsonl",
+    "codexGoalMode": "aggregate",
+    "goals": [
+      {
+        "id": "G001-ffpe-2026-9",
+        "title": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준...",
+        "objective": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고, 암 백신 제작 목적의 3~4개 블록 또는 10µm 절편 관점에서 비용·실무·의학적 주의사항을 구분한 한국어 PDF 보고서로 납품한다. 병원/검사실별 차이는 근거를 붙여 제한적으로 서술한다. PDF 렌더링 및 CJK 가독성을 검증한다.",
+        "status": "pending",
+        "successCriteria": [
+          {
+            "id": "C001",
+            "scenario": "happy path for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,...",
+            "userModel": "happy",
+            "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+            "essential": true,
+            "capturedEvidence": "reports/pathology-material-export-report.pdf: 8-page Korean A4 report; sources [1]-[23]; report source in reports/pathology-material-export-report.html.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T03:15:08.172Z",
+            "notes": "Rendered and text-extracted successfully."
+          },
+          {
+            "id": "C002",
+            "scenario": "edge case (boundary/empty/malformed)",
+            "userModel": "edge",
+            "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+            "essential": true,
+            "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T03:15:08.224Z",
+            "notes": "High-risk claims narrowed; no patient-specific medical/legal conclusion stated."
+          },
+          {
+            "id": "C003",
+            "scenario": "regression: adjacent surface still works",
+            "userModel": "regression",
+            "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+            "essential": false,
+            "capturedEvidence": null,
+            "status": "pending"
+          }
+        ],
+        "attempt": 0,
+        "createdAt": "2026-09-01T02:50:11.916Z",
+        "updatedAt": "2026-09-01T03:15:08.224Z"
+      }
+    ],
+    "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail."
+  },
+  "goal": {
+    "id": "G001-ffpe-2026-9",
+    "title": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준...",
+    "objective": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고, 암 백신 제작 목적의 3~4개 블록 또는 10µm 절편 관점에서 비용·실무·의학적 주의사항을 구분한 한국어 PDF 보고서로 납품한다. 병원/검사실별 차이는 근거를 붙여 제한적으로 서술한다. PDF 렌더링 및 CJK 가독성을 검증한다.",
+    "status": "pending",
+    "successCriteria": [
+      {
+        "id": "C001",
+        "scenario": "happy path for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,...",
+        "userModel": "happy",
+        "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+        "essential": true,
+        "capturedEvidence": "reports/pathology-material-export-report.pdf: 8-page Korean A4 report; sources [1]-[23]; report source in reports/pathology-material-export-report.html.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T03:15:08.172Z",
+        "notes": "Rendered and text-extracted successfully."
+      },
+      {
+        "id": "C002",
+        "scenario": "edge case (boundary/empty/malformed)",
+        "userModel": "edge",
+        "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+        "essential": true,
+        "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T03:15:08.224Z",
+        "notes": "High-risk claims narrowed; no patient-specific medical/legal conclusion stated."
+      },
+      {
+        "id": "C003",
+        "scenario": "regression: adjacent surface still works",
+        "userModel": "regression",
+        "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+        "essential": false,
+        "capturedEvidence": null,
+        "status": "pending"
+      }
+    ],
+    "attempt": 0,
+    "createdAt": "2026-09-01T02:50:11.916Z",
+    "updatedAt": "2026-09-01T03:15:08.224Z"
+  },
+  "criterion": {
+    "id": "C002",
+    "scenario": "edge case (boundary/empty/malformed)",
+    "userModel": "edge",
+    "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+    "essential": true,
+    "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+    "status": "pass",
+    "capturedAt": "2026-09-01T03:15:08.224Z",
+    "notes": "High-risk claims narrowed; no patient-specific medical/legal conclusion stated."
+  },
+  "ledgerEntry": {
+    "at": "2026-09-01T03:15:08.224Z",
+    "kind": "evidence_captured",
+    "goalId": "G001-ffpe-2026-9",
+    "criterionId": "C002",
+    "criterionStatus": "pass",
+    "evidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+    "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+    "before": {
+      "status": "pending"
+    },
+    "after": {
+      "goalId": "G001-ffpe-2026-9",
+      "criterionId": "C002",
+      "status": "pass",
+      "evidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+      "capturedAt": "2026-09-01T03:15:08.224Z",
+      "prevStatus": "pending"
+    }
+  },
+  "summary": {
+    "total": 1,
+    "pending": 1,
+    "in_progress": 0,
+    "complete": 0,
+    "failed": 0,
+    "blocked": 0,
+    "review_blocked": 0,
+    "needs_user_decision": 0,
+    "superseded": 0,
+    "criteria": {
+      "total": 3,
+      "pass": 2,
+      "pending": 1,
+      "fail": 0,
+      "blocked": 0
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "ok": true,
+  "plan": {
+    "version": 1,
+    "evidenceLayoutVersion": 2,
+    "createdAt": "2026-09-01T02:50:11.916Z",
+    "updatedAt": "2026-09-01T03:18:26.891Z",
+    "briefPath": ".omo/ulw-loop/20260901-114950/brief.md",
+    "goalsPath": ".omo/ulw-loop/20260901-114950/goals.json",
+    "ledgerPath": ".omo/ulw-loop/20260901-114950/ledger.jsonl",
+    "codexGoalMode": "aggregate",
+    "goals": [
+      {
+        "id": "G001-ffpe-2026-9",
+        "title": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준...",
+        "objective": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고, 암 백신 제작 목적의 3~4개 블록 또는 10µm 절편 관점에서 비용·실무·의학적 주의사항을 구분한 한국어 PDF 보고서로 납품한다. 병원/검사실별 차이는 근거를 붙여 제한적으로 서술한다. PDF 렌더링 및 CJK 가독성을 검증한다.",
+        "status": "complete",
+        "successCriteria": [
+          {
+            "id": "C001",
+            "scenario": "happy path for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,...",
+            "userModel": "happy",
+            "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+            "essential": true,
+            "capturedEvidence": "reports/pathology-material-export-report.pdf: 8-page Korean A4 report; sources [1]-[23]; report source in reports/pathology-material-export-report.html.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T03:15:08.172Z",
+            "notes": "Rendered and text-extracted successfully."
+          },
+          {
+            "id": "C002",
+            "scenario": "edge case (boundary/empty/malformed)",
+            "userModel": "edge",
+            "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+            "essential": true,
+            "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T03:15:08.224Z",
+            "notes": "High-risk claims narrowed; no patient-specific medical/legal conclusion stated."
+          },
+          {
+            "id": "C003",
+            "scenario": "regression: adjacent surface still works",
+            "userModel": "regression",
+            "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+            "essential": false,
+            "capturedEvidence": ".omo/ulw-research/20260901-114950/visual-qa.md: fresh Chrome PDF render plus two independent visual QA PASS verdicts on all 8 pages.",
+            "status": "pass",
+            "capturedAt": "2026-09-01T03:15:08.284Z",
+            "notes": "CJK wrapping and orphan-page defects were fixed before final PASS."
+          }
+        ],
+        "attempt": 0,
+        "createdAt": "2026-09-01T02:50:11.916Z",
+        "updatedAt": "2026-09-01T03:18:26.891Z",
+        "completedAt": "2026-09-01T03:18:26.891Z",
+        "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md"
+      }
+    ],
+    "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail.",
+    "aggregateCompletion": {
+      "status": "complete",
+      "completedAt": "2026-09-01T03:18:26.891Z",
+      "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md",
+      "codexGoal": {
+        "goal": {
+          "threadId": "01a05ade-4df1-7933-98de-c22bcd84da07",
+          "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail.",
+          "status": "complete"
+        }
+      }
+    }
+  },
+  "goal": {
+    "id": "G001-ffpe-2026-9",
+    "title": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준...",
+    "objective": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고, 암 백신 제작 목적의 3~4개 블록 또는 10µm 절편 관점에서 비용·실무·의학적 주의사항을 구분한 한국어 PDF 보고서로 납품한다. 병원/검사실별 차이는 근거를 붙여 제한적으로 서술한다. PDF 렌더링 및 CJK 가독성을 검증한다.",
+    "status": "complete",
+    "successCriteria": [
+      {
+        "id": "C001",
+        "scenario": "happy path for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,...",
+        "userModel": "happy",
+        "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+        "essential": true,
+        "capturedEvidence": "reports/pathology-material-export-report.pdf: 8-page Korean A4 report; sources [1]-[23]; report source in reports/pathology-material-export-report.html.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T03:15:08.172Z",
+        "notes": "Rendered and text-extracted successfully."
+      },
+      {
+        "id": "C002",
+        "scenario": "edge case (boundary/empty/malformed)",
+        "userModel": "edge",
+        "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+        "essential": true,
+        "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T03:15:08.224Z",
+        "notes": "High-risk claims narrowed; no patient-specific medical/legal conclusion stated."
+      },
+      {
+        "id": "C003",
+        "scenario": "regression: adjacent surface still works",
+        "userModel": "regression",
+        "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+        "essential": false,
+        "capturedEvidence": ".omo/ulw-research/20260901-114950/visual-qa.md: fresh Chrome PDF render plus two independent visual QA PASS verdicts on all 8 pages.",
+        "status": "pass",
+        "capturedAt": "2026-09-01T03:15:08.284Z",
+        "notes": "CJK wrapping and orphan-page defects were fixed before final PASS."
+      }
+    ],
+    "attempt": 0,
+    "createdAt": "2026-09-01T02:50:11.916Z",
+    "updatedAt": "2026-09-01T03:18:26.891Z",
+    "completedAt": "2026-09-01T03:18:26.891Z",
+    "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md"
+  },
+  "ledgerEntry": {
+    "at": "2026-09-01T03:18:26.891Z",
+    "kind": "aggregate_completed",
+    "goalId": "G001-ffpe-2026-9",
+    "status": "complete",
+    "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md",
+    "codexGoal": {
+      "goal": {
+        "threadId": "01a05ade-4df1-7933-98de-c22bcd84da07",
+        "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail.",
+        "status": "complete"
+      }
+    },
+    "qualityGate": {
+      "codeReview": {
+        "by": "lazycodex-code-reviewer",
+        "recommendation": "APPROVE",
+        "codeQualityStatus": "CLEAR",
+        "reportPath": ".omo/evidence/ulw/20260901-114950/G001-ffpe-2026-9/a0/code-review.md",
+        "evidence": "Live HTML source, successful Chrome PDF render, extracted PDF text, and post-fix review are documented in the report artifacts.",
+        "blockers": []
+      },
+      "manualQa": {
+        "by": "lazycodex-qa-executor",
+        "status": "passed",
+        "evidence": "The delivered PDF was rendered by Chrome, converted to eight fresh page images, and independently inspected after pagination and CJK fixes.",
+        "surfaceEvidence": [
+          {
+            "id": "pdf-render",
+            "criterionRef": "C001",
+            "surface": "browser",
+            "invocation": "google-chrome --headless --print-to-pdf followed by pdftoppm",
+            "verdict": "passed",
+            "artifactRefs": [
+              "p1",
+              "p5",
+              "p8"
+            ]
+          },
+          {
+            "id": "pdf-text",
+            "criterionRef": "C003",
+            "surface": "cli",
+            "invocation": "pdftotext -layout reports/pathology-material-export-report.pdf",
+            "verdict": "passed",
+            "artifactRefs": [
+              "layout"
+            ]
+          }
+        ],
+        "adversarialCases": [
+          {
+            "id": "cjk-wrap",
+            "criterionRef": "C002",
+            "scenario": "Korean wrapping, missing glyph, and detached syllable inspection",
+            "expectedBehavior": "Natural Korean wrapping with no clipping or tofu glyphs on all pages",
+            "verdict": "passed",
+            "artifactRefs": [
+              "p1",
+              "p5",
+              "p8"
+            ]
+          },
+          {
+            "id": "pagination",
+            "criterionRef": "C003",
+            "scenario": "Orphan-page and rendered-content regression after source CSS changes",
+            "expectedBehavior": "Every rendered page has substantive content and no blank callout page",
+            "verdict": "passed",
+            "artifactRefs": [
+              "p1",
+              "p5",
+              "p8"
+            ]
+          }
+        ],
+        "artifactRefs": [
+          {
+            "id": "p1",
+            "kind": "screenshot",
+            "description": "Fresh first-page PNG render",
+            "path": ".omo/evidence/ulw/20260901-114950/G001-ffpe-2026-9/a0/page-1.png"
+          },
+          {
+            "id": "p5",
+            "kind": "screenshot",
+            "description": "Fresh cost-chart page PNG render",
+            "path": ".omo/evidence/ulw/20260901-114950/G001-ffpe-2026-9/a0/page-5.png"
+          },
+          {
+            "id": "p8",
+            "kind": "screenshot",
+            "description": "Fresh source-page PNG render",
+            "path": ".omo/evidence/ulw/20260901-114950/G001-ffpe-2026-9/a0/page-8.png"
+          },
+          {
+            "id": "layout",
+            "kind": "cli-transcript",
+            "description": "Text extracted from final PDF",
+            "path": ".omo/evidence/ulw/20260901-114950/G001-ffpe-2026-9/a0/rendered-layout.txt"
+          }
+        ]
+      },
+      "gateReview": {
+        "by": "lazycodex-gate-reviewer",
+        "recommendation": "APPROVE",
+        "reportPath": ".omo/evidence/ulw/20260901-114950/G001-ffpe-2026-9/a0/gate-review.md",
+        "evidence": "Independent visual pass A and pass B both returned PASS on fresh eight-page artifacts.",
+        "blockers": []
+      },
+      "iteration": {
+        "fullRerun": true,
+        "status": "passed",
+        "rerunCommands": [
+          "google-chrome --headless --print-to-pdf reports/pathology-material-export-report.pdf",
+          "pdftoppm -png -r 144 reports/pathology-material-export-report.pdf",
+          "pdftotext -layout reports/pathology-material-export-report.pdf"
+        ],
+        "evidence": "The final PDF is 8 A4 pages; current page renders passed two fresh independent reviews after the CSS reflow fix."
+      },
+      "criteriaCoverage": {
+        "totalCriteria": 3,
+        "passCount": 3,
+        "originalIntent": "Analyze Korean pathology-material release process and costs for a proposed cancer-vaccine workflow, then deliver a cited Korean PDF.",
+        "desiredOutcome": "A practical report that distinguishes material forms, hospital-policy variation, measured versus assumed costs, and clinical/legal limits.",
+        "userOutcomeReview": "PDF includes source-linked process, cost scenarios, receiver/originating-hospital checklists, limitations, and 23 numbered references.",
+        "adversarialClassesCovered": [
+          "institution-specific policy variation",
+          "unsupported price endpoint",
+          "irreversible tissue consumption",
+          "CJK layout and pagination regression"
+        ]
+      }
+    }
+  },
+  "aggregateCompletion": {
+    "status": "complete",
+    "completedAt": "2026-09-01T03:18:26.891Z",
+    "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md",
+    "codexGoal": {
+      "goal": {
+        "threadId": "01a05ade-4df1-7933-98de-c22bcd84da07",
+        "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail.",
+        "status": "complete"
+      }
+    }
+  },
+  "summary": {
+    "total": 1,
+    "pending": 0,
+    "in_progress": 0,
+    "complete": 1,
+    "failed": 0,
+    "blocked": 0,
+    "review_blocked": 0,
+    "needs_user_decision": 0,
+    "superseded": 0,
+    "criteria": {
+      "total": 3,
+      "pass": 3,
+      "pending": 0,
+      "fail": 0,
+      "blocked": 0
+    }
+  }
+}

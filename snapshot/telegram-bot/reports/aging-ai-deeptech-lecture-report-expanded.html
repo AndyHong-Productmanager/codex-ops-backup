@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>고령화 사회와 AI 딥테크 — 임상·사업·책임의 강연 설계</title>
+<style>
+@page { size: A4; margin: 13mm 14mm 13mm 14mm; }
+:root{--ink:#13222f;--muted:#536674;--paper:#fbfcfc;--navy:#12324b;--teal:#087f78;--lime:#d7f0cd;--blue:#dceefa;--orange:#f6b453;--red:#b33a3a;--line:#d9e2e6;}
+*{box-sizing:border-box} body{margin:0;background:#e9eef0;color:var(--ink);font-family:"Noto Sans CJK KR","Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.55;font-size:10.1pt;word-break:keep-all}.page{position:relative;min-height:270mm;background:var(--paper);padding:4mm 2mm 12mm;page-break-after:always;break-after:page}.page:last-child{page-break-after:auto}.kicker{font-size:8.4pt;color:var(--teal);letter-spacing:.08em;font-weight:800;text-transform:uppercase}.num{position:absolute;bottom:3mm;right:3mm;color:#87969f;font-size:8pt}.rule{height:5px;width:54px;background:var(--orange);margin:9px 0 15px}.cover{background:linear-gradient(145deg,#0d2638 0%,#123c51 58%,#087f78 100%);color:#fff;padding:23mm 17mm;overflow:hidden}.cover:after{content:"";position:absolute;width:155mm;height:155mm;border:1px solid rgba(255,255,255,.22);border-radius:50%;right:-58mm;bottom:-58mm}.cover:before{content:"";position:absolute;width:68mm;height:68mm;border:12px solid rgba(215,240,205,.18);border-radius:50%;right:24mm;top:24mm}.cover .kicker{color:#c7f5ee}.cover h1{position:relative;z-index:1;font-size:31pt;line-height:1.19;letter-spacing:-.055em;margin:18mm 0 7mm;max-width:145mm}.cover h1 em{font-style:normal;color:#d8f6d4}.cover .sub{position:relative;z-index:1;font-size:14pt;line-height:1.6;max-width:135mm;color:#e2edf0}.cover .meta{position:absolute;bottom:20mm;font-size:9.5pt;color:#d1e2e8}.cover .tag{display:inline-block;border:1px solid rgba(255,255,255,.45);border-radius:16px;padding:3px 9px;margin:0 5px 6px 0}.cover .question{position:absolute;right:18mm;bottom:29mm;width:73mm;z-index:1;font-size:14pt;line-height:1.45;font-weight:800;color:#d8f6d4}.cover .question small{display:block;font-size:8pt;letter-spacing:.08em;color:#c7f5ee;margin-bottom:4mm}h2{font-size:20pt;line-height:1.25;letter-spacing:-.045em;margin:5px 0 12px;color:var(--navy)}h3{font-size:12pt;line-height:1.4;margin:13px 0 6px;color:var(--navy)}h4{font-size:10.3pt;margin:0 0 4px;color:var(--teal)}p{margin:5px 0 9px}.lead{font-size:13.1pt;font-weight:650;line-height:1.58;letter-spacing:-.02em}.muted{color:var(--muted)}.callout{border-left:5px solid var(--teal);background:#eff9f7;padding:10px 13px;margin:12px 0;font-size:11pt}.warning{border-left-color:var(--orange);background:#fff6e7}.red{border-left-color:var(--red);background:#fff2f2}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.card{border:1px solid var(--line);background:#fff;border-radius:7px;padding:10px 11px}.card p:last-child{margin-bottom:0}.big{font-size:24pt;font-weight:900;line-height:1;color:var(--teal);letter-spacing:-.06em}.small{font-size:8.4pt;line-height:1.43}.pill{display:inline-block;border-radius:20px;background:var(--blue);color:#175372;padding:2px 7px;font-size:8.1pt;font-weight:800;margin:1px 3px 1px 0}.pill.green{background:var(--lime);color:#26614c}.pill.orange{background:#fce7be;color:#80520e}.table{width:100%;border-collapse:collapse;margin:7px 0;font-size:8.7pt}.table th{background:var(--navy);color:#fff;text-align:left;padding:6px 7px;vertical-align:top}.table td{border-bottom:1px solid var(--line);padding:6px 7px;vertical-align:top}.table tr:nth-child(even) td{background:#f5f8f9}.table .strong{font-weight:800;color:var(--navy)}.flow{display:flex;gap:0;margin:12px 0;align-items:stretch}.flow>div{flex:1;background:#e8f4f3;border-right:3px solid white;padding:9px 8px;font-size:8.8pt}.flow>div:nth-child(2){background:#dceefa}.flow>div:nth-child(3){background:#fce7be}.flow>div:nth-child(4){background:#d7f0cd}.flow b{display:block;color:var(--navy);font-size:10pt;margin-bottom:3px}.agenda{display:grid;grid-template-columns:31px 1fr 95px;gap:8px;align-items:baseline;border-bottom:1px solid var(--line);padding:7px 0}.agenda .n{font-size:18pt;font-weight:900;color:var(--teal);line-height:1}.agenda .min{color:var(--muted);font-size:8.7pt;text-align:right}.quote{font-size:17pt;line-height:1.48;letter-spacing:-.045em;font-weight:760;color:var(--navy);padding:15px 14px;border-top:4px solid var(--orange);border-bottom:1px solid var(--line);margin:13px 0}.case{background:#12324b;color:#fff;border-radius:9px;padding:14px 15px}.case h3{color:#d8f6d4;margin-top:0}.case .label{color:#bcece5;font-size:8pt;letter-spacing:.08em;font-weight:800}.slide{display:grid;grid-template-columns:40px 1fr 72px;gap:9px;padding:8px 0;border-bottom:1px solid var(--line)}.slide .sno{font-size:22pt;font-weight:900;color:#087f78;line-height:1}.slide .time{font-size:8.5pt;color:var(--muted);text-align:right}.slide h3{margin:0 0 2px;font-size:11.2pt}.slide p{margin:0;font-size:9.2pt}.say{margin:7px 0 0;padding:7px 9px;background:#f2f7f8;border-radius:5px;font-size:8.8pt}.say b{color:var(--teal)}.check{padding-left:18px;margin:6px 0}.check li{margin:4px 0}.metric{display:grid;grid-template-columns:55px 1fr;gap:7px;padding:6px 0;border-bottom:1px solid var(--line);font-size:9.1pt}.metric b{color:var(--teal)}.footnote{font-size:7.5pt;color:#697a85;line-height:1.45;margin-top:5px}.ref{font-size:7.6pt;line-height:1.4;margin:4px 0;padding-left:16px;text-indent:-16px;overflow-wrap:anywhere}.source{font-size:7.7pt;color:#516975;border-top:1px solid var(--line);padding-top:5px;margin-top:8px}.two-col{columns:2;column-gap:15px}.avoid-break{break-inside:avoid}.decision{display:grid;grid-template-columns:1fr 1fr;gap:8px}.decision .yes{border-top:4px solid var(--teal);background:#eff9f7;padding:9px}.decision .no{border-top:4px solid var(--red);background:#fff2f2;padding:9px}.banner{background:var(--navy);color:#fff;padding:11px 13px;border-radius:7px;margin:10px 0}.banner strong{color:#d8f6d4}.spacer{height:5mm}
+</style>
+</head>
+<body>
+
+<section class="page cover">
+ <div class="kicker">LECTURE DESIGN REPORT · 2026.09 · GLOBAL MEDICAL AI</div>
+ <h1>AI가 낙상을 예측해도,<br><em>누가 침상 곁에 오는가</em></h1>
+ <p class="sub">고령화 사회와 AI 딥테크 — 근감소증·병원 AI·돌봄기술을 통해<br>임상적 유효성, 사업화, 그리고 책임의 영성을 함께 묻는 60분 강연 설계</p>
+ <div class="question"><small>THE ONE QUESTION</small>“더 똑똑한 시스템”이<br>노인의 기능·관계·시간을<br>실제로 회복시키는가?</div>
+ <div class="meta"><span class="tag">가정의학·노인의학</span><span class="tag">의료 AI</span><span class="tag">돌봄 딥테크</span><span class="tag">책임·영성</span><br>연구자·기업 대표 대상 / 강연자용 확장판</div>
+ <div class="num">01</div>
+</section>
+
+<section class="page">
+ <div class="kicker">EXECUTIVE POSITION</div><div class="rule"></div>
+ <h2>권할 주제는 ‘인간 중심 AI’가 아니라<br>‘반응할 수 있는 기관’이다</h2>
+ <p class="lead">이 강연의 주인공은 AI가 아니다. 노인의 취약성이 감지된 뒤, <u>누가 어떤 시간 안에 무엇을 바꾸는가</u>를 설계하는 의료·돌봄 기관이다. AI는 그 설계 안에서만 임상 가치와 사업 가치를 갖는다.</p>
+ <div class="grid2">
+  <div class="card"><h4>권장 강연 제목</h4><p class="big">기능 · 응답 · 책임</p><p><b>AI가 낙상을 예측해도, 누가 침상 곁에 오는가</b><br>부제: 초고령사회 의료 AI의 임상·사업·영성</p></div>
+  <div class="card"><h4>청중에게 남길 한 문장</h4><p class="quote">“알고리즘의 정확도보다 중요한 것은, 경보가 울렸을 때 누군가가 움직이는가이다.”</p></div>
+ </div>
+ <h3>이 제목이 강한 이유</h3>
+ <table class="table"><tr><th>대상</th><th>기존의 익숙한 질문</th><th>강연이 전환할 질문</th></tr>
+ <tr><td class="strong">의료인·연구자</td><td>“AUC가 얼마나 높은가?”</td><td><b>“위험군을 찾아 어떤 임상 경로를 바꾸었고, 기능 결과가 좋아졌는가?”</b></td></tr>
+ <tr><td class="strong">병원·요양기관</td><td>“솔루션을 도입할까?”</td><td><b>“누가 알림을 받고, 15분·24시간·7일 안에 무엇을 하는가?”</b></td></tr>
+ <tr><td class="strong">기업 대표·투자자</td><td>“AI 기능이 차별적인가?”</td><td><b>“지불자·운영자가 돈을 내는 실패 비용을 제거하는가?”</b></td></tr>
+ <tr><td class="strong">인문·영성</td><td>“사람이 중요하다”</td><td><b>“결정·관계·책임 중 무엇을 기계에 넘기지 않을 것인가?”</b></td></tr></table>
+ <div class="callout"><b>강연자의 고유한 권위:</b> 의사로서 ‘기능 저하가 질병’이라는 임상 언어를, AI 실무자로서 ‘성능보다 워크플로’라는 구현 언어를, 인문 연구자로서 ‘책임을 외주화하지 않는 조직’이라는 규범 언어를 한 무대에 놓는다.</div>
+ <div class="num">02</div>
+</section>
+
+<section class="page">
+ <div class="kicker">OPENING · 0–8 MIN</div><div class="rule"></div>
+ <h2>첫 8분: 통계가 아니라<br>한 환자의 ‘기능 상실’을 보여라</h2>
+ <div class="case"><div class="label">COMPOSITE CLINICAL VIGNETTE · 실존 환자 아님</div><h3>“82세 김○○, 낙상 전에는 혼자 살았다”</h3><p>고혈압·당뇨·경도인지저하. 6개월 동안 보행 속도는 느려지고, 약 복용은 불규칙해졌고, 체중은 감소했다. 응급실 방문 후 귀가했지만 2주 뒤 다시 낙상했다. 문제는 ‘낙상 한 번’이 아니다. <b>근력·영양·인지·약물·주거·가족의 돌봄 여력</b>이 동시에 흔들리며 독립생활이 무너지는 과정이다.</p><p>이 환자에게 AI가 줄 수 있는 것은 위험 신호다. 그러나 그것만으로는 아무 일도 일어나지 않는다. 신호를 <b>방문·약물검토·운동·영양·돌봄자 지원</b>으로 번역하는 경로가 있어야 한다.</p></div>
+ <div class="flow"><div><b>1. 기능</b>악력·의자일어서기·보행·ADL·영양</div><div><b>2. 감지</b>EHR·웨어러블·영상·대화·돌봄기록</div><div><b>3. 응답</b>누가, 언제, 어떤 프로토콜로 움직이는가</div><div><b>4. 책임</b>설명·동의·예외·오류·관계 회복</div></div>
+ <p class="lead">따라서 이 강연의 질문은 “AI가 사람을 대체하는가?”가 아니다. <b>“AI가 노인의 기능 상실을 더 일찍 발견했을 때, 우리는 그 시간을 무엇에 쓸 것인가?”</b>다.</p>
+ <div class="grid3"><div class="card"><h4>기능 지표</h4><p>낙상·입원보다 앞서 무너지는 신호를 본다.</p></div><div class="card"><h4>업무 지표</h4><p>알림 수가 아니라, 실제 접촉·조정 시간과 누락을 본다.</p></div><div class="card"><h4>관계 지표</h4><p>절감된 시간이 환자·가족의 대화로 돌아가는지 본다.</p></div></div>
+ <div class="num">03</div>
+</section>
+
+<section class="page">
+ <div class="kicker">MEDICAL DEEP DIVE · 8–20 MIN</div><div class="rule"></div>
+ <h2>근감소증은 ‘보조제 시장’이 아니라<br>기능 예비력의 운영체계다</h2>
+ <p class="lead">근감소증을 근육량의 문제가 아니라 <b>근력 저하 → 기능 저하 → 독립성 상실</b>의 연속선으로 말해야 한다. 이때 AI의 위치는 진단을 대체하는 것이 아니라, 선별과 추적을 끊기지 않게 만드는 데 있다.</p>
+ <div class="grid2">
+  <div class="card"><h4>임상 표준의 뼈대: EWGSOP2</h4><p><b>낮은 근력</b>을 핵심 특징으로 보고, 낮은 근육량/질로 진단을 확인하며, 낮은 신체수행능력은 중증을 시사한다.</p><p class="small muted">즉 체성분 한 장으로 끝내지 않는다. 환자가 ‘일어날 수 있는가, 걸을 수 있는가’를 먼저 묻는다.</p></div>
+  <div class="card"><h4>강연에서 반드시 구분할 것</h4><p><span class="pill orange">선별</span> SARC-F, 의자 5회 일어서기, 악력, 보행속도<br><span class="pill">확인</span> DXA/BIA 등 근육량·질 평가<br><span class="pill green">개입</span> 저항운동·영양·원인질환·약물·낙상예방</p></div>
+ </div>
+ <h3>‘근감소증 AI’의 현실적인 제품 경로</h3>
+ <table class="table"><tr><th>제품 가설</th><th>데이터</th><th>임상적 산출물</th><th>성공 판정</th><th>가장 흔한 실패</th></tr>
+ <tr><td class="strong">1차의료 선별·리콜</td><td>연령, 질환, 체중 변화, 낙상, 처방, SARC-F</td><td>이번 달 평가·전화 대상자 목록</td><td>평가완료율, 운동·영양 연결률</td><td>위험점수만 보내고 예약 슬롯이 없음</td></tr>
+ <tr><td class="strong">입원 노인 회복 경로</td><td>ADL, PT/OT, 식사, 재원일, 퇴원계획</td><td>퇴원 전 기능·영양·돌봄 체크리스트</td><td>30/90일 기능, 재입원, 요양전환</td><td>퇴원요약만 ‘AI로 예쁘게’ 만듦</td></tr>
+ <tr><td class="strong">영상 기회선별</td><td>기존 CT/DXA의 기회자료</td><td>추가 평가 권고</td><td>후속 평가·개입 도달률</td><td>발견만 하고 책임 진료과가 없음</td></tr></table>
+ <div class="callout warning"><b>의사로서 던질 반문:</b> “근육량을 잘 추정하는 알고리즘이 있어도, 그 환자가 다음 주에 저항운동·단백질 평가·약물 검토를 받지 못한다면 무엇이 바뀌는가?” 이 질문이 연구와 사업의 질을 가른다.</div>
+ <p class="source">근거: EWGSOP2는 낮은 근력을 핵심으로, 근육량/질로 확인하고 신체수행능력으로 중증을 가늠하는 알고리즘을 제시한다.[1] ANZ 임상지침은 위험군의 연례 또는 주요 사건 후 평가, 저항운동·영양의 개인맞춤 개입을 권고한다.[2]</p>
+ <div class="num">04</div>
+</section>
+
+<section class="page">
+ <div class="kicker">MEDICAL DEEP DIVE · CONCRETE PROTOCOL</div><div class="rule"></div>
+ <h2>바로 제안할 수 있는 연구:<br>‘90일 기능 회복 경로’</h2>
+ <p>이것은 새로운 거대 모델을 만드는 연구가 아니다. 이미 병원과 1차의료에 흩어진 신호를 이용해, <b>기능 저하 환자가 실제 개입으로 연결되는지</b>를 검증하는 임상운영 연구다.</p>
+ <div class="flow"><div><b>대상 선정</b>65세 이상 + 최근 낙상/입원/체중감소/보행저하. EHR로 후보 추출, 의료진이 최종 확인.</div><div><b>0주 평가</b>SARC-F, 악력 또는 5회 일어서기, 보행/ADL, 영양·우울·인지, 약물, 돌봄자 부담.</div><div><b>7일 개입</b>가정의학·재활·영양·약사·사회복지의 경로 배정. ‘누가 연락했는가’ 기록.</div><div><b>30·90일 추적</b>기능, 낙상, 응급실·입원, 운동 지속, 돌봄부담, 삶의 우선순위 변화.</div></div>
+ <h3>연구 설계에서 AI가 맡을 일과 맡지 않을 일</h3>
+ <div class="decision"><div class="yes"><h4>AI가 맡을 수 있는 일</h4><ul class="check"><li>후보군 누락을 줄이는 차트 스크리닝</li><li>재활·영양·약물 위험의 요약 초안</li><li>주차별 미완료 과제와 연락 우선순위 제시</li><li>환자 언어에 맞춘 교육자료 초안</li></ul></div><div class="no"><h4>AI에 넘기면 안 되는 일</h4><ul class="check"><li>환자의 ‘어떤 삶을 지키고 싶은가’에 대한 결론</li><li>운동·영양 처방의 최종 적합성 판단</li><li>가족갈등·경제적 제약을 점수로 환원</li><li>고위험 신호를 보고도 대응하지 않은 책임</li></ul></div></div>
+ <h3>최소 데이터셋과 결과지표</h3>
+ <table class="table"><tr><th>차원</th><th>반드시 볼 지표</th><th>대표에게 번역하면</th></tr><tr><td>도달</td><td>후보자 중 7일 이내 실제 평가·접촉 비율</td><td>“알림이 아니라 서비스 도달률”</td></tr><tr><td>기능</td><td>5회 일어서기/보행/ADL, 환자 목표 달성</td><td>“환자가 혼자 할 수 있는 일의 변화”</td></tr><tr><td>안전</td><td>낙상·응급실·입원, 위해·누락 사건</td><td>“피할 수 있었던 급성 악화”</td></tr><tr><td>형평</td><td>연령·성별·언어·지역·디지털 접근별 도달 격차</td><td>“가장 연결 어려운 사람이 더 탈락하지 않는가”</td></tr><tr><td>경제</td><td>케어코디네이터 시간, 재이용, 회피 비용</td><td>“누구의 어떤 시간을 줄이고 어디에 재투자했는가”</td></tr></table>
+ <div class="num">05</div>
+</section>
+
+<section class="page">
+ <div class="kicker">EVIDENCE CASE 1 · HOSPITAL AI</div><div class="rule"></div>
+ <h2>좋은 병원 AI의 단위는<br>‘예측 모델’이 아니라 ‘전환 프로그램’이다</h2>
+ <p class="lead">Kaiser Permanente Northern California의 사례는 고령화 AI 사업이 무엇을 팔아야 하는지를 가장 잘 보여준다. 21개 병원에서 퇴원 후 30일 재입원·사망 위험을 예측했지만, 핵심은 점수가 아니라 <b>전담 전환팀과 표준화된 사후 경로</b>였다.</p>
+ <div class="grid3"><div class="card"><div class="big">21</div><p>동시에 도입된 KPNC 병원</p></div><div class="card"><div class="big">153.9만</div><p>분석 대상 퇴원 에피소드</p></div><div class="card"><div class="big">−2.5%p</div><p>고위험군 30일 비계획 재입원 절대위험 차이 추정</p></div></div>
+ <div class="flow"><div><b>매일 06:00</b>EHR 기반 위험 추정</div><div><b>기준선 ≥25%</b>중·고위험 대상 선별</div><div><b>전환팀 배정</b>예약·약물조정·간호교육 등 표준 경로</div><div><b>30일 추적</b>재입원·사망을 결과로 평가</div></div>
+ <h3>이 사례를 ‘AI 성공’으로만 읽으면 놓치는 것</h3>
+ <table class="table"><tr><th>표면적 해석</th><th>실제 작동 원리</th><th>한국 병원·기업에 주는 설계 원칙</th></tr><tr><td>“예측 정확도가 좋았다”</td><td>모델 C-statistic 0.756이었지만, 성과는 위험군에게 인력·업무를 재배치한 데서 나왔다.</td><td><b>모델 카드보다 운영 카드:</b> 대상, 담당자, 행동, 시간제한, 미완료 시 에스컬레이션을 먼저 설계한다.</td></tr><tr><td>“재입원을 줄였다”</td><td>관찰연구·준실험 설계의 연관성이다. 모든 환경으로 자동 일반화할 수 없다.</td><td><b>내 기관의 기준선과 동시대 비교군</b>을 미리 정하고, 하위집단별 위해를 함께 본다.</td></tr></table>
+ <div class="callout"><b>대표에게 던질 질문:</b> “우리 제품이 위험점수만 제공한다면, 고객은 왜 계속 돈을 낼까? 반대로, 점수 뒤의 연락·예약·조정·기록까지 바꾼다면 어느 비용과 어떤 KPI를 계약에 넣을 수 있을까?”</div>
+ <p class="source">BMJ 관찰연구: 2010–2018년 21개 병원, 153만 9,285개 퇴원. 위험 25% 이상 환자에게 전환 프로그램을 배정했으며 30일 비계획 재입원 감소와 연관되었다(차이의 차이 절대위험 −2.5%p, 95% CI −3.1~−2.0).[3]</p>
+ <div class="num">06</div>
+</section>
+
+<section class="page">
+ <div class="kicker">EVIDENCE CASE 2 · DOCUMENTATION AI</div><div class="rule"></div>
+ <h2>Ambient AI는 ‘의사를 대체’하지 않는다.<br>의사의 주의를 되돌려줄 수 있다</h2>
+ <p class="lead">의료 생성형 AI 중 현재 가장 현실적인 도입 영역은 진단 자율화보다 <b>기록·요약·행정 부담의 감축</b>이다. 하지만 시간 절감이 환자 대화로 돌아가지 않는다면, 그것도 단순 생산성 착취가 될 수 있다.</p>
+ <div class="grid2"><div class="card"><h4>무작위 실제환경 연구</h4><p><b>66명 의료진, 3개 6주 시퀀스, 71,487개 노트</b>에서 ambient AI 사용 시 노트 작성 시간이 하루 0.36시간 감소했고, 업무소진/대인적 소진 점수도 감소했다. 진단·청구·노트 품질 저하는 관찰되지 않았다.</p></div><div class="card"><h4>도입이 말해주는 것</h4><p>이 결과는 “LLM이 진료한다”는 증거가 아니다. <b>문서화의 한 업무를 재설계</b>했다는 증거다. 그래서 환자군·언어·동의·검수·EHR 통합·청구의 맥락을 별도로 검증해야 한다.</p></div></div>
+ <h3>도입 전후에 반드시 재야 할 네 가지</h3>
+ <div class="metric"><b>시간</b><span>진료 중·진료 후 기록 시간, 당일 퇴근 후 EHR 시간. 단순한 총 노트 수가 아니다.</span></div><div class="metric"><b>품질</b><span>누락·환각·복사 오류, 임상의 수정률, 환자에게 보이는 계획의 이해가능성.</span></div><div class="metric"><b>관계</b><span>진료 중 화면 응시 대신 환자와 마주한 시간, 복잡 환자에게 재배분된 시간.</span></div><div class="metric"><b>안전</b><span>민감정보 동의, 녹음 중단·삭제, 책임 있는 최종 서명, 공급자 변경·장애 대응.</span></div>
+ <div class="callout warning"><b>강연에서 피할 과장:</b> “AI가 번아웃을 해결한다.” 연구는 특정 환경에서 기록시간 및 일부 소진 지표 개선을 보였을 뿐이다. 인력충원·진료량 압박·조직문화가 그대로면 절감된 시간이 다시 환자 수 증가로 흡수될 수 있다.</div>
+ <p class="source">University of Wisconsin의 실용적 무작위 연구 결과.[4] 외래 238명을 대상으로 한 또 다른 무작위 시험도 2024–2025년 두 ambient scribe를 통상 진료와 비교했다.[5]</p>
+ <div class="num">07</div>
+</section>
+
+<section class="page">
+ <div class="kicker">EVIDENCE CASE 3 · FALLS</div><div class="rule"></div>
+ <h2>낙상 AI의 가장 정직한 결론:<br>정확도는 시작이고, 개입은 별개다</h2>
+ <div class="grid2"><div class="card"><h4>1차의료 위험층화: eFalls</h4><p>65세 이상 EHR 기반 도구는 외부검증에서 C-statistic 0.82를 보였다. 다만 기관별 보정은 달랐고, 재보정 뒤 임상적 유용성이 개선되었다. 즉 <b>다른 데이터셋의 성능표를 그대로 사 올 수 없다.</b></p></div><div class="card"><h4>서울 병원 실용시험</h4><p>머신러닝 CDS와 맞춤형 개입을 평가한 연구에서 전체 낙상률은 유의한 차이가 없었다. ‘모델을 붙였다’와 ‘환자 결과가 바뀌었다’는 전혀 다른 주장임을 보여주는 귀한 반례다.</p></div></div>
+ <div class="quote">“낙상 예측은 경보 장치다. 낙상을 줄이는 것은 야간 인력, 환경, 약물, 재활, 환자·가족과의 협력이다.”</div>
+ <h3>낙상 AI를 병원에 넣는다면, 이 경로가 제품이다</h3>
+ <table class="table"><tr><th>시간</th><th>사람</th><th>행동</th><th>감사 가능한 기록</th></tr><tr><td class="strong">0–15분</td><td>병동 간호사</td><td>환자·침상·화장실·보조기구·즉시 위험 확인</td><td>알림 수신·확인·해제 사유</td></tr><tr><td class="strong">24시간</td><td>의사·약사·PT/OT</td><td>진정제·항고혈압제·저혈당 위험, 기립성 저혈압, 기능·환경 재평가</td><td>변경된 처방과 대체 조치</td></tr><tr><td class="strong">퇴원 전</td><td>전환팀·보호자</td><td>가정환경·보행보조·교육·후속 예약 확인</td><td>보호자 이해·연락 창구·미완료 사유</td></tr><tr><td class="strong">사건 후</td><td>다학제 QI팀</td><td>점수 오류가 아닌 경로 오류를 검토</td><td>분기별 위해·편향·경보피로 보고</td></tr></table>
+ <p class="source">eFalls 외부검증 결과 및 보정 문제.[6] Samsung Medical Center가 참여한 pragmatic trial은 머신러닝 CDS의 전체 낙상 결과를 정직하게 보고한다.[7]</p>
+ <div class="num">08</div>
+</section>
+
+<section class="page">
+ <div class="kicker">CARE TECHNOLOGY · 20–32 MIN</div><div class="rule"></div>
+ <h2>돌봄로봇의 시장은 ‘휴머노이드’가 아니라<br>반복·위험·기록이 많은 좁은 동작에서 열린다</h2>
+ <p class="lead">돌봄기술은 로봇 한 대의 데모가 아니라, <b>사람이 수행하던 위험한 반복 업무를 안전하게 재배치하는 시스템</b>이다. 일본은 2024년 국가 중점분야를 9개 분야·16개 항목으로 넓혔다. 기능훈련, 식사·영양, 치매 생활·케어 지원을 새로 포함시킨 점이 중요하다.</p>
+ <table class="table"><tr><th>도입 우선순위</th><th>기술 예</th><th>무엇을 대체/증강하나</th><th>처음 측정할 KPI</th><th>주의점</th></tr><tr><td class="strong">1. 이송·이동</td><td>침대-휠체어 결합, 리프트, 보행보조</td><td>2인 이송의 신체부담·대기</td><td>2인 보조 비율, 이송시간, 근골격 사고</td><td>개별 체형·공간·교육 적합성</td></tr><tr><td class="strong">2. 관찰·낙상 대응</td><td>비전/침상/레이더 센서, 호출·에스컬레이션</td><td>상시 관찰의 공백</td><td>발견-도착 시간, 오경보, 바닥 체류시간</td><td>감시감·사생활·야간 경보피로</td></tr><tr><td class="strong">3. 기록·업무</td><td>음성기록, 태블릿, 일정·인력 배치</td><td>반복 문서·전달</td><td>기록시간, 누락, 직접 돌봄시간</td><td>업무가 줄지 않고 이중기록이 되는 문제</td></tr><tr><td class="strong">4. 기능·영양·인지</td><td>운동 피드백, 섭취 모니터링, 인지 지원</td><td>평가와 맞춤 프로그램</td><td>참여·기능·영양·중단 사유</td><td>‘자극’과 임상효과를 혼동하지 않기</td></tr></table>
+ <div class="grid2"><div class="card"><h4>작지만 유용한 실증: Resyone</h4><p>한 요양시설, 돌봄자 17명, 11개월 관찰에서 2인 이송 비율이 도입 전 약 60%에서 3주 후 약 20%로, 11개월 후에는 1인 이송으로 전환됐다. 단일 시설 관찰연구이지만, <b>구체적 업무 단위·측정치가 있다.</b></p></div><div class="card"><h4>관계를 줄인다는 통념도 검증 대상</h4><p>동일 계열 장비의 단일 사례 시선분석은 로봇 사용 시 돌봄자가 수급자 얼굴을 보며 말하는 시간이 7.9배 길었다고 보고했다. 일반화할 수는 없지만, ‘절감 시간의 용도’를 질문하게 한다.</p></div></div>
+ <div class="num">09</div>
+</section>
+
+<section class="page">
+ <div class="kicker">CARE TECHNOLOGY · PROCUREMENT</div><div class="rule"></div>
+ <h2>로봇 도입을 ‘장비 구매’로 끝내면 실패한다.<br>90일 파일럿 계약을 이렇게 써라</h2>
+ <p>데모에서는 동작한다. 실제 현장에서는 공간, 교대, 감염관리, 충전, 체형, 교육, 고장 대응, 기록 책임이 문제다. 그래서 첫 계약은 스케일 계약이 아니라 <b>반증 가능한 파일럿</b>이어야 한다.</p>
+ <div class="grid2"><div class="card"><h4>파일럿 전제</h4><ul class="check"><li>대상 업무 1개: 예) 야간 침상 이탈 대응 또는 침대-휠체어 이송</li><li>대상자·제외 기준: 인지·행동·체중·공간·동의</li><li>현장 책임자: 간호/요양 리더 1명 + 안전 담당 1명</li><li>중단 기준: 위해, 경보피로, 사용률 미달, 프라이버시 이슈</li></ul></div><div class="card"><h4>90일 성공 기준</h4><ul class="check"><li>사용률: 계획된 대상 업무 중 실제 사용 비율</li><li>운영: 이송시간·2인보조·직원 통증/결근·기록 누락</li><li>안전: 낙상·피부손상·근접사고·오경보·대응시간</li><li>경험: 수급자·가족·직원의 수용성, 존엄 훼손 사례</li></ul></div></div>
+ <h3>대표가 계약서에 넣어야 할 ‘책임 조항’</h3>
+ <div class="grid3"><div class="card"><h4>데이터</h4><p>무엇을 수집·보관·삭제하는가. 영상/음성의 2차 이용 금지와 동의 철회 절차.</p></div><div class="card"><h4>장애</h4><p>장비·네트워크가 멈췄을 때 수동 대체 경로와 도착 SLA는 무엇인가.</p></div><div class="card"><h4>사건</h4><p>근접사고·위해를 공급자와 기관이 어떻게 공동 조사하고 수정하는가.</p></div></div>
+ <div class="callout"><b>사업화의 문장 전환:</b> “우리는 AI/로봇을 판다”가 아니라 “우리는 야간 관찰 공백·2인 이송·기록 누락이라는 <u>측정 가능한 실패 비용</u>을, 안전·노동·기능 지표로 계약한다.”</div>
+ <p class="source">일본 후생노동성은 2024년 ‘돌봄 로봇’ 중심 정책을 ‘돌봄기술’ 9개 분야·16개 항목으로 확대했다.[8] Resyone 장기 사용 관찰과 시선분석 사례.[9][10]</p>
+ <div class="num">10</div>
+</section>
+
+<section class="page">
+ <div class="kicker">KOREA FIELD MAP · HOSPITAL OPERATIONS</div><div class="rule"></div>
+ <h2>한국의 현장: 이미 ‘AI를 쓴 병원’은 있다.<br>이제 결과를 묻는 단계다</h2>
+ <p class="lead">국내 사례는 부족하지 않다. 다만 상당수는 <b>도입·구축 보도</b>이지, 환자 기능·안전·비용을 검증한 결과 보고는 아니다. 이 구분을 솔직히 말할수록 강연의 신뢰가 높아진다.</p>
+ <table class="table"><tr><th>기관·시점</th><th>실제 적용</th><th>고령화 강연에서의 의미</th><th>근거 강도</th></tr>
+ <tr><td class="strong">서울아산병원<br>2025.04</td><td>외래·검사·응급·병동의 의료진/환자 대화를 실시간 기록·요약하고 EMR과 연동. 2023년 외래 시범 후, 종양내과·정신건강의학과 등 16개 진료과와 응급실·정형외과 병동에서 활용한다고 발표.</td><td><b>‘ambient AI를 한국어 진료 흐름에 얹은 실제 운영 사례’</b>. 고령 환자 진료에서 기록 부담을 줄인 시간이 설명·조정·돌봄자 대화로 돌아가는지 다음 연구 질문으로 연결한다.</td><td><span class="pill orange">병원 구축 보도</span><br>임상결과는 별도 확인 필요</td></tr>
+ <tr><td class="strong">삼성서울병원<br>현재 공개 운영</td><td>병동 전체 낙상 위험군, 중환자실 및 일부 병동 욕창 위험군을 전산·머신러닝으로 예측하고 중재 연계를 지원한다고 간호본부가 공개.</td><td><b>낙상 AI가 국내 병동의 CDSS가 된 사례</b>. 앞서 소개한 서울 실용시험의 ‘결과가 자동으로 따라오지 않는다’는 교훈을 붙여야 한다.</td><td><span class="pill">운영 공개</span><br>성과 수치 미공개</td></tr>
+ <tr><td class="strong">세브란스병원<br>AI 세라봇</td><td>상급종합병원 최초 도입을 표방한 AI 보이스봇이 예약일정을 안내하고 변경·상담 연결을 지원.</td><td><b>기술의 첫 번째 임상가치는 진단보다 ‘치료 경로 이탈 방지’일 수 있다.</b> 디지털 취약계층의 실패율을 반드시 따로 본다.</td><td><span class="pill">서비스 운영 보도</span><br>효과 추정 금지</td></tr>
+ <tr><td class="strong">서울아산병원<br>WithONE, 2025.08</td><td>중증 노년 환자에게 입원 전·중·퇴원 후를 잇는 통합 진료 시스템. 퇴원 후 문의센터·안심진료클리닉을 운영하고 AI 문의응대는 개발 중이라고 발표.</td><td><b>AI를 먼저가 아니라, 전환경로를 먼저 만든 국내 사례.</b> 고령화 의료의 제품 단위가 앱이 아니라 ‘연결된 경로’라는 논지를 뒷받침한다.</td><td><span class="pill green">경로 운영 보도</span><br>AI는 개발 단계</td></tr></table>
+ <div class="callout"><b>발표용 한 문장:</b> “한국 병원도 AI를 이미 쓰기 시작했습니다. 다만 우리의 다음 경쟁은 ‘도입 병원 수’가 아니라, 이 도구가 고령 환자의 퇴원 후 7일·90일을 어떻게 바꿨는지 증명하는 데 있습니다.”</div>
+ <p class="source">국내 운영·발표 사례: 서울아산병원 AI 진료 음성인식 시스템과 WithONE[16][17], 삼성서울병원 간호본부 공개 운영 정보[18], 세브란스 AI 세라봇[19].</p>
+ <div class="num">11</div>
+</section>
+
+<section class="page">
+ <div class="kicker">KOREA FIELD MAP · CARE, POLICY, MARKET</div><div class="rule"></div>
+ <h2>한국의 돌봄 AI는 병원 밖에서 더 빨리 퍼진다.<br>그러나 ‘접속’과 ‘돌봄’을 혼동하면 안 된다</h2>
+ <div class="grid2"><div class="card"><h4>서울시 스마트 안부확인</h4><p>서울시는 2025년 사업 예산 <b>7억 9,400만 원</b>, 고립 위험 <b>2만 8,000가구</b> 지원을 제시했다. 대화 기능을 매일 수시로 쓰는 고령자 비율은 58.8%라고 시정 매체가 보도했다.</p><p class="small muted">해석: 도달·수용성의 실마리는 된다. 그러나 고독사·입원·우울·기능 결과가 개선됐다는 임상증거로 말해서는 안 된다.</p></div><div class="card"><h4>초고령사회 돌봄 확장 계획</h4><p>서울시의 2025년 발표은 스마트 안부확인 대상을 돌연사 위험 1인 가구 고령자 <b>11만 명</b>으로 확대하는 계획을 담았다.</p><p class="small muted">해석: 지자체가 구매·연계할 시장이 커진다는 신호다. 실제 성과와 개인정보·에스컬레이션 품질은 별도 평가 대상이다.</p></div></div>
+ <h3>정책·지불·인프라: 사업화의 실제 문턱</h3>
+ <table class="table"><tr><th>흐름</th><th>발표·수치</th><th>사업가가 읽어야 할 것</th></tr><tr><td class="strong">스마트 사회서비스</td><td>복지부는 2025년 AI·XR·IoT·웨어러블을 활용한 지역 단위 스마트 사회서비스 시범사업을 공고했다.</td><td>기술 단독이 아니라 <b>지자체·돌봄기관·기업 컨소시엄</b>이 초기 진입 단위다.</td></tr><tr><td class="strong">장기요양 급여 경로</td><td>복지부·건보공단은 AI·IoT 등 신기술 복지용구의 급여 적정성을 확인하는 예비급여 2차 시범을 실시. 1차에서는 기저귀센서·구강세척기 2품목, 총 189건 신청·구입이 있었다.</td><td><b>‘신기술’은 곧 ‘급여’가 아니다.</b> 사용성·안전·가격·급여 적정성의 문을 통과해야 한다.</td></tr><tr><td class="strong">의료데이터 접근</td><td>한국보건의료정보원 2025 바우처는 의료데이터 중심병원 43개소, 총 24억 원, 약 8개 중소기업 지원을 공고했다.</td><td>AI 기업의 병목은 모델보다 데이터 가공·반출·검증 비용이다. 병원 협력의 비용구조를 먼저 계산한다.</td></tr><tr><td class="strong">인력·조직 준비도</td><td>2025년 4개 병원이 참여한 의료AI 직무교육은 2026년 6개 지역 거점으로 확대 계획을 발표했다.</td><td>도입의 병목은 의사 개인의 프롬프트 능력이 아니라 <b>직무 재설계·검수·책임 교육</b>이다.</td></tr></table>
+ <div class="callout warning"><b>국내 뉴스·발표를 읽는 법:</b> ① 예산·사업공고는 ‘시장 신호’, ② 병원 구축 발표는 ‘운영 가능성’, ③ 언론의 구조·사건 보도는 ‘현장 문제’, ④ 비교연구·실용시험만 ‘효과’의 근거다. 이 넷을 같은 문장에 섞지 않는 것이 전문성이다.</div>
+ <p class="source">서울시 스마트 안부확인 및 고령층 디지털 격차 보도[20][21], 복지부 스마트 사회서비스·예비급여·AI 복지돌봄 추진[22][23][24], 한국보건의료정보원 데이터 바우처와 의료AI 인력양성 발표[25][26].</p>
+ <div class="num">12</div>
+</section>
+
+<section class="page">
+ <div class="kicker">BUSINESS · 32–43 MIN</div><div class="rule"></div>
+ <h2>사업화 기회는 ‘고령자용 앱’이 아니라<br>지불되는 실패 비용의 재설계에 있다</h2>
+ <p class="lead">AI 딥테크의 첫 구매자는 기술을 사랑하는 사람이 아니라, <b>낙상·재입원·인력 이탈·기록 누락·야간 공백</b>의 비용과 리스크를 매일 떠안는 사람이다. 시장은 기능이 아니라 운영의 고통에서 열린다.</p>
+ <table class="table"><tr><th>우선 공략 웨지</th><th>구매자</th><th>지불 동인</th><th>제품의 진짜 단위</th><th>초기 증거</th></tr><tr><td class="strong">퇴원 후 30일 전환</td><td>병원·보험자·통합의료 네트워크</td><td>재입원, 응급실, 환자경험</td><td>위험층화 + 연락·예약·약물·가정연계 운영</td><td>도달률, 재입원, 담당자당 케이스, 누락</td></tr><tr><td class="strong">근감소·낙상 기능 경로</td><td>1차의료·검진·재활·지자체</td><td>기능상실의 조기발견·연결</td><td>선별 + 평가 + 운동·영양·약물·돌봄 리콜</td><td>7일 평가, 90일 기능, 낙상/응급실</td></tr><tr><td class="strong">요양기관 야간 안전</td><td>시설 운영자·장기요양 사업자</td><td>직원 부담, 낙상 위해, 관찰 공백</td><td>센서/로봇 + 알림 역할분담 + 사후 QI</td><td>발견-도착, 바닥 체류, 경보피로, 이직</td></tr><tr><td class="strong">임상 문서화</td><td>의료그룹·병원·의사조직</td><td>번아웃·이직·생산성·기록 품질</td><td>ambient capture + 임상의 검수 + EHR 흐름</td><td>기록시간, 수정률, 누락, 환자 대화시간</td></tr></table>
+ <h3>‘AI 기능’보다 먼저 계산할 단위경제</h3>
+ <div class="flow"><div><b>분모</b>한 시설/병동/의료진당 월 대상 사건 수</div><div><b>비용</b>직접 인건비 + 사고·재입원 + 이직 + 숨은 기록시간</div><div><b>개입</b>기술비 + 교육 + 업무 재배치 + 안전감사</div><div><b>가치</b>회피된 위해·시간과 개선된 기능이 계약 비용을 넘는가</div></div>
+ <div class="callout warning"><b>투자 판단의 레드 플래그:</b> “정확도는 높지만 누가 행동할지는 고객이 알아서.” / “사용자 수는 늘었지만 낙상·도달·시간·이직 지표는 없다.” / “인건비 절감만 말하고 절감된 시간이 환자에게 어떻게 돌아가는지는 없다.”</div>
+ <div class="num">13</div>
+</section>
+
+<section class="page">
+ <div class="kicker">REGULATION · TRANSLATION</div><div class="rule"></div>
+ <h2>규제는 ‘브레이크’가 아니라<br>제품의 경계를 선명하게 하는 설계 도구다</h2>
+ <p>의료 AI의 사업화는 “규제가 있다/없다”의 문제가 아니다. 제품이 <b>정보를 정리하는가, 환자별 권고를 하는가, 의료영상·신호를 해석하는가, 독립 검토 가능한 근거를 제시하는가</b>에 따라 요구되는 검증과 책임이 달라진다.</p>
+ <div class="grid2"><div class="card"><h4>낮은 위험에서 시작하기 좋은 영역</h4><p>문서 초안, 일정·연락 누락 탐지, 기관 승인 지침 기반 체크리스트, 자료 요약. 단, 개인정보·보안·검수·책임은 여전히 남는다.</p></div><div class="card"><h4>더 높은 검증이 필요한 영역</h4><p>환자별 진단·치료 방향을 사실상 지시하거나, 영상·생체신호·진단기기 신호를 해석하는 기능. 성능뿐 아니라 임상검증·모니터링·위해 대응이 설계의 일부다.</p></div></div>
+ <h3>‘설명 가능성’의 실무적 정의</h3>
+ <table class="table"><tr><th>나쁜 설명</th><th>좋은 설명</th><th>문서로 남길 것</th></tr><tr><td>“AI가 그렇게 판단했습니다.”</td><td>“이 환자는 최근 낙상·체중감소·진정성 약물·보행저하 때문에 우선 검토 대상입니다. 이 정보는 차트의 어디에서 왔고, 다음 행동은 무엇이며, 누구의 임상 판단이 필요한지입니다.”</td><td>입력의 출처·갱신일, 권고의 근거·한계, 최종 판단자, 이의·오류 수정 경로</td></tr></table>
+ <div class="banner"><strong>핵심:</strong> FDA의 CDS 지침도 의료전문가가 제시된 권고의 근거를 독립적으로 검토할 수 있어야 함을 강조한다. 이것은 단순 규정이 아니라, 신뢰 가능한 제품의 UX 요건이다.</div>
+ <p class="source">FDA Clinical Decision Support Software guidance 및 최신 FAQ.[11][12] 본 내용은 미국 규제 구조의 설명이며, 한국에서의 허가·개인정보·수가 적용 여부는 제품별로 전문 검토가 필요하다.</p>
+ <div class="num">14</div>
+</section>
+
+<section class="page">
+ <div class="kicker">SPIRITUALITY AS OPERATING DISCIPLINE · 43–51 MIN</div><div class="rule"></div>
+ <h2>영성은 ‘인간이 중요하다’는 장식이 아니다.<br>책임을 데이터 뒤에 숨기지 않는 훈련이다</h2>
+ <p class="lead">영성은 AI가 영혼이 없다는 사실을 말하는 것이 아니다. <b>고통받는 사람을 위험점수·토큰·생산성 단위로만 환원하지 않도록 조직을 훈련하는 규율</b>이다. 그래서 말이 아니라 역할·시간·계약·사건 검토에 들어가야 한다.</p>
+ <div class="grid2"><div class="card"><h4>기계에 넘겨도 되는 것</h4><p>반복 탐색, 누락 탐지, 요약 초안, 경로의 일관성, 업무의 기억. 이 영역에서 기술은 인간의 한계를 정직하게 보완한다.</p></div><div class="card"><h4>끝까지 인간이 져야 할 것</h4><p>환자의 목적을 듣고 우선순위를 함께 정하는 일, 예외를 승인하는 일, 불확실성을 고백하는 일, 오류 후 관계를 복구하는 일.</p></div></div>
+ <h3>‘비위임 영역’ 4가지 — 강연의 영성 파트는 이것으로 충분하다</h3>
+ <table class="table"><tr><th>영역</th><th>AI가 보조할 수 있는 것</th><th>인간이 책임질 문장</th></tr><tr><td class="strong">목적</td><td>병력·선호 기록 요약</td><td>“당신이 지키려는 하루는 무엇입니까?”</td></tr><tr><td class="strong">동의</td><td>설명자료 초안·이해 확인 질문</td><td>“이 기술이 무엇을 보고, 무엇을 놓치며, 거부해도 무엇이 가능한지 설명하겠습니다.”</td></tr><tr><td class="strong">예외</td><td>위험 신호·지침 제시</td><td>“이 사람에게 표준 경로를 멈추거나 바꾸는 이유를 제가 책임지고 기록하겠습니다.”</td></tr><tr><td class="strong">수선</td><td>사건 기록·패턴 탐지</td><td>“오류가 있었고, 누가 어떤 피해를 받았으며, 우리가 무엇을 바꾸겠습니다.”</td></tr></table>
+ <div class="callout"><b>가장 날카로운 마무리 문장:</b> “기술이 인간을 대체할까 걱정하기 전에, 우리는 이미 환자의 이야기를 점수로 대체하고 있지 않은지 물어야 합니다. 좋은 AI는 인간을 더 고귀하게 만든다는 약속이 아니라, 인간이 져야 할 책임을 더 선명하게 드러내는 장치입니다.”</div>
+ <div class="num">15</div>
+</section>
+
+<section class="page">
+ <div class="kicker">60-MINUTE LECTURE RUN OF SHOW</div><div class="rule"></div>
+ <h2>슬라이드 14장으로 끝내는 60분</h2>
+ <div class="slide"><div class="sno">01</div><div><h3>제목: AI가 낙상을 예측해도, 누가 침상 곁에 오는가</h3><p>첫 장에 답을 주지 않는다. “오늘은 AI의 놀라운 기능보다, 신호 뒤에 누가 움직이는가를 보겠다.”</p><div class="say"><b>말할 문장:</b> “초고령사회에서 가장 비싼 것은 데이터가 아닙니다. 제때 반응할 수 있는 사람과 조직입니다.”</div></div><div class="time">2분</div></div>
+ <div class="slide"><div class="sno">02</div><div><h3>82세 환자: 낙상은 하나의 사건이 아니라 기능 상실의 연쇄</h3><p>복합 가상사례를 통해 근력·영양·인지·약물·주거·가족을 한 화면에 놓는다.</p><div class="say"><b>말할 문장:</b> “이분에게 더 정확한 예측은 필요합니다. 그러나 더 필요한 것은 그 예측이 다음 주의 행동으로 번역되는 경로입니다.”</div></div><div class="time">4분</div></div>
+ <div class="slide"><div class="sno">03</div><div><h3>기능 · 감지 · 응답 · 책임: 이 강연의 지도</h3><p>향후 모든 기술을 네 칸에 배치한다. 네 칸 중 하나라도 비면 ‘좋은 데모, 나쁜 시스템’이다.</p></div><div class="time">2분</div></div>
+ <div class="slide"><div class="sno">04</div><div><h3>근감소증: 근육량이 아니라 기능 예비력</h3><p>EWGSOP2의 근력→근육량/질→신체수행능력 구조를 보여주고, 단백질/보조제 이야기로 축소하지 않는다.</p></div><div class="time">5분</div></div>
+ <div class="slide"><div class="sno">05</div><div><h3>90일 기능 회복 경로: 실제로 만들 수 있는 연구</h3><p>후보추출, 0주 평가, 7일 개입, 30·90일 결과. 병원·의원·지자체가 공동 연구할 수 있는 최소 프로토콜을 제시한다.</p></div><div class="time">5분</div></div>
+ <div class="slide"><div class="sno">06</div><div><h3>Kaiser 사례: AI의 제품 단위는 전환 프로그램</h3><p>21개 병원, 153.9만 퇴원, 재입원 절대위험 −2.5%p. 전담팀과 경로가 핵심이었다.</p></div><div class="time">5분</div></div>
+ <div class="slide"><div class="sno">07</div><div><h3>Ambient AI: 시간을 줄였을 때, 그 시간을 어디에 쓰는가</h3><p>무작위 연구의 0.36시간/일 감소를 소개한 뒤, 환자 대화시간·기록 검수·소진을 같이 측정해야 한다고 전환한다.</p></div><div class="time">4분</div></div>
+ <div class="num">16</div>
+</section>
+
+<section class="page">
+ <div class="kicker">60-MINUTE LECTURE RUN OF SHOW · CONTINUED</div><div class="rule"></div>
+ <h2>슬라이드 8–14: 기술에서<br>사업·책임으로 넘어가는 후반부</h2>
+ <div class="slide"><div class="sno">08</div><div><h3>낙상 AI: 성능표에서 행동 경로로</h3><p>eFalls의 강점(외부검증)과 서울 실용시험의 한계(전체 낙상률 유의 차이 없음)를 함께 보여 신뢰를 만든다.</p></div><div class="time">4분</div></div>
+ <div class="slide"><div class="sno">09</div><div><h3>돌봄로봇: 좁고 위험한 반복 업무부터</h3><p>이송·관찰·기록·기능/영양 네 웨지. 일본의 중점분야 확대와 Resyone의 구체적 업무지표를 사용한다.</p></div><div class="time">5분</div></div>
+ <div class="slide"><div class="sno">10</div><div><h3>90일 파일럿 계약: 사용률·안전·경험을 계약하라</h3><p>데모가 아닌 현장 실패를 전제로 계약·중단기준·데이터·장애·사건조항을 제안한다.</p></div><div class="time">4분</div></div>
+ <div class="slide"><div class="sno">11</div><div><h3>사업화: 고령자용 앱이 아니라 실패 비용의 재설계</h3><p>퇴원전환, 기능 경로, 야간 안전, 문서화의 네 시장을 구매자·KPI·증거로 제시한다.</p></div><div class="time">4분</div></div>
+ <div class="slide"><div class="sno">12</div><div><h3>규제와 설명 가능성: 제품의 경계가 신뢰를 만든다</h3><p>무엇을 권고하고 누가 근거를 검토하는지. ‘AI가 판단’이라는 문장을 금지한다.</p></div><div class="time">3분</div></div>
+ <div class="slide"><div class="sno">13</div><div><h3>영성: 목적·동의·예외·수선은 비위임 영역</h3><p>추상적 인간주의 대신 운영 규율 네 가지를 제시한다.</p></div><div class="time">4분</div></div>
+ <div class="slide"><div class="sno">14</div><div><h3>마무리: ‘반응할 수 있는 기관’을 만들자</h3><p>다음 90일에 한 가지 실패 비용, 한 가지 경로, 한 가지 결과지표를 고르도록 초대한다.</p><div class="say"><b>마지막 문장:</b> “AI의 시대에 우리가 지켜야 할 것은 인간이라는 추상이 아니라, 한 사람의 기능·시간·관계에 실제로 응답하는 조직입니다.”</div></div><div class="time">3분</div></div>
+ <div class="num">17</div>
+</section>
+
+<section class="page">
+ <div class="kicker">AUDIENCE Q&A · SHARP RESPONSES</div><div class="rule"></div>
+ <h2>예상 질문에 대한 답변 — 과장하지 말고,<br>결정을 돕는 방식으로</h2>
+ <div class="card avoid-break"><h4>Q1. “그럼 AI가 없어도 되는 것 아닌가요?”</h4><p><b>A.</b> AI는 필요하다. 복합위험을 놓치지 않고, 기록·전환·관찰의 공백을 줄일 수 있기 때문이다. 다만 AI만으로는 충분하지 않다. 좋은 질문은 “AI가 있느냐”가 아니라 “AI가 바꾼 경로가 있는가”다.</p></div>
+ <div class="card avoid-break"><h4>Q2. “근감소증 시장은 너무 느리고 수가도 불확실하지 않나요?”</h4><p><b>A.</b> 그래서 ‘근감소증 앱’으로 팔면 약하다. 낙상·퇴원 후 악화·재활·영양·장기요양으로 이어지는 <b>기능경로</b>의 일부로 설계해야 한다. 첫 고객의 지불 논리는 진단명이 아니라, 재입원·인력·안전·기능 회복이다.</p></div>
+ <div class="card avoid-break"><h4>Q3. “돌봄로봇은 결국 사람을 줄이려는 것 아닙니까?”</h4><p><b>A.</b> 일부 조직은 그렇게 사용할 수 있다. 그러므로 도입 때 직접 돌봄시간, 이직, 근골격 사고, 수급자 경험을 같이 계약해야 한다. 이송의 2인 보조를 줄여도, 줄인 한 명을 환자 곁에서 없애면 가치가 아니다.</p></div>
+ <div class="card avoid-break"><h4>Q4. “영성은 기업 대표에게 너무 뜬구름 아닙니까?”</h4><p><b>A.</b> 오히려 계약의 언어다. 동의·데이터 삭제·장애 대체·오류 수선·최종 책임자를 적지 않는 제품은 신뢰를 잃는다. 영성은 슬로건이 아니라 <b>책임이 사라지지 않게 하는 운영 설계</b>다.</p></div>
+ <div class="card avoid-break"><h4>Q5. “첫 번째 투자/연구로 무엇을 고르겠습니까?”</h4><p><b>A.</b> 한 기관의 한 실패 비용을 고른다. 예: ‘퇴원 후 7일 내 고위험 노인의 접촉 누락’ 또는 ‘야간 침상 이탈 뒤 도착 지연’. 90일 안에 도달률·안전·시간을 볼 수 있는 문제부터 시작한다.</p></div>
+ <div class="callout red"><b>강연자가 지켜야 할 태도:</b> 실증의 강도(관찰연구·무작위시험·단일시설 사례)를 숨기지 않는다. 낙상 전체 결과가 개선되지 않은 연구도 함께 보여야, 기술을 홍보하는 사람이 아니라 임상·사업의 판단을 돕는 사람으로 보인다.</div>
+ <div class="num">18</div>
+</section>
+
+<section class="page">
+ <div class="kicker">CLOSING · ACTION</div><div class="rule"></div>
+ <h2>청중에게 남길 ‘다음 90일’의 과제</h2>
+ <p class="lead">거대한 플랫폼을 약속하지 말고, 고령자의 기능 상실 과정에서 하나의 공백을 골라 실제로 바꾸라고 제안하라.</p>
+ <div class="flow"><div><b>1. 하나를 고른다</b>낙상, 퇴원전환, 이송, 기록, 영양·기능 중 하나의 실패 비용.</div><div><b>2. 경로를 그린다</b>신호→담당자→행동→기한→예외→사건 후 수선.</div><div><b>3. 결과를 약속한다</b>사용자 수가 아닌 기능·안전·도달·시간·형평 지표.</div><div><b>4. 책임을 남긴다</b>환자에게 설명하고, 오류를 공개하며, 결과를 다음 설계에 반영.</div></div>
+ <div class="quote">“AI의 시대에 가장 희소한 자원은 지능이 아니다.<br>고통의 신호에 제때 응답하고, 오류 뒤에도 책임질 수 있는 기관이다.”</div>
+ <h3>한 장으로 정리하는 강연의 최종 메시지</h3>
+ <table class="table"><tr><th>기능</th><th>응답</th><th>책임</th></tr><tr><td><b>노인이 무엇을 혼자 할 수 있는가</b><br>근감소·허약·낙상은 기능 예비력이 무너지는 과정이다.</td><td><b>신호를 행동으로 바꾸는가</b><br>좋은 AI는 위험을 발견하고, 좋은 기관은 사람·시간·경로를 배치한다.</td><td><b>누가 설명·예외·수선을 맡는가</b><br>영성은 인간을 찬양하는 말이 아니라 책임을 외주화하지 않는 구조다.</td></tr></table>
+ <p class="footnote">본 보고서는 강연 기획용 자료다. 개별 환자 진료, 제품 허가·개인정보·수가 판단을 위한 법률·규제 자문을 대체하지 않는다. 연구 결과는 각 연구의 설계·대상·환경에 제한되며, 도입기관에서 별도 검증이 필요하다.</p>
+ <div class="num">19</div>
+</section>
+
+<section class="page">
+ <div class="kicker">SOURCES · PRIMARY AND PEER-REVIEWED · 1/2</div><div class="rule"></div>
+ <h2>근거와 읽을거리</h2>
+ <p class="muted">본문의 수치·사례는 아래 원문을 기준으로 확인했다. 발표 슬라이드에는 각 사례 하단에 해당 번호만 남기면 충분하다.</p>
+ <div class="ref">[1] Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus on definition and diagnosis. <i>Age Ageing</i>. 2019;48:16–31. https://pubmed.ncbi.nlm.nih.gov/30312372/</div>
+ <div class="ref">[2] Dent E, et al. Consensus guidelines for sarcopenia prevention, diagnosis and management in Australia and New Zealand. <i>J Cachexia Sarcopenia Muscle</i>. 2023. https://pubmed.ncbi.nlm.nih.gov/36349684/</div>
+ <div class="ref">[3] Marafino BJ, et al. Evaluation of an intervention targeted with predictive analytics to prevent readmissions in an integrated health system. <i>BMJ</i>. 2021;374:n1747. https://www.bmj.com/content/374/bmj.n1747</div>
+ <div class="ref">[4] Sinsky CA, et al. A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being. <i>NEJM AI</i>. 2025. https://pubmed.ncbi.nlm.nih.gov/41625485/</div>
+ <div class="ref">[5] Ambient AI Scribes in Clinical Practice: A Randomized Trial. <i>JAMA Network Open</i>. 2025. https://pubmed.ncbi.nlm.nih.gov/41497288/</div>
+ <div class="ref">[6] Archer L, et al. Development and external validation of the eFalls tool. <i>Age Ageing</i>. 2024;53:afae057. https://pubmed.ncbi.nlm.nih.gov/38520142/</div>
+ <div class="ref">[7] Shin J, et al. Evaluation of an approach to clinical decision support for preventing inpatient falls: a pragmatic trial. <i>JAMIA</i>. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10079353/</div>
+ <div class="ref">[8] 일본 후생노동성. 福祉・介護「介護テクノロジー利用の重点分野」について. 2024. https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000209634_00013.html</div>
+ <div class="ref">[9] Kamimura M, et al. Reduction of multiple-caregiver assistance through the long-term use of a transfer support robot in a nursing facility. 2022. https://pubmed.ncbi.nlm.nih.gov/35320681/</div>
+ <div class="ref">[10] Ito K, et al. Robotic Care Equipment Improves Communication between Care Recipient and Caregiver in a Nursing Home. 2024. https://pubmed.ncbi.nlm.nih.gov/38541252/</div>
+ <div class="ref">[11] U.S. Food and Drug Administration. Clinical Decision Support Software: Guidance for Industry and Food and Drug Administration Staff. https://www.fda.gov/media/109618/download</div>
+ <div class="ref">[12] U.S. Food and Drug Administration. Clinical Decision Support Software FAQs. 2026. https://www.fda.gov/medical-devices/software-medical-device/clinical-decision-support-software-frequently-asked-questions-faqs</div>
+ <div class="ref">[13] World Health Organization. Decade of Healthy Ageing: baseline report. https://www.who.int/publications/i/item/9789240066900</div>
+ <div class="ref">[14] OECD. Health at a Glance 2025: OECD Indicators. https://www.oecd.org/en/publications/health-at-a-glance-2025.html</div>
+ <div class="ref">[15] NIST. Artificial Intelligence Risk Management Framework (AI RMF 1.0). https://www.nist.gov/itl/ai-risk-management-framework</div>
+ <div class="spacer"></div>
+ <div class="callout"><b>발표 활용 팁:</b> 기술 사례를 더 추가하기보다, 각 사례의 <i>대상·행동·결과·한계</i> 네 항목을 한 장 안에 함께 보여주면 강연의 전문성과 신뢰도가 올라간다.</div>
+ <div class="num">20</div>
+</section>
+
+<section class="page">
+ <div class="kicker">SOURCES · KOREA NEWS & ANNOUNCEMENTS · 2/2</div><div class="rule"></div>
+ <h2>국내 뉴스·보도자료·정책 발표</h2>
+ <p class="muted">아래 자료는 ‘성과 입증’과 ‘도입·정책 신호’를 구별해서 인용한다. 보도자료는 기관의 발표 사실을 뒷받침하며, 임상적 인과효과를 자동으로 증명하지 않는다.</p>
+ <div class="ref">[16] 서울아산병원. 의료진·환자 대화 요약해 의무기록 자동 저장… 국내 최초 AI 음성인식 시스템 구축. 보도자료, 2025-04-02. https://news.amc.seoul.kr/news/con/detail.do?cntId=10524&amp;pressChk=Y</div>
+ <div class="ref">[17] 서울아산병원. ‘입원부터 퇴원 후까지’ 중증 노년 환자 통합 진료 시스템 국내 첫 가동. 보도자료, 2025-08-04. https://news.amc.seoul.kr/news/con/detail.do?cntId=11072&amp;pressChk=Y</div>
+ <div class="ref">[18] 삼성서울병원 간호본부. 낙상/욕창 위험군 머신러닝 기반 위험도 예측 알고리즘 운영 안내. https://www.samsunghospital.com/dept/main/index.do?DP_CODE=NSD&amp;MENU_ID=002012057</div>
+ <div class="ref">[19] 세브란스병원. “진료 일정, AI가 챙겨드려요” AI세라봇 도입 보도자료. https://recruit.severance.healthcare/news/press/report.do?article.offset=0&amp;articleLimit=12&amp;articleNo=116361&amp;mode=view</div>
+ <div class="ref">[20] 서울특별시. AI 기술로 더 촘촘해진 어르신 돌봄 ‘서울시 스마트 안부확인’. 2025. https://mediahub.seoul.go.kr/archives/2016457</div>
+ <div class="ref">[21] 연합뉴스. 초고령화 눈앞…서울시 돌봄강화·인프라 확충 5년간 3.4조 투입. 2025-05-26. https://www.yna.co.kr/view/AKR20250526013500004</div>
+ <div class="ref">[22] 보건복지부. 「2025년도 스마트 사회서비스 시범사업」 공고. 2025-04-14. https://www.mohw.go.kr/board.es?act=view&amp;bid=0003&amp;list_no=1485327&amp;mid=a10501010200&amp;tag=</div>
+ <div class="ref">[23] 보건복지부·국민건강보험공단. 복지용구 예비급여 2차 시범사업 실시. 2024. https://www.mohw.go.kr/board.es?act=view&amp;bid=0027&amp;list_no=1483236&amp;mid=a10503000000&amp;nPage=48&amp;tag=</div>
+ <div class="ref">[24] 보건복지부. AI 복지·돌봄 혁신 TF 발족. 보도자료, 2025-08-08. https://mohw.go.kr/board.es?act=view&amp;bid=0027&amp;list_no=1487161&amp;mid=a10503000000</div>
+ <div class="ref">[25] 한국보건의료정보원. 2025년 의료 AI·데이터 활용 바우처 지원사업 수요기관 공모. https://www.khis.kr/board.es?act=view&amp;bid=0038&amp;list_no=1835&amp;mid=a10315000000&amp;nPage=5&amp;tag=</div>
+ <div class="ref">[26] 한국보건복지인재원. 2026 의료AI 보건의료인 직무교육사업 설명회 개최. 2026-02-11. https://www.kohi.or.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1011&amp;q_bbscttSn=20260211134236241</div>
+ <div class="ref">[27] 개인정보보호위원회. 생성형 인공지능(AI) 개발·활용을 위한 개인정보 처리 안내서 발표. 2025-08-06. https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&amp;mCode=C020010000&amp;nttId=11410</div>
+ <div class="ref">[28] 한국보건산업진흥원. 「의료 AI의 병원 적용사례와 과제」보고서 발간. 2025. https://www.khidi.or.kr/board/view?linkId=48936514&amp;menuId=MENU00100</div>
+ <div class="callout"><b>국내 발표를 사용하는 가장 좋은 방법:</b> 서울아산의 음성기록, 삼성서울의 낙상 예측, 서울시 안부확인을 ‘세 개의 성공담’으로 나열하지 않는다. 각각을 <b>기록 → 위험감지 → 지역 돌봄 연결</b>이라는 하나의 고령친화 경로 위에 놓고, 아직 비어 있는 ‘환자 결과 검증’의 자리를 질문으로 남긴다.</div>
+ <div class="num">21</div>
+</section>
+</body></html>

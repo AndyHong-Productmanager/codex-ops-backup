@@ -1,6 +1,6 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-08-29T18:23:40Z`
+- Generated: `2026-09-05T18:23:42Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
@@ -28,6 +28,7 @@
 - openai-curated-remote/canva/14.0.0/skills/canva-implement-feedback
 - openai-curated-remote/canva/14.0.0/skills/canva-resize-for-social-media
 - openai-curated-remote/canva/14.0.0/skills/canva-translate-design
+- openai-curated-remote/deep-research-work/0.1.14/skills/deep-research
 - openai-curated-remote/figma/2.0.21/skills/figma-code-connect
 - openai-curated-remote/figma/2.0.21/skills/figma-create-new-file
 - openai-curated-remote/figma/2.0.21/skills/figma-design-to-code
@@ -710,6 +711,14 @@
 - output/tahan_capital_management_due_diligence_ko.html
 - output/tahan_capital_management_due_diligence_ko.pdf
 - output/tahan_pdf_check.txt
+- reports/aging-ai-deeptech-lecture-report-expanded.html
+- reports/aging-ai-deeptech-lecture-report-expanded.pdf
+- reports/aging-ai-deeptech-lecture-report.html
+- reports/aging-ai-deeptech-lecture-report.md
+- reports/aging-ai-deeptech-lecture-report.pdf
+- reports/pathology-material-export-report.html
+- reports/pathology-material-export-report.md
+- reports/pathology-material-export-report.pdf
 - telegram_codex_bot.py
 - telegram_codex_bot.py.bak-20260803
 - telegram_codex_bot.py.bak-20260826-194408

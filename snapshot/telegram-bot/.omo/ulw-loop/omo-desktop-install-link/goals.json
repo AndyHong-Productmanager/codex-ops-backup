@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "evidenceLayoutVersion": 2,
+  "createdAt": "2026-09-04T07:57:40.702Z",
+  "updatedAt": "2026-09-04T08:25:38.253Z",
+  "briefPath": ".omo/ulw-loop/omo-desktop-install-link/brief.md",
+  "goalsPath": ".omo/ulw-loop/omo-desktop-install-link/goals.json",
+  "ledgerPath": ".omo/ulw-loop/omo-desktop-install-link/ledger.jsonl",
+  "codexGoalMode": "aggregate",
+  "goals": [
+    {
+      "id": "G001-research-shape-goal-identify-the-ver",
+      "title": "Research-shape goal: identify the verified current installation link...",
+      "objective": "Research-shape goal: identify the verified current installation link for OMO Desktop (omo-ai@beta), attributed to Kim Yeongyu, and deliver a concise Korean answer with source URLs. Stop right away when the official installation link and version/channel are corroborated by independent sources.",
+      "status": "in_progress",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "Open the candidate official OMO Desktop release/download page and verify it offers the current omo-ai@beta desktop install channel.",
+          "userModel": "happy",
+          "expectedEvidence": ".omo/ulw-research/20260904-165755/verify-official-channel.md records the page URL, timestamp, and install-channel evidence.",
+          "essential": true,
+          "capturedEvidence": ".omo/ulw-research/20260904-165755/verify-official-channel.md; opened omo.dev/docs and direct npm metadata returned beta.40 @tree: | cleanup: no runtime started",
+          "status": "pass",
+          "capturedAt": "2026-09-04T08:25:38.137Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "Counter-search for competing or obsolete OMO Desktop download locations and verify the selected URL is not superseded.",
+          "userModel": "edge",
+          "expectedEvidence": ".omo/ulw-research/20260904-165755/verify-counter-search.md records queries, competing candidates, and resolution.",
+          "essential": true,
+          "capturedEvidence": ".omo/ulw-research/20260904-165755/verify-counter-search.md; first-party sitemap/release audit and historical 404 checks @tree: | cleanup: no runtime started",
+          "status": "pass",
+          "capturedAt": "2026-09-04T08:25:38.193Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "Verify that the final Korean response includes a direct install URL and source attribution.",
+          "userModel": "regression",
+          "expectedEvidence": ".omo/ulw-research/20260904-165755/final-response-check.md records the concise response checklist.",
+          "essential": false,
+          "capturedEvidence": ".omo/ulw-research/20260904-165755/final-response-check.md; concise response checklist complete @tree: | cleanup: no runtime started",
+          "status": "pass",
+          "capturedAt": "2026-09-04T08:25:38.253Z"
+        }
+      ],
+      "attempt": 1,
+      "createdAt": "2026-09-04T07:57:40.702Z",
+      "updatedAt": "2026-09-04T08:25:38.253Z",
+      "startedAt": "2026-09-04T07:57:47.082Z"
+    }
+  ],
+  "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/omo-desktop-install-link/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/omo-desktop-install-link/ledger.jsonl as the audit trail.",
+  "activeGoalId": "G001-research-shape-goal-identify-the-ver"
+}

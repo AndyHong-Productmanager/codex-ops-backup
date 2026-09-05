@@ -1,0 +1,9 @@
+.omo/ulw-research/20260901-114950/pdf-qa/page-1.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-2.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-3.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-4.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-5.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-6.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-7.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-8.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced
+.omo/ulw-research/20260901-114950/pdf-qa/page-9.png: PNG image data, 1190 x 1684, 8-bit/color RGB, non-interlaced

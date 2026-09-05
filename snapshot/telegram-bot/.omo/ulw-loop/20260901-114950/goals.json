@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "evidenceLayoutVersion": 2,
+  "createdAt": "2026-09-01T02:50:11.916Z",
+  "updatedAt": "2026-09-01T03:18:26.891Z",
+  "briefPath": ".omo/ulw-loop/20260901-114950/brief.md",
+  "goalsPath": ".omo/ulw-loop/20260901-114950/goals.json",
+  "ledgerPath": ".omo/ulw-loop/20260901-114950/ledger.jsonl",
+  "codexGoalMode": "aggregate",
+  "goals": [
+    {
+      "id": "G001-ffpe-2026-9",
+      "title": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준...",
+      "objective": "국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고, 암 백신 제작 목적의 3~4개 블록 또는 10µm 절편 관점에서 비용·실무·의학적 주의사항을 구분한 한국어 PDF 보고서로 납품한다. 병원/검사실별 차이는 근거를 붙여 제한적으로 서술한다. PDF 렌더링 및 CJK 가독성을 검증한다.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,...",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+          "essential": true,
+          "capturedEvidence": "reports/pathology-material-export-report.pdf: 8-page Korean A4 report; sources [1]-[23]; report source in reports/pathology-material-export-report.html.",
+          "status": "pass",
+          "capturedAt": "2026-09-01T03:15:08.172Z",
+          "notes": "Rendered and text-extracted successfully."
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+          "essential": true,
+          "capturedEvidence": ".omo/ulw-research/20260901-114950/claim-graph.md and SYNTHESIS.md: price, block-release, 10µm, and research-transfer limitations tested against primary counter-sources.",
+          "status": "pass",
+          "capturedAt": "2026-09-01T03:15:08.224Z",
+          "notes": "High-risk claims narrowed; no patient-specific medical/legal conclusion stated."
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 국내 의료기관에서 암 병리조직(FFPE 파라핀 블록 및 절편)의 환자 반출 실제 프로세스와 비용 구조를 2026년 9월 기준으로 조사하고,....",
+          "essential": false,
+          "capturedEvidence": ".omo/ulw-research/20260901-114950/visual-qa.md: fresh Chrome PDF render plus two independent visual QA PASS verdicts on all 8 pages.",
+          "status": "pass",
+          "capturedAt": "2026-09-01T03:15:08.284Z",
+          "notes": "CJK wrapping and orphan-page defects were fixed before final PASS."
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-09-01T02:50:11.916Z",
+      "updatedAt": "2026-09-01T03:18:26.891Z",
+      "completedAt": "2026-09-01T03:18:26.891Z",
+      "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md"
+    }
+  ],
+  "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail.",
+  "aggregateCompletion": {
+    "status": "complete",
+    "completedAt": "2026-09-01T03:18:26.891Z",
+    "evidence": "reports/pathology-material-export-report.pdf; .omo/ulw-research/20260901-114950/SYNTHESIS.md; .omo/ulw-research/20260901-114950/visual-qa.md",
+    "codexGoal": {
+      "goal": {
+        "threadId": "01a05ade-4df1-7933-98de-c22bcd84da07",
+        "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/20260901-114950/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/20260901-114950/ledger.jsonl as the audit trail.",
+        "status": "complete"
+      }
+    }
+  }
+}

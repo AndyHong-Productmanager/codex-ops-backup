@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 3,
+  "transport": "multi_agent_v2",
+  "teamId": "6de6c850-e431-4b63-b5ce-5d59fad9f816",
+  "teamName": "ffpe-export-research",
+  "sessionName": "ffpe-export-20260901",
+  "sessionId": "team-b59608ae",
+  "threadTitleConvention": null,
+  "status": "archived",
+  "createdAt": "2026-09-01T02:50:41.075Z",
+  "updatedAt": "2026-09-01T03:13:31.373Z",
+  "archivedAt": "2026-09-01T03:13:31.373Z",
+  "leader": {
+    "kind": "main-session",
+    "sessionId": null,
+    "agentPath": "/root"
+  },
+  "communication": {
+    "memberLanguage": "english",
+    "replyToUserInUserLanguage": true
+  },
+  "worktree": {
+    "enabled": false,
+    "baseBranch": "dev",
+    "root": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-b59608ae/worktrees"
+  },
+  "paths": {
+    "dir": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-b59608ae",
+    "team": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-b59608ae/team.json",
+    "guide": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-b59608ae/guide.md",
+    "artifacts": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-b59608ae/artifacts"
+  },
+  "members": [
+    {
+      "id": "A",
+      "name": "patient-rights",
+      "focus": "Korean patient access rights, medical record copy and pathology material release law/regulation",
+      "lens": "ownership",
+      "deliverable": "Cited evidence for legal/patient-rights boundaries",
+      "taskName": "patient_rights",
+      "agentPath": "/root/patient_rights",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "B",
+      "name": "hospital-procedures",
+      "focus": "Major Korean hospital public procedures for pathology slide/block release and return",
+      "lens": "area",
+      "deliverable": "Cited hospital workflow evidence",
+      "taskName": "hospital_procedures",
+      "agentPath": "/root/hospital_procedures",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "C",
+      "name": "public-prices",
+      "focus": "Publicly disclosed Korean pathology slide/block copying, cutting, and issue price lists",
+      "lens": "area",
+      "deliverable": "Price evidence table",
+      "taskName": "public_prices",
+      "agentPath": "/root/public_prices",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "D",
+      "name": "ffpe-technical",
+      "focus": "FFPE block versus sections, thickness, tube handling, material adequacy, and diagnostic retention risks",
+      "lens": "perspective",
+      "deliverable": "Technical requirements and caveats",
+      "taskName": "ffpe_technical",
+      "agentPath": "/root/ffpe_technical",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "E",
+      "name": "molecular-labs",
+      "focus": "Korean and international laboratory specimen requirements for tumor vaccine or sequencing using FFPE",
+      "lens": "area",
+      "deliverable": "Specimen acceptance evidence",
+      "taskName": "molecular_labs",
+      "agentPath": "/root/molecular_labs",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "F",
+      "name": "cost-model",
+      "focus": "Cost-model critique: validate or refute 300-slide and per-slide cost claim with transparent arithmetic",
+      "lens": "perspective",
+      "deliverable": "Verified cost-model inputs",
+      "taskName": "cost_model",
+      "agentPath": "/root/cost_model",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "G",
+      "name": "regulatory-redteam",
+      "focus": "Red-team legal, ethical, and Korean clinical-safety claims; seek counterexamples and temporal limits",
+      "lens": "perspective",
+      "deliverable": "Contradictions and safe wording",
+      "taskName": "regulatory_redteam",
+      "agentPath": "/root/regulatory_redteam",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "H",
+      "name": "chain-custody",
+      "focus": "National Cancer Center pathology retention and external movement/chain-of-custody quality guidance",
+      "lens": "area",
+      "deliverable": "Primary guidance and limits",
+      "taskName": "chain_custody",
+      "agentPath": "/root/chain_custody",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "I",
+      "name": "price-countersearch",
+      "focus": "Independent counter-search for 15,000–23,000 KRW per-slide claim and block versus slide cost categories",
+      "lens": "perspective",
+      "deliverable": "Refutation/confirmation memo",
+      "taskName": "price_countersearch",
+      "agentPath": "/root/price_countersearch",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "J",
+      "name": "synthesis-audit",
+      "focus": "Wave-3 source audit of high-risk report wording: original-block access, 10-micron tubes, and 300-slide economics",
+      "lens": "perspective",
+      "deliverable": "Pass/fail safe-language audit",
+      "taskName": "synthesis_audit",
+      "agentPath": "/root/synthesis_audit",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    }
+  ],
+  "log": [
+    {
+      "ts": "2026-09-01T02:50:41.075Z",
+      "event": "created",
+      "detail": "team ffpe-export-research"
+    },
+    {
+      "ts": "2026-09-01T02:50:53.682Z",
+      "event": "add-member",
+      "detail": "member A (ownership): Korean patient access rights, medical record copy and pathology material release law/regulation"
+    },
+    {
+      "ts": "2026-09-01T02:50:53.769Z",
+      "event": "add-member",
+      "detail": "member B (area): Major Korean hospital public procedures for pathology slide/block release and return"
+    },
+    {
+      "ts": "2026-09-01T02:50:53.853Z",
+      "event": "add-member",
+      "detail": "member C (area): Publicly disclosed Korean pathology slide/block copying, cutting, and issue price lists"
+    },
+    {
+      "ts": "2026-09-01T02:50:53.933Z",
+      "event": "add-member",
+      "detail": "member D (perspective): FFPE block versus sections, thickness, tube handling, material adequacy, and diagnostic retention risks"
+    },
+    {
+      "ts": "2026-09-01T02:50:54.003Z",
+      "event": "add-member",
+      "detail": "member E (area): Korean and international laboratory specimen requirements for tumor vaccine or sequencing using FFPE"
+    },
+    {
+      "ts": "2026-09-01T02:50:54.079Z",
+      "event": "add-member",
+      "detail": "member F (perspective): Cost-model critique: validate or refute 300-slide and per-slide cost claim with transparent arithmetic"
+    },
+    {
+      "ts": "2026-09-01T02:50:54.151Z",
+      "event": "add-member",
+      "detail": "member G (perspective): Red-team legal, ethical, and Korean clinical-safety claims; seek counterexamples and temporal limits"
+    },
+    {
+      "ts": "2026-09-01T02:51:55.878Z",
+      "event": "bind-agent",
+      "detail": "member A -> agent /root/patient_rights"
+    },
+    {
+      "ts": "2026-09-01T02:51:55.951Z",
+      "event": "bind-agent",
+      "detail": "member B -> agent /root/hospital_procedures"
+    },
+    {
+      "ts": "2026-09-01T02:51:56.015Z",
+      "event": "bind-agent",
+      "detail": "member C -> agent /root/public_prices"
+    },
+    {
+      "ts": "2026-09-01T02:51:56.114Z",
+      "event": "bind-agent",
+      "detail": "member D -> agent /root/ffpe_technical"
+    },
+    {
+      "ts": "2026-09-01T02:51:56.199Z",
+      "event": "bind-agent",
+      "detail": "member E -> agent /root/molecular_labs"
+    },
+    {
+      "ts": "2026-09-01T02:51:56.262Z",
+      "event": "bind-agent",
+      "detail": "member F -> agent /root/cost_model"
+    },
+    {
+      "ts": "2026-09-01T02:51:56.332Z",
+      "event": "bind-agent",
+      "detail": "member G -> agent /root/regulatory_redteam"
+    },
+    {
+      "ts": "2026-09-01T02:54:18.635Z",
+      "event": "add-member",
+      "detail": "member H (area): National Cancer Center pathology retention and external movement/chain-of-custody quality guidance"
+    },
+    {
+      "ts": "2026-09-01T02:54:18.700Z",
+      "event": "add-member",
+      "detail": "member I (perspective): Independent counter-search for 15,000–23,000 KRW per-slide claim and block versus slide cost categories"
+    },
+    {
+      "ts": "2026-09-01T03:01:52.637Z",
+      "event": "bind-agent",
+      "detail": "member H -> agent /root/chain_custody"
+    },
+    {
+      "ts": "2026-09-01T03:01:52.702Z",
+      "event": "bind-agent",
+      "detail": "member I -> agent /root/price_countersearch"
+    },
+    {
+      "ts": "2026-09-01T03:01:52.766Z",
+      "event": "set-status",
+      "detail": "member A -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:52.828Z",
+      "event": "set-status",
+      "detail": "member B -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:52.892Z",
+      "event": "set-status",
+      "detail": "member C -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:52.958Z",
+      "event": "set-status",
+      "detail": "member D -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:53.022Z",
+      "event": "set-status",
+      "detail": "member E -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:53.083Z",
+      "event": "set-status",
+      "detail": "member F -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:53.145Z",
+      "event": "set-status",
+      "detail": "member G -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:53.212Z",
+      "event": "set-status",
+      "detail": "member H -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:53.278Z",
+      "event": "set-status",
+      "detail": "member I -> reported: Evidence memo received by leader."
+    },
+    {
+      "ts": "2026-09-01T03:01:59.637Z",
+      "event": "add-member",
+      "detail": "member J (perspective): Wave-3 source audit of high-risk report wording: original-block access, 10-micron tubes, and 300-slide economics"
+    },
+    {
+      "ts": "2026-09-01T03:13:31.243Z",
+      "event": "bind-agent",
+      "detail": "member J -> agent /root/synthesis_audit"
+    },
+    {
+      "ts": "2026-09-01T03:13:31.311Z",
+      "event": "set-status",
+      "detail": "member J -> reported: Wave-3 high-risk wording audit received."
+    },
+    {
+      "ts": "2026-09-01T03:13:31.373Z",
+      "event": "archive",
+      "detail": "All ten research members completed; evidence is retained in .omo/ulw-research/20260901-114950/."
+    }
+  ]
+}

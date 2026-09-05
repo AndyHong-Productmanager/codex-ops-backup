@@ -1,0 +1,11 @@
+# Observation manifest
+
+| observation_id | source path or URL | evidence layer | observer group | independence basis | observer | observed_at | valid_at or claim_valid_at | artifact path | quote or line anchor | contamination notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| O-001 | https://omo.dev/docs | primary documentation | canonical-site | first-party publisher | primary-site | 2026-09-04T17:15:50+09:00 | current page access | .omo/teams/team-da9e3128/artifacts/primary-site.md | Installation lines state `npm i -g omo-ai@beta`; beta tag is mandatory. | No desktop GUI installer link listed. |
+| O-002 | https://registry.npmjs.org/omo-ai | primary package registry | npm-registry | npm registry metadata | npm-channel | 2026-09-04T17:00:21+09:00 | beta 5.0.0-0.beta.40 | wave-1-source-territories.md | beta package exposes `omo` JS bin and Node >=24. | CLI package, not desktop artifact. |
+| O-003 | https://github.com/code-yeongyu/oh-my-openagent/releases/tag/v5.0.0-beta.40 | primary release | github-release | maintainer GitHub release | github-releases | 2026-09-04 | v5.0.0-beta.40 | wave-1-source-territories.md | Native CLI assets and SHA256SUMS reported. | No GUI desktop asset found. |
+| O-004 | https://cmore.dev/lab/omo-ai-beta/ | secondary independent audit | Korean-independence | independent publisher | korean-discovery | 2026-09-04 | article dated 2026-08-20 | wave-1-source-territories.md | Documents `npm i -g omo-ai@beta` as CLI. | Secondary source, used only for corroboration. |
+| O-005 | historical `minpeter/omo-desktop-releases` and v0.0.33 AppImage URL | primary historical source check | official-desktop-expansion | direct URL/API access | primary-site | 2026-09-04 | current access | wave-2-official-desktop-audit.md | Repository, release API, and asset return 404. | Historical absence cannot rule out a future channel. |
+| O-006 | https://github.com/code-yeongyu/lazycodex | first-party distribution | developer-announcements | owner identity chain via GitHub profile/X/LinkedIn | developer-announcements | 2026-09-04 | current public repository | wave-1-source-territories.md | Codex distribution is `npx lazycodex-ai install`; it is not a standalone GUI installer. | Separate from OmO Desktop claim. |
+
