@@ -1,6 +1,6 @@
 {
   "apps": {
-    "deep-research-work": {
+    "deep_research_work": {
       "id": "connector_openai_deep_research_work",
       "required": true
     }

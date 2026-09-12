@@ -1,18 +1,19 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-09-05T18:23:42Z`
+- Generated: `2026-09-12T18:23:40Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
 - Source Codex home: `/home/ubuntuhong/.codex`
 - Telegram router: `/home/ubuntuhong/dev/codex-telegram-bot`
-- Codex CLI: `codex-cli 0.145.0-alpha.4`
+- Codex CLI: `not found at /home/ubuntuhong/.npm-global/bin/codex`
 
 ## Local Skills
 
 - .system/imagegen
 - .system/openai-docs
 - .system/plugin-creator
+- .system/review-agent
 - .system/skill-creator
 - .system/skill-installer
 - hospital-seo-planner
@@ -28,7 +29,7 @@
 - openai-curated-remote/canva/14.0.0/skills/canva-implement-feedback
 - openai-curated-remote/canva/14.0.0/skills/canva-resize-for-social-media
 - openai-curated-remote/canva/14.0.0/skills/canva-translate-design
-- openai-curated-remote/deep-research-work/0.1.14/skills/deep-research
+- openai-curated-remote/deep-research-work/0.1.15/skills/deep-research
 - openai-curated-remote/figma/2.0.21/skills/figma-code-connect
 - openai-curated-remote/figma/2.0.21/skills/figma-create-new-file
 - openai-curated-remote/figma/2.0.21/skills/figma-design-to-code
