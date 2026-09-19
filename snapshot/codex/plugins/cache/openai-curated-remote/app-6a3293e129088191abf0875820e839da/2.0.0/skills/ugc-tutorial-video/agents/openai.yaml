@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Tutorial Video"
+  short_description: "Create step-by-step UGC tutorial videos"
+  default_prompt: "Use $ugc-tutorial-video to create a finished step-by-step UGC tutorial for this product."

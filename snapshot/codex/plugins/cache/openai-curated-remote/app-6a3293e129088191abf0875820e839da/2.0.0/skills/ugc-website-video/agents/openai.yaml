@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Website Video"
+  short_description: "Create UGC videos from live websites"
+  default_prompt: "Use $ugc-website-video to create a finished UGC video about this website."

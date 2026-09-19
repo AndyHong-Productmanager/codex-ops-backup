@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Try-On Video"
+  short_description: "Create creator-led UGC try-on videos"
+  default_prompt: "Use $ugc-try-on-video to create a finished UGC try-on video for this wearable product."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Product Video"
+  short_description: "Create product-only UGC videos"
+  default_prompt: "Use $ugc-product-video to create a finished product-only UGC video from this product."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Host Video"
+  short_description: "Create complete episodes with a consistent AI host"
+  default_prompt: "Use $ai-host-video to create a complete hosted episode from my script or topic."
+policy:
+  allow_implicit_invocation: true

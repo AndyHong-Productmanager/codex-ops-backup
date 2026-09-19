@@ -1,0 +1,8 @@
+interface:
+  display_name: Narrator
+  short_description: Create fitted narration or an on-screen narrator
+  default_prompt: Use $narrator to produce fitted narration or place my consenting presenter into my video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

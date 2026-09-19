@@ -1,0 +1,6 @@
+interface:
+  display_name: "UGC Review Video"
+  short_description: "Create truthful talking-head UGC demos"
+  default_prompt: "Use $ugc-review-video to create a brand-authorized talking-head UGC product demonstration."
+policy:
+  allow_implicit_invocation: false

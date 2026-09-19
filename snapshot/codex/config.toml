@@ -1,4 +1,4 @@
-model = "gpt-6-astra"
+model = "gpt-5.6-luna"
 model_context_window = 400000
 model_reasoning_effort = "high"
 plan_mode_reasoning_effort = "xhigh"
@@ -4897,9 +4897,6 @@ trust_level = "trusted"
 [projects."/home/ubuntuhong/Documents/Codex/2026-09-07-randomslug-xyz789"]
 trust_level = "trusted"
 
-[agents]
-max_threads = 1000
-
 [projects."/home/ubuntuhong/Documents/Codex/2026-09-14-new-chat"]
 trust_level = "trusted"
 
@@ -8138,4 +8135,3787 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/ubuntuhong/Documents/Codex/2026-09-19-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-20-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-21-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-22-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-16-https-github-com-hypit-ai-hypit"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-23-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-24-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-25-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-new-chat-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-hello-60"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-3"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-4"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-5"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-6"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-7"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-8"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-9"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-10"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-11"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-12"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-13"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-14"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-15"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-16"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-17"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-18"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-19"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-20"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-21"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-22"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-23"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-24"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-25"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-26"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-27"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-28"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-29"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-30"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-31"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-32"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-33"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-34"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-35"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-36"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-37"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-38"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-39"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-40"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-41"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-42"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-43"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-44"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-45"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-46"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-47"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-48"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-49"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-50"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-51"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-52"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-53"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-54"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-55"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-56"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-57"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-58"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-59"]
+trust_level = "trusted"
+
+[projects."/home/ubuntuhong/Documents/Codex/2026-09-26-chat-60"]
 trust_level = "trusted"

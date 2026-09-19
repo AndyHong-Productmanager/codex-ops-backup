@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ad Multiplier"
+  short_description: "Create scalable edits from one source video"
+  default_prompt: "Use $ad-multiplier to create multiple edited versions of this source video."
+policy:
+  allow_implicit_invocation: true

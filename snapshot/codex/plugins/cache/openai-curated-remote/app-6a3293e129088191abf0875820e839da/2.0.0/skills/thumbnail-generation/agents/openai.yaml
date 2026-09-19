@@ -1,0 +1,6 @@
+interface:
+  display_name: "Thumbnail Generation"
+  short_description: "Create polished YouTube and Instagram covers"
+  default_prompt: "Use $thumbnail-generation to create a finished YouTube thumbnail for my video."
+policy:
+  allow_implicit_invocation: true

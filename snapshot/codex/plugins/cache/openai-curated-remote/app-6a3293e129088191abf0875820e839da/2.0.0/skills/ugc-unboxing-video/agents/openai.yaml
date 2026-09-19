@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Unboxing Video"
+  short_description: "Create creator-led UGC unboxing videos"
+  default_prompt: "Use $ugc-unboxing-video to create a finished UGC unboxing video for this product."

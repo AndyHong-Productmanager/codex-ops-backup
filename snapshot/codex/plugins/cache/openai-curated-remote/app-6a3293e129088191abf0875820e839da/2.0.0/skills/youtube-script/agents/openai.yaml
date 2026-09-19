@@ -1,0 +1,6 @@
+interface:
+  display_name: "YouTube Script"
+  short_description: "Write complete genre-specific YouTube scripts"
+  default_prompt: "Use $youtube-script to write a complete YouTube script from my topic and target duration."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Editing"
+  short_description: "Edit footage and native motion graphics with Higgsedit"
+  default_prompt: "Use $video-editing to edit my supplied footage and render the finished video."
+policy:
+  allow_implicit_invocation: true

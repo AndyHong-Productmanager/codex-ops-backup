@@ -1,0 +1,20 @@
+PDF
+Tagged:          yes
+Pages:           7
+Encrypted:       no
+Page size:       594.96 x 841.92 pts (A4)
+DOCX
+No errors detected in compressed data of .omo/ulw-research/20260918-231935/REPORT.docx.
+HYPERLINKS
+30
+SOURCE_AUDIT
+open:200 21
+inaccessible:TimeoutError 1
+http:500 1
+inaccessible:HTTPError 2
+http:404 5
+ARTIFACTS
+.omo/ulw-research/20260918-231935/REPORT.pdf 513345 bytes
+.omo/ulw-research/20260918-231935/REPORT.docx 50121 bytes
+.omo/ulw-research/20260918-231935/REPORT.html 28872 bytes
+.omo/ulw-research/20260918-231935/SYNTHESIS.md 4822 bytes

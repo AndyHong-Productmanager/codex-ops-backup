@@ -1,0 +1,6 @@
+interface:
+  display_name: "Motion Craft"
+  short_description: "Design native motion for Higgsedit compositions"
+  default_prompt: "Use $motion-craft to design native animation for my Higgsedit composition."
+policy:
+  allow_implicit_invocation: true
