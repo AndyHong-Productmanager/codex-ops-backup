@@ -1,0 +1,12 @@
+# Observation manifest
+
+| observation_id | source | evidence layer | observer group | independence basis | observer | observed_at | valid_at | artifact | anchor | contamination notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| O-01 | https://status.vultr.com/status.json | primary live provider status | Vultr-regions lane | status inventory + official documentation | E | 2026-09-21 | live snapshot | wave-1-vultr-regions.md | 33 region records including `icn` | inventory is dynamic; not plan availability |
+| O-02 | https://www.hostinger.com/vps-hosting#pricing | primary product card | Hostinger-product lane | card + official limits cross-check | B | 2026-09-21 | observed storefront | wave-1-hostinger-product.md | KVM 4 capacity and price card | dynamic, locale-specific promotion |
+| O-03 | https://www.hostinger.com/support/1583267-where-are-hostinger-servers-located/#vps-hosting-plans | primary support matrix | Hostinger-regions lane | current matrix + historical counter-search | F | 2026-09-21 | current doc | wave-1-hostinger-regions.md | 10 VPS locations | dashboard capacity may vary |
+| O-04 | https://www.oracle.com/cloud/iaas-paas/ | primary price table | Oracle-product lane | price table + shape documentation | C | 2026-09-21 | current table | wave-1-oracle-product.md | E4 pricing inputs | monthly amounts are derived at 730 h |
+| O-05 | https://www.hostinger.com/support/8311982-what-is-managed-hosting-in-hostinger/ | primary support | root-access lane | product classification + SSH docs | J | 2026-09-21 | current doc | wave-1-cross-provider.md | VPS self-managed; Web/Cloud managed | product-specific distinction |
+| O-06 | https://greencloudvps.com/billing/store/epyc-cloud-resources | primary live catalog | GreenCloud-product lane | positive stock display + product construction | D | 2026-09-21 | live storefront | wave-1-cross-provider.md | 16GB/8-core/160GB resource pool | capacity is volatile; not fixed VPS |
+| O-07 | https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm#About | primary region matrix | Oracle-regions lane | region table + capacity docs | G | 2026-09-21 | current doc | wave-1-cross-provider.md | Seoul/Chuncheon commercial regions | physical host capacity separate |
+| O-08 | https://www.vultr.com/pricing/#cloud-compute | primary live price table | Vultr-product lane | browser-rendered primary table + billing docs | A | 2026-09-21 | live storefront | SYNTHESIS.md | 6C/16GB/320GB US$80; higher-performance US$96 rows | regional availability/rate can vary |

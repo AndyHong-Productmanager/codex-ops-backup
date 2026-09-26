@@ -1,6 +1,0 @@
-interface:
-  display_name: "Higgsfield Presets"
-  short_description: "Apply a saved image or video preset"
-  default_prompt: "Use $higgsfield to apply a named preset to my image."
-policy:
-  allow_implicit_invocation: true

@@ -1,6 +1,0 @@
-interface:
-  display_name: "Product Photographer"
-  short_description: "Create polished product photos and campaign stills"
-  default_prompt: "Use $product-photoshoot to create three polished product photos from this product."
-policy:
-  allow_implicit_invocation: true

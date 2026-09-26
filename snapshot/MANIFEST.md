@@ -1,6 +1,6 @@
 # Codex Ops Snapshot
 
-- Generated: `2026-09-19T18:23:42Z`
+- Generated: `2026-09-26T18:23:46Z`
 - Host: `ubuntuhong-800G5M-800G5W`
 - User: `ubuntuhong`
 - Source dev dir: `/home/ubuntuhong/dev`
@@ -22,51 +22,50 @@
 
 ## Plugin Skills
 
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ad-multiplier
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ai-host-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/faceless-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/higgsfield
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/motion-craft
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/narrator
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/product-photoshoot
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/subtitles
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/thumbnail-generation
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ugc-product-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ugc-review-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ugc-try-on-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ugc-tutorial-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ugc-unboxing-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/ugc-website-video
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/video-editing
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/website-builder
-- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.0.0/skills/youtube-script
-- openai-curated-remote/canva/15.0.0/skills/canva-brand-check
-- openai-curated-remote/canva/15.0.0/skills/canva-branded-presentation
-- openai-curated-remote/canva/15.0.0/skills/canva-bulk-create
-- openai-curated-remote/canva/15.0.0/skills/canva-design-feedback
-- openai-curated-remote/canva/15.0.0/skills/canva-edit-design
-- openai-curated-remote/canva/15.0.0/skills/canva-implement-feedback
-- openai-curated-remote/canva/15.0.0/skills/canva-resize-for-social-media
-- openai-curated-remote/canva/15.0.0/skills/canva-translate-design
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ad-multiplier
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ai-host-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/faceless-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/higgsfield
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/motion-craft
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/narrator
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/subtitles
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/thumbnail-generation
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ugc-product-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ugc-review-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ugc-try-on-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ugc-tutorial-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ugc-unboxing-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/ugc-website-video
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/video-editing
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/website-builder
+- openai-curated-remote/app-6a3293e129088191abf0875820e839da/2.1.0/skills/youtube-script
+- openai-curated-remote/canva/16.0.0/skills/canva-brand-check
+- openai-curated-remote/canva/16.0.0/skills/canva-branded-presentation
+- openai-curated-remote/canva/16.0.0/skills/canva-bulk-create
+- openai-curated-remote/canva/16.0.0/skills/canva-design-feedback
+- openai-curated-remote/canva/16.0.0/skills/canva-edit-design
+- openai-curated-remote/canva/16.0.0/skills/canva-implement-feedback
+- openai-curated-remote/canva/16.0.0/skills/canva-resize-for-social-media
+- openai-curated-remote/canva/16.0.0/skills/canva-translate-design
 - openai-curated-remote/engineering-suite-motion-design/2.0.0/skills/entry-motion-design
 - openai-curated-remote/engineering-suite-motion-design/2.0.0/skills/frontend-ui-engineering
 - openai-curated-remote/engineering-suite-motion-design/2.0.0/skills/full-output-enforcement
 - openai-curated-remote/engineering-suite-motion-design/2.0.0/skills/gpt-taste
 - openai-curated-remote/engineering-suite-motion-design/2.0.0/skills/high-end-visual-design
-- openai-curated-remote/figma/11.0.0/skills/figma-code-connect
-- openai-curated-remote/figma/11.0.0/skills/figma-create-new-file
-- openai-curated-remote/figma/11.0.0/skills/figma-design-to-code
-- openai-curated-remote/figma/11.0.0/skills/figma-generate-design
-- openai-curated-remote/figma/11.0.0/skills/figma-generate-diagram
-- openai-curated-remote/figma/11.0.0/skills/figma-generate-library
-- openai-curated-remote/figma/11.0.0/skills/figma-generative-plugins
-- openai-curated-remote/figma/11.0.0/skills/figma-implement-motion
-- openai-curated-remote/figma/11.0.0/skills/figma-shaders
-- openai-curated-remote/figma/11.0.0/skills/figma-swiftui
-- openai-curated-remote/figma/11.0.0/skills/figma-use
-- openai-curated-remote/figma/11.0.0/skills/figma-use-figjam
-- openai-curated-remote/figma/11.0.0/skills/figma-use-motion
-- openai-curated-remote/figma/11.0.0/skills/figma-use-slides
+- openai-curated-remote/figma/13.0.0/skills/figma-code-connect
+- openai-curated-remote/figma/13.0.0/skills/figma-create-new-file
+- openai-curated-remote/figma/13.0.0/skills/figma-design-to-code
+- openai-curated-remote/figma/13.0.0/skills/figma-generate-design
+- openai-curated-remote/figma/13.0.0/skills/figma-generate-diagram
+- openai-curated-remote/figma/13.0.0/skills/figma-generate-library
+- openai-curated-remote/figma/13.0.0/skills/figma-generative-plugins
+- openai-curated-remote/figma/13.0.0/skills/figma-implement-motion
+- openai-curated-remote/figma/13.0.0/skills/figma-shaders
+- openai-curated-remote/figma/13.0.0/skills/figma-swiftui
+- openai-curated-remote/figma/13.0.0/skills/figma-use
+- openai-curated-remote/figma/13.0.0/skills/figma-use-figjam
+- openai-curated-remote/figma/13.0.0/skills/figma-use-motion
+- openai-curated-remote/figma/13.0.0/skills/figma-use-slides
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review
 - openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report
