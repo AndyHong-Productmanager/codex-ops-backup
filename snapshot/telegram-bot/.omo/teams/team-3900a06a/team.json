@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 3,
+  "transport": "multi_agent_v2",
+  "teamId": "7444e077-04cb-4acb-804b-46873bb160c7",
+  "teamName": "cbnx-research",
+  "sessionName": "20261004-174805",
+  "sessionId": "team-3900a06a",
+  "threadTitleConvention": null,
+  "status": "archived",
+  "createdAt": "2026-10-04T08:55:54.550Z",
+  "updatedAt": "2026-10-04T09:07:08.780Z",
+  "archivedAt": "2026-10-04T09:07:08.780Z",
+  "leader": {
+    "kind": "main-session",
+    "sessionId": null,
+    "agentPath": "/root"
+  },
+  "communication": {
+    "memberLanguage": "english",
+    "replyToUserInUserLanguage": true
+  },
+  "worktree": {
+    "enabled": false,
+    "baseBranch": "dev",
+    "root": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3900a06a/worktrees"
+  },
+  "paths": {
+    "dir": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3900a06a",
+    "team": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3900a06a/team.json",
+    "guide": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3900a06a/guide.md",
+    "artifacts": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3900a06a/artifacts"
+  },
+  "members": [
+    {
+      "id": "A",
+      "name": "official-identity",
+      "focus": "CBNX Group, CBNX Asia, Carbonyx의 공식 도메인·법인명·소셜 계정·상표·브랜드 식별",
+      "lens": "area",
+      "deliverable": "공식 정체 표와 1차 출처 URL",
+      "taskName": "official_identity",
+      "agentPath": "/root/official_identity",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "B",
+      "name": "registry-history",
+      "focus": "법인등록·규제·정부·상표 데이터의 설립·대표·주소·등록 시계열",
+      "lens": "ownership",
+      "deliverable": "등록기록 기반 연표와 출처",
+      "taskName": "registry_history",
+      "agentPath": "/root/registry_history",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "C",
+      "name": "rendered-web-trace",
+      "focus": "렌더링이 필요한 웹·소셜·뉴스·행사 자료와 서로의 관계 주장",
+      "lens": "perspective",
+      "deliverable": "스크린샷 경로를 포함한 렌더링 웹 근거와 관계 반증 검색",
+      "taskName": "rendered_web_trace",
+      "agentPath": "/root/rendered_web_trace",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    }
+  ],
+  "log": [
+    {
+      "ts": "2026-10-04T08:55:54.550Z",
+      "event": "created",
+      "detail": "team cbnx-research"
+    },
+    {
+      "ts": "2026-10-04T08:56:04.756Z",
+      "event": "add-member",
+      "detail": "member A (area): CBNX Group, CBNX Asia, Carbonyx의 공식 도메인·법인명·소셜 계정·상표·브랜드 식별"
+    },
+    {
+      "ts": "2026-10-04T08:56:04.820Z",
+      "event": "add-member",
+      "detail": "member B (ownership): 법인등록·규제·정부·상표 데이터의 설립·대표·주소·등록 시계열"
+    },
+    {
+      "ts": "2026-10-04T08:56:04.882Z",
+      "event": "add-member",
+      "detail": "member C (perspective): 렌더링이 필요한 웹·소셜·뉴스·행사 자료와 서로의 관계 주장"
+    },
+    {
+      "ts": "2026-10-04T08:56:43.286Z",
+      "event": "bind-agent",
+      "detail": "member A -> agent /root/official_identity"
+    },
+    {
+      "ts": "2026-10-04T08:56:43.357Z",
+      "event": "bind-agent",
+      "detail": "member B -> agent /root/registry_history"
+    },
+    {
+      "ts": "2026-10-04T08:56:43.431Z",
+      "event": "bind-agent",
+      "detail": "member C -> agent /root/rendered_web_trace"
+    },
+    {
+      "ts": "2026-10-04T09:01:07.247Z",
+      "event": "set-status",
+      "detail": "member A -> reported: Wave 1 official identity delivered"
+    },
+    {
+      "ts": "2026-10-04T09:01:07.347Z",
+      "event": "set-status",
+      "detail": "member B -> reported: Wave 1 registry and legal history delivered"
+    },
+    {
+      "ts": "2026-10-04T09:05:54.747Z",
+      "event": "set-status",
+      "detail": "member B -> reported: Wave 2 registry/legal and Millwood contradiction delivered"
+    },
+    {
+      "ts": "2026-10-04T09:07:08.656Z",
+      "event": "set-status",
+      "detail": "member A -> reported: Wave 3 red-team review delivered"
+    },
+    {
+      "ts": "2026-10-04T09:07:08.718Z",
+      "event": "set-status",
+      "detail": "member C -> reported: Wave 1/2 rendered-web provenance delivered"
+    },
+    {
+      "ts": "2026-10-04T09:07:08.780Z",
+      "event": "archive",
+      "detail": "Research waves complete; all members terminal and findings journaled."
+    }
+  ]
+}

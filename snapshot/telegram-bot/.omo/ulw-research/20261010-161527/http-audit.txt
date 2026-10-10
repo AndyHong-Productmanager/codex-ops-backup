@@ -1,0 +1,145 @@
+observed_at=2026-10-10T07:18:22Z
+=== http://sanbo.co.kr/ ===
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sat, 10 Oct 2026 07:18:22 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+P3P: CP="ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC"
+Set-Cookie: PHPSESSID=3a27acc328f8a574d3c13cc4082b78d7; path=/; HttpOnly
+Set-Cookie: 2a0d2363701f23f8a75028924a3af643=MjEwLjIyMS4zMy45OQ%3D%3D; expires=Sun, 11 Oct 2026 07:18:22 GMT; Max-Age=86400; path=/; HttpOnly
+Expires: 0
+Last-Modified: Sat, 10 Oct 2026 07:18:22 GMT
+Cache-Control: pre-check=0, post-check=0, max-age=0
+Pragma: no-cache
+
+=== https://sanbo.co.kr/ ===
+HTTP/2 200 
+server: openresty
+date: Sat, 10 Oct 2026 07:18:22 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+p3p: CP="ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC"
+set-cookie: PHPSESSID=59e96efa02a97db4b8be6219fa0719ed; path=/; secure; HttpOnly
+set-cookie: PHPSESSID=59e96efa02a97db4b8be6219fa0719ed; path=/; secure; HttpOnly; SameSite=None; secure; HttpOnly; SameSite=None
+set-cookie: 2a0d2363701f23f8a75028924a3af643=MjEwLjIyMS4zMy45OQ%3D%3D; expires=Sun, 11 Oct 2026 07:18:22 GMT; Max-Age=86400; path=/; secure; HttpOnly
+expires: 0
+last-modified: Sat, 10 Oct 2026 07:18:22 GMT
+cache-control: pre-check=0, post-check=0, max-age=0
+pragma: no-cache
+
+=== http://www.sanbo.co.kr/ ===
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sat, 10 Oct 2026 07:18:22 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+P3P: CP="ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC"
+Set-Cookie: PHPSESSID=70543c869ba1320ebbb1bd79ea9b37da; path=/; HttpOnly
+Set-Cookie: 2a0d2363701f23f8a75028924a3af643=MjEwLjIyMS4zMy45OQ%3D%3D; expires=Sun, 11 Oct 2026 07:18:22 GMT; Max-Age=86400; path=/; HttpOnly
+Expires: 0
+Last-Modified: Sat, 10 Oct 2026 07:18:22 GMT
+Cache-Control: pre-check=0, post-check=0, max-age=0
+Pragma: no-cache
+
+=== https://www.sanbo.co.kr/ ===
+HTTP/2 200 
+server: openresty
+date: Sat, 10 Oct 2026 07:18:22 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+p3p: CP="ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC"
+set-cookie: PHPSESSID=d8742580e14139b1e4bc65ab41721d1d; path=/; secure; HttpOnly
+set-cookie: PHPSESSID=d8742580e14139b1e4bc65ab41721d1d; path=/; secure; HttpOnly; SameSite=None; secure; HttpOnly; SameSite=None
+set-cookie: 2a0d2363701f23f8a75028924a3af643=MjEwLjIyMS4zMy45OQ%3D%3D; expires=Sun, 11 Oct 2026 07:18:22 GMT; Max-Age=86400; path=/; secure; HttpOnly
+expires: 0
+last-modified: Sat, 10 Oct 2026 07:18:22 GMT
+cache-control: pre-check=0, post-check=0, max-age=0
+pragma: no-cache
+
+=== https://sanbo.co.kr/robots.txt ===
+HTTP/2 200 
+server: openresty
+date: Sat, 10 Oct 2026 07:18:22 GMT
+content-type: text/plain
+content-length: 213
+last-modified: Mon, 08 Jun 2026 00:05:53 GMT
+etag: "d5-653b2c623d401"
+accept-ranges: bytes
+
+=== https://sanbo.co.kr/sitemap.xml ===
+HTTP/2 200 
+server: openresty
+date: Sat, 10 Oct 2026 07:18:22 GMT
+content-type: application/xml
+content-length: 5909
+vary: Accept-Encoding
+last-modified: Sun, 07 Jun 2026 11:34:00 GMT
+etag: "1715-653a8452b394d"
+accept-ranges: bytes
+
+=== robots-body ===
+User-agent: *
+Allow: /
+Disallow: /bbs/login.php
+Disallow: /bbs/register.php
+Disallow: /bbs/memo.php
+Disallow: /bbs/scrap_popin_update.php
+Disallow: /adm/
+Disallow: /data/
+
+Sitemap: https://sanbo.co.kr/sitemap.xml
+=== sitemap-body-head ===
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 메인 -->
+  <url>
+    <loc>https://sanbo.co.kr/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 산비오 소개 -->
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=brand</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=staff</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=hospital</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=map</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=medical</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- 커플부부클리닉 -->
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=examination</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=wedding</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=counseling</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=pregnancy</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=menopause</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- 여성클리닉 -->
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=women</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=surgery</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=sexual</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=menopause2</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=incontinence</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- 남성클리닉 -->
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=man</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=surgery2</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=sexual2</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=prostate</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=menopause3</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- 기능재생센터 -->
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=oxygen</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=uifit</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=revive</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=performance</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- 동안재생센터 -->
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=wrinkle</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=volume</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=skin</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=laser</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sanbo.co.kr/bbs/content.php?co_id=private</loc><lastmod>2026-06-07</last

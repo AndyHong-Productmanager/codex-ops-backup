@@ -1,0 +1,62 @@
+{
+	"schemaVersion": 1,
+	"sessionDir": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805",
+	"startedAt": "2026-10-04T08:48:05.000Z",
+	"finishedAt": "2026-10-04T09:23:23.241Z",
+	"elapsedMinutes": 35,
+	"lane": "template-vibe",
+	"interview": null,
+	"deliverables": [
+		{
+			"format": "pdf",
+			"status": "delivered",
+			"promised": true,
+			"updatedAt": "2026-10-04T09:23:23.117Z",
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/report.pdf",
+			"pages": 7,
+			"bytes": 445203
+		}
+	],
+	"renders": [
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-1.png",
+			"page": 1
+		},
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-2.png",
+			"page": 2
+		},
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-3.png",
+			"page": 3
+		},
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-4.png",
+			"page": 4
+		},
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-5.png",
+			"page": 5
+		},
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-6.png",
+			"page": 6
+		},
+		{
+			"path": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/ulw-research/20261004-174805/pages-final/page-7.png",
+			"page": 7
+		}
+	],
+	"gates": {
+		"static": "pass",
+		"layout": "pass",
+		"visual": "pass",
+		"proofread": "not_run"
+	},
+	"residualDefects": [],
+	"repair": null,
+	"sources": {
+		"total": 20,
+		"domains": 15
+	}
+}

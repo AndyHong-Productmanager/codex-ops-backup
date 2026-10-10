@@ -1,0 +1,38 @@
+{
+	"explorer": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-clone-fidelity-reviewer": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-code-reviewer": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-gate-reviewer": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-qa-executor": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-worker-high": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-worker-low": {
+		"model": "gpt-6-astra"
+	},
+	"lazycodex-worker-medium": {
+		"model": "gpt-6-astra"
+	},
+	"librarian": {
+		"model": "gpt-6-astra"
+	},
+	"metis": {
+		"model": "gpt-6-astra"
+	},
+	"momus": {
+		"model": "gpt-6-astra"
+	},
+	"plan": {
+		"model": "gpt-6-astra"
+	}
+}

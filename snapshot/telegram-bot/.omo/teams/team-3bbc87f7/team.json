@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 3,
+  "transport": "multi_agent_v2",
+  "teamId": "e7e0b3d3-711b-4708-9122-e2c0987eacf2",
+  "teamName": "sanbo-seo-research",
+  "sessionName": "sanbo-seo-20261010",
+  "sessionId": "team-3bbc87f7",
+  "threadTitleConvention": null,
+  "status": "archived",
+  "createdAt": "2026-10-10T07:15:49.230Z",
+  "updatedAt": "2026-10-10T08:25:04.058Z",
+  "archivedAt": "2026-10-10T08:25:04.058Z",
+  "leader": {
+    "kind": "main-session",
+    "sessionId": null,
+    "agentPath": "/root"
+  },
+  "communication": {
+    "memberLanguage": "english",
+    "replyToUserInUserLanguage": true
+  },
+  "worktree": {
+    "enabled": false,
+    "baseBranch": "dev",
+    "root": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3bbc87f7/worktrees"
+  },
+  "paths": {
+    "dir": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3bbc87f7",
+    "team": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3bbc87f7/team.json",
+    "guide": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3bbc87f7/guide.md",
+    "artifacts": "/home/ubuntuhong/dev/codex-telegram-bot/.omo/teams/team-3bbc87f7/artifacts"
+  },
+  "members": [
+    {
+      "id": "A",
+      "name": "crawl-index",
+      "focus": "sanbo.co.kr의 robots·sitemap·HTTP 헤더·캐노니컬·색인 차단 신호",
+      "lens": "area",
+      "deliverable": "URL별 크롤링·색인 가능성 판정 및 근거",
+      "taskName": "crawl_index",
+      "agentPath": "/root/crawl_index",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "B",
+      "name": "search-serp",
+      "focus": "네이버·구글 지역 키워드 SERP, 브랜드/경쟁 엔터티 관측",
+      "lens": "perspective",
+      "deliverable": "키워드별 실제 노출 관측과 경쟁 구도",
+      "taskName": "search_serp",
+      "agentPath": "/root/search_serp",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    },
+    {
+      "id": "C",
+      "name": "render-perf",
+      "focus": "렌더링·모바일·Core Web Vitals·그누보드 산출물 품질",
+      "lens": "ownership",
+      "deliverable": "브라우저 렌더링과 성능·기술 결함 근거",
+      "taskName": "render_perf",
+      "agentPath": "/root/render_perf",
+      "threadId": null,
+      "threadTitle": null,
+      "cwd": "/home/ubuntuhong/dev/codex-telegram-bot",
+      "worktree": {
+        "path": null,
+        "branch": null
+      },
+      "status": "archived"
+    }
+  ],
+  "log": [
+    {
+      "ts": "2026-10-10T07:15:49.230Z",
+      "event": "created",
+      "detail": "team sanbo-seo-research"
+    },
+    {
+      "ts": "2026-10-10T07:16:02.245Z",
+      "event": "add-member",
+      "detail": "member A (area): sanbo.co.kr의 robots·sitemap·HTTP 헤더·캐노니컬·색인 차단 신호"
+    },
+    {
+      "ts": "2026-10-10T07:16:02.308Z",
+      "event": "add-member",
+      "detail": "member B (perspective): 네이버·구글 지역 키워드 SERP, 브랜드/경쟁 엔터티 관측"
+    },
+    {
+      "ts": "2026-10-10T07:16:02.375Z",
+      "event": "add-member",
+      "detail": "member C (ownership): 렌더링·모바일·Core Web Vitals·그누보드 산출물 품질"
+    },
+    {
+      "ts": "2026-10-10T07:18:31.146Z",
+      "event": "bind-agent",
+      "detail": "member A -> agent /root/crawl_index"
+    },
+    {
+      "ts": "2026-10-10T07:18:31.233Z",
+      "event": "bind-agent",
+      "detail": "member B -> agent /root/search_serp"
+    },
+    {
+      "ts": "2026-10-10T07:18:31.314Z",
+      "event": "bind-agent",
+      "detail": "member C -> agent /root/render_perf"
+    },
+    {
+      "ts": "2026-10-10T08:21:34.222Z",
+      "event": "set-status",
+      "detail": "member C -> reported: Rendered mobile/desktop performance audit integrated."
+    },
+    {
+      "ts": "2026-10-10T08:21:34.299Z",
+      "event": "set-status",
+      "detail": "member B -> active: Native Naver SERP evidence pending final report."
+    },
+    {
+      "ts": "2026-10-10T08:21:34.361Z",
+      "event": "set-status",
+      "detail": "member A -> active: Wave 3 stylesheet lead in progress."
+    },
+    {
+      "ts": "2026-10-10T08:25:03.915Z",
+      "event": "set-status",
+      "detail": "member A -> blocked: Wave 3 stylesheet lead ended without a returned artifact; it does not alter the primary canonical conclusion."
+    },
+    {
+      "ts": "2026-10-10T08:25:03.987Z",
+      "event": "set-status",
+      "detail": "member B -> reported: Native Naver SERP/entity observations integrated; Google native SERP remains unverified."
+    },
+    {
+      "ts": "2026-10-10T08:25:04.058Z",
+      "event": "archive",
+      "detail": "Research evidence integrated into ULW synthesis."
+    }
+  ]
+}

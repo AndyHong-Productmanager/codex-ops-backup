@@ -1,0 +1,19 @@
+Title:           CBNX와 Carbonyx 공개자료 실사
+Creator:         Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36
+Producer:        Skia/PDF m150
+CreationDate:    Sun Oct  4 18:20:26 2026 KST
+ModDate:         Sun Oct  4 18:20:26 2026 KST
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           7
+Encrypted:       no
+Page size:       594.96 x 841.92 pts (A4)
+Page rot:        0
+File size:       445203 bytes
+Optimized:       no
+PDF version:     1.4
